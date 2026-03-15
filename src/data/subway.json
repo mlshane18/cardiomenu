@@ -5,390 +5,102 @@
   "colorLight": "#4DB84D",
   "categories": [
     {
-      "name": "6\" Subs",
-      "emoji": "🥖",
+      "name": "Bread",
+      "emoji": "🍞",
       "items": [
-        {
-          "id": "sub-turkey-breast-6",
-          "name": "Turkey Breast 6\"",
-          "price": 5.99,
-          "nutrition": {
-            "calories": 280,
-            "sodium": 890,
-            "fat": 5,
-            "carbs": 42,
-            "protein": 18,
-            "sugar": 6
-          },
-          "tags": ["popular"],
-          "swapSuggestion": "sub-veggie-delite-6"
-        },
-        {
-          "id": "sub-italian-bmt-6",
-          "name": "Italian BMT 6\"",
-          "price": 6.49,
-          "nutrition": {
-            "calories": 450,
-            "sodium": 1380,
-            "fat": 21,
-            "carbs": 42,
-            "protein": 22,
-            "sugar": 6
-          },
-          "tags": ["popular"],
-          "swapSuggestion": "sub-turkey-breast-6"
-        },
-        {
-          "id": "sub-chicken-teriyaki-6",
-          "name": "Chicken Teriyaki 6\"",
-          "price": 5.99,
-          "nutrition": {
-            "calories": 360,
-            "sodium": 1040,
-            "fat": 5,
-            "carbs": 56,
-            "protein": 24,
-            "sugar": 12
-          },
-          "tags": [],
-          "swapSuggestion": "sub-turkey-breast-6"
-        },
-        {
-          "id": "sub-veggie-delite-6",
-          "name": "Veggie Delite 6\"",
-          "price": 4.99,
-          "nutrition": {
-            "calories": 230,
-            "sodium": 480,
-            "fat": 3,
-            "carbs": 42,
-            "protein": 9,
-            "sugar": 6
-          },
-          "tags": ["value"],
-          "swapSuggestion": null
-        },
-        {
-          "id": "sub-steak-cheese-6",
-          "name": "Steak & Cheese 6\"",
-          "price": 5.99,
-          "nutrition": {
-            "calories": 380,
-            "sodium": 1120,
-            "fat": 14,
-            "carbs": 42,
-            "protein": 28,
-            "sugar": 5
-          },
-          "tags": [],
-          "swapSuggestion": "sub-turkey-breast-6"
-        },
-        {
-          "id": "sub-meatball-marinara-6",
-          "name": "Meatball Marinara 6\"",
-          "price": 5.49,
-          "nutrition": {
-            "calories": 490,
-            "sodium": 1280,
-            "fat": 21,
-            "carbs": 54,
-            "protein": 22,
-            "sugar": 12
-          },
-          "tags": [],
-          "swapSuggestion": "sub-turkey-breast-6"
-        }
+        { "id": "sub-italian-bread-6", "name": "Italian Bread (6\")", "price": 0, "nutrition": { "calories": 200, "sodium": 340, "fat": 2, "carbs": 38, "protein": 7, "sugar": 5 }, "tags": ["popular"] },
+        { "id": "sub-wheat-bread-6", "name": "9-Grain Wheat (6\")", "price": 0, "nutrition": { "calories": 210, "sodium": 280, "fat": 2, "carbs": 40, "protein": 8, "sugar": 5 }, "tags": [] },
+        { "id": "sub-italian-herbs-6", "name": "Italian Herbs & Cheese (6\")", "price": 0, "nutrition": { "calories": 240, "sodium": 410, "fat": 5, "carbs": 40, "protein": 9, "sugar": 5 }, "tags": ["popular"], "swapSuggestion": "sub-wheat-bread-6" },
+        { "id": "sub-flatbread", "name": "Flatbread", "price": 0, "nutrition": { "calories": 220, "sodium": 350, "fat": 4, "carbs": 37, "protein": 7, "sugar": 3 }, "tags": [] },
+        { "id": "sub-wrap-tomato-basil", "name": "Tomato Basil Wrap", "price": 0, "nutrition": { "calories": 300, "sodium": 570, "fat": 8, "carbs": 48, "protein": 8, "sugar": 2 }, "tags": [] },
+        { "id": "sub-wrap-spinach", "name": "Spinach Wrap", "price": 0, "nutrition": { "calories": 290, "sodium": 540, "fat": 8, "carbs": 46, "protein": 8, "sugar": 1 }, "tags": [] },
+        { "id": "sub-italian-bread-ft", "name": "Italian Bread (Footlong)", "price": 0, "nutrition": { "calories": 400, "sodium": 680, "fat": 4, "carbs": 76, "protein": 14, "sugar": 10 }, "tags": [], "swapSuggestion": "sub-italian-bread-6" },
+        { "id": "sub-wheat-bread-ft", "name": "9-Grain Wheat (Footlong)", "price": 0, "nutrition": { "calories": 420, "sodium": 560, "fat": 4, "carbs": 80, "protein": 16, "sugar": 10 }, "tags": [] }
       ]
     },
     {
-      "name": "Footlong Subs",
-      "emoji": "🥙",
+      "name": "Protein",
+      "emoji": "🥩",
       "items": [
-        {
-          "id": "sub-turkey-breast-ft",
-          "name": "Turkey Breast Footlong",
-          "price": 8.49,
-          "nutrition": {
-            "calories": 560,
-            "sodium": 1780,
-            "fat": 10,
-            "carbs": 84,
-            "protein": 36,
-            "sugar": 12
-          },
-          "tags": [],
-          "swapSuggestion": "sub-veggie-delite-ft"
-        },
-        {
-          "id": "sub-italian-bmt-ft",
-          "name": "Italian BMT Footlong",
-          "price": 8.99,
-          "nutrition": {
-            "calories": 900,
-            "sodium": 2760,
-            "fat": 42,
-            "carbs": 84,
-            "protein": 44,
-            "sugar": 12
-          },
-          "tags": [],
-          "swapSuggestion": "sub-turkey-breast-ft"
-        },
-        {
-          "id": "sub-veggie-delite-ft",
-          "name": "Veggie Delite Footlong",
-          "price": 6.99,
-          "nutrition": {
-            "calories": 460,
-            "sodium": 960,
-            "fat": 6,
-            "carbs": 84,
-            "protein": 18,
-            "sugar": 12
-          },
-          "tags": ["value"],
-          "swapSuggestion": null
-        },
-        {
-          "id": "sub-club-ft",
-          "name": "Club Footlong",
-          "price": 8.99,
-          "nutrition": {
-            "calories": 680,
-            "sodium": 1840,
-            "fat": 22,
-            "carbs": 84,
-            "protein": 42,
-            "sugar": 11
-          },
-          "tags": [],
-          "swapSuggestion": "sub-turkey-breast-ft"
-        }
+        { "id": "sub-turkey-breast", "name": "Turkey Breast", "price": 0, "nutrition": { "calories": 60, "sodium": 500, "fat": 1, "carbs": 2, "protein": 11, "sugar": 1 }, "tags": ["popular"] },
+        { "id": "sub-ham", "name": "Black Forest Ham", "price": 0, "nutrition": { "calories": 70, "sodium": 520, "fat": 2, "carbs": 2, "protein": 10, "sugar": 2 }, "tags": [] },
+        { "id": "sub-roast-beef", "name": "Roast Beef", "price": 0, "nutrition": { "calories": 90, "sodium": 310, "fat": 3, "carbs": 1, "protein": 15, "sugar": 0 }, "tags": [] },
+        { "id": "sub-chicken-strips", "name": "Rotisserie-Style Chicken", "price": 0, "nutrition": { "calories": 100, "sodium": 370, "fat": 3, "carbs": 2, "protein": 17, "sugar": 1 }, "tags": ["popular"] },
+        { "id": "sub-steak", "name": "Steak", "price": 0, "nutrition": { "calories": 120, "sodium": 440, "fat": 4, "carbs": 3, "protein": 18, "sugar": 1 }, "tags": [] },
+        { "id": "sub-tuna-salad", "name": "Tuna Salad", "price": 0, "nutrition": { "calories": 250, "sodium": 380, "fat": 21, "carbs": 1, "protein": 14, "sugar": 0 }, "tags": [], "swapSuggestion": "sub-turkey-breast" },
+        { "id": "sub-italian-bmt-meats", "name": "Italian BMT Meats (Salami, Pepperoni, Ham)", "price": 0, "nutrition": { "calories": 180, "sodium": 880, "fat": 14, "carbs": 2, "protein": 12, "sugar": 1 }, "tags": ["popular"], "swapSuggestion": "sub-turkey-breast" },
+        { "id": "sub-meatballs", "name": "Meatball Marinara", "price": 0, "nutrition": { "calories": 260, "sodium": 860, "fat": 15, "carbs": 14, "protein": 14, "sugar": 6 }, "tags": [], "swapSuggestion": "sub-chicken-strips" },
+        { "id": "sub-chicken-teriyaki", "name": "Sweet Onion Chicken Teriyaki", "price": 0, "nutrition": { "calories": 130, "sodium": 580, "fat": 2, "carbs": 14, "protein": 17, "sugar": 8 }, "tags": [] },
+        { "id": "sub-veggie-patty", "name": "Veggie Patty", "price": 0, "nutrition": { "calories": 170, "sodium": 390, "fat": 6, "carbs": 16, "protein": 12, "sugar": 2 }, "tags": [] },
+        { "id": "sub-no-protein", "name": "No Protein (Veggie Delite)", "price": 0, "nutrition": { "calories": 0, "sodium": 0, "fat": 0, "carbs": 0, "protein": 0, "sugar": 0 }, "tags": [] }
       ]
     },
     {
-      "name": "Wraps",
-      "emoji": "🌯",
+      "name": "Cheese",
+      "emoji": "🧀",
       "items": [
-        {
-          "id": "sub-chicken-caesar-wrap",
-          "name": "Chicken Caesar Wrap",
-          "price": 5.99,
-          "nutrition": {
-            "calories": 420,
-            "sodium": 1240,
-            "fat": 18,
-            "carbs": 40,
-            "protein": 28,
-            "sugar": 3
-          },
-          "tags": ["popular"],
-          "swapSuggestion": "sub-veggie-wrap"
-        },
-        {
-          "id": "sub-turkey-wrap",
-          "name": "Turkey & Bacon Wrap",
-          "price": 5.99,
-          "nutrition": {
-            "calories": 380,
-            "sodium": 1100,
-            "fat": 14,
-            "carbs": 38,
-            "protein": 26,
-            "sugar": 4
-          },
-          "tags": [],
-          "swapSuggestion": "sub-veggie-wrap"
-        },
-        {
-          "id": "sub-veggie-wrap",
-          "name": "Veggie Wrap",
-          "price": 4.99,
-          "nutrition": {
-            "calories": 280,
-            "sodium": 520,
-            "fat": 8,
-            "carbs": 38,
-            "protein": 11,
-            "sugar": 6
-          },
-          "tags": ["value"],
-          "swapSuggestion": null
-        },
-        {
-          "id": "sub-tuna-wrap",
-          "name": "Tuna Wrap",
-          "price": 5.49,
-          "nutrition": {
-            "calories": 420,
-            "sodium": 860,
-            "fat": 20,
-            "carbs": 38,
-            "protein": 24,
-            "sugar": 4
-          },
-          "tags": [],
-          "swapSuggestion": "sub-veggie-wrap"
-        }
+        { "id": "sub-american-cheese", "name": "American Cheese", "price": 0, "nutrition": { "calories": 40, "sodium": 200, "fat": 3, "carbs": 1, "protein": 2, "sugar": 0 }, "tags": ["popular"] },
+        { "id": "sub-provolone", "name": "Provolone", "price": 0, "nutrition": { "calories": 50, "sodium": 130, "fat": 4, "carbs": 0, "protein": 4, "sugar": 0 }, "tags": [] },
+        { "id": "sub-pepper-jack", "name": "Pepper Jack", "price": 0, "nutrition": { "calories": 50, "sodium": 100, "fat": 4, "carbs": 0, "protein": 3, "sugar": 0 }, "tags": [] },
+        { "id": "sub-swiss", "name": "Swiss", "price": 0, "nutrition": { "calories": 50, "sodium": 30, "fat": 4, "carbs": 0, "protein": 4, "sugar": 0 }, "tags": [] },
+        { "id": "sub-cheddar", "name": "Shredded Cheddar", "price": 0, "nutrition": { "calories": 60, "sodium": 100, "fat": 5, "carbs": 0, "protein": 4, "sugar": 0 }, "tags": [] },
+        { "id": "sub-no-cheese", "name": "No Cheese", "price": 0, "nutrition": { "calories": 0, "sodium": 0, "fat": 0, "carbs": 0, "protein": 0, "sugar": 0 }, "tags": [] }
+      ]
+    },
+    {
+      "name": "Veggies",
+      "emoji": "🥬",
+      "items": [
+        { "id": "sub-lettuce", "name": "Lettuce", "price": 0, "nutrition": { "calories": 5, "sodium": 0, "fat": 0, "carbs": 1, "protein": 0, "sugar": 0 }, "tags": [] },
+        { "id": "sub-tomatoes", "name": "Tomatoes", "price": 0, "nutrition": { "calories": 10, "sodium": 0, "fat": 0, "carbs": 2, "protein": 0, "sugar": 1 }, "tags": [] },
+        { "id": "sub-onions", "name": "Onions", "price": 0, "nutrition": { "calories": 5, "sodium": 0, "fat": 0, "carbs": 1, "protein": 0, "sugar": 0 }, "tags": [] },
+        { "id": "sub-green-peppers", "name": "Green Peppers", "price": 0, "nutrition": { "calories": 5, "sodium": 0, "fat": 0, "carbs": 1, "protein": 0, "sugar": 0 }, "tags": [] },
+        { "id": "sub-cucumbers", "name": "Cucumbers", "price": 0, "nutrition": { "calories": 5, "sodium": 0, "fat": 0, "carbs": 1, "protein": 0, "sugar": 0 }, "tags": [] },
+        { "id": "sub-pickles", "name": "Pickles", "price": 0, "nutrition": { "calories": 0, "sodium": 115, "fat": 0, "carbs": 0, "protein": 0, "sugar": 0 }, "tags": [] },
+        { "id": "sub-olives", "name": "Black Olives", "price": 0, "nutrition": { "calories": 10, "sodium": 50, "fat": 1, "carbs": 0, "protein": 0, "sugar": 0 }, "tags": [] },
+        { "id": "sub-jalapenos", "name": "Jalapeños", "price": 0, "nutrition": { "calories": 0, "sodium": 60, "fat": 0, "carbs": 0, "protein": 0, "sugar": 0 }, "tags": [] },
+        { "id": "sub-banana-peppers", "name": "Banana Peppers", "price": 0, "nutrition": { "calories": 0, "sodium": 70, "fat": 0, "carbs": 0, "protein": 0, "sugar": 0 }, "tags": [] },
+        { "id": "sub-spinach", "name": "Spinach", "price": 0, "nutrition": { "calories": 5, "sodium": 5, "fat": 0, "carbs": 0, "protein": 1, "sugar": 0 }, "tags": [] },
+        { "id": "sub-avocado", "name": "Avocado", "price": 1.50, "nutrition": { "calories": 60, "sodium": 0, "fat": 6, "carbs": 3, "protein": 1, "sugar": 0 }, "tags": [] },
+        { "id": "sub-guacamole", "name": "Guacamole", "price": 1.00, "nutrition": { "calories": 70, "sodium": 120, "fat": 6, "carbs": 4, "protein": 1, "sugar": 0 }, "tags": [] }
+      ]
+    },
+    {
+      "name": "Sauces",
+      "emoji": "🫙",
+      "items": [
+        { "id": "sub-mayo", "name": "Mayonnaise", "price": 0, "nutrition": { "calories": 100, "sodium": 80, "fat": 11, "carbs": 0, "protein": 0, "sugar": 0 }, "tags": [], "swapSuggestion": "sub-mustard" },
+        { "id": "sub-light-mayo", "name": "Light Mayonnaise", "price": 0, "nutrition": { "calories": 50, "sodium": 100, "fat": 5, "carbs": 1, "protein": 0, "sugar": 0 }, "tags": [] },
+        { "id": "sub-mustard", "name": "Yellow Mustard", "price": 0, "nutrition": { "calories": 10, "sodium": 190, "fat": 0, "carbs": 1, "protein": 0, "sugar": 0 }, "tags": [] },
+        { "id": "sub-ranch", "name": "Ranch", "price": 0, "nutrition": { "calories": 110, "sodium": 200, "fat": 12, "carbs": 1, "protein": 0, "sugar": 1 }, "tags": [], "swapSuggestion": "sub-mustard" },
+        { "id": "sub-chipotle-southwest", "name": "Chipotle Southwest", "price": 0, "nutrition": { "calories": 100, "sodium": 220, "fat": 10, "carbs": 1, "protein": 0, "sugar": 1 }, "tags": ["popular"] },
+        { "id": "sub-sweet-onion", "name": "Sweet Onion Teriyaki", "price": 0, "nutrition": { "calories": 40, "sodium": 200, "fat": 0, "carbs": 9, "protein": 0, "sugar": 8 }, "tags": [] },
+        { "id": "sub-oil-vinegar", "name": "Oil & Vinegar", "price": 0, "nutrition": { "calories": 45, "sodium": 0, "fat": 5, "carbs": 0, "protein": 0, "sugar": 0 }, "tags": [] },
+        { "id": "sub-honey-mustard", "name": "Honey Mustard", "price": 0, "nutrition": { "calories": 30, "sodium": 120, "fat": 0, "carbs": 7, "protein": 0, "sugar": 6 }, "tags": [] },
+        { "id": "sub-buffalo", "name": "Buffalo Sauce", "price": 0, "nutrition": { "calories": 10, "sodium": 480, "fat": 1, "carbs": 0, "protein": 0, "sugar": 0 }, "tags": [], "swapSuggestion": "sub-mustard" },
+        { "id": "sub-bbq-sauce", "name": "BBQ Sauce", "price": 0, "nutrition": { "calories": 30, "sodium": 230, "fat": 0, "carbs": 8, "protein": 0, "sugar": 6 }, "tags": [] },
+        { "id": "sub-vinaigrette", "name": "Red Wine Vinaigrette", "price": 0, "nutrition": { "calories": 30, "sodium": 170, "fat": 2, "carbs": 4, "protein": 0, "sugar": 3 }, "tags": [] },
+        { "id": "sub-no-sauce", "name": "No Sauce", "price": 0, "nutrition": { "calories": 0, "sodium": 0, "fat": 0, "carbs": 0, "protein": 0, "sugar": 0 }, "tags": [] }
       ]
     },
     {
       "name": "Sides",
       "emoji": "🍪",
       "items": [
-        {
-          "id": "sub-cookies-chocolate-chip",
-          "name": "Chocolate Chip Cookie",
-          "price": 1.99,
-          "nutrition": {
-            "calories": 210,
-            "sodium": 180,
-            "fat": 10,
-            "carbs": 28,
-            "protein": 2,
-            "sugar": 18
-          },
-          "tags": ["popular"],
-          "swapSuggestion": "sub-chips-baked"
-        },
-        {
-          "id": "sub-chips-baked",
-          "name": "Baked Chips",
-          "price": 1.99,
-          "nutrition": {
-            "calories": 130,
-            "sodium": 380,
-            "fat": 2.5,
-            "carbs": 24,
-            "protein": 2,
-            "sugar": 0
-          },
-          "tags": ["value"],
-          "swapSuggestion": null
-        },
-        {
-          "id": "sub-chips-regular",
-          "name": "Potato Chips",
-          "price": 1.99,
-          "nutrition": {
-            "calories": 160,
-            "sodium": 340,
-            "fat": 9,
-            "carbs": 17,
-            "protein": 2,
-            "sugar": 0
-          },
-          "tags": [],
-          "swapSuggestion": "sub-chips-baked"
-        },
-        {
-          "id": "sub-soup",
-          "name": "Chicken Noodle Soup (Cup)",
-          "price": 2.99,
-          "nutrition": {
-            "calories": 90,
-            "sodium": 620,
-            "fat": 2,
-            "carbs": 14,
-            "protein": 5,
-            "sugar": 2
-          },
-          "tags": [],
-          "swapSuggestion": "sub-chips-baked"
-        },
-        {
-          "id": "sub-apple-slices",
-          "name": "Apple Slices",
-          "price": 1.49,
-          "nutrition": {
-            "calories": 35,
-            "sodium": 0,
-            "fat": 0,
-            "carbs": 9,
-            "protein": 0,
-            "sugar": 7
-          },
-          "tags": ["value"],
-          "swapSuggestion": null
-        }
+        { "id": "sub-chips-baked", "name": "Baked Chips", "price": 1.99, "nutrition": { "calories": 130, "sodium": 200, "fat": 3, "carbs": 24, "protein": 2, "sugar": 2 }, "tags": ["value"] },
+        { "id": "sub-chips-regular", "name": "Potato Chips", "price": 1.99, "nutrition": { "calories": 160, "sodium": 340, "fat": 9, "carbs": 17, "protein": 2, "sugar": 0 }, "tags": [], "swapSuggestion": "sub-chips-baked" },
+        { "id": "sub-cookies-chocolate-chip", "name": "Chocolate Chip Cookie", "price": 1.99, "nutrition": { "calories": 210, "sodium": 180, "fat": 10, "carbs": 28, "protein": 2, "sugar": 18 }, "tags": ["popular"], "swapSuggestion": "sub-apple-slices" },
+        { "id": "sub-apple-slices", "name": "Apple Slices", "price": 1.49, "nutrition": { "calories": 35, "sodium": 0, "fat": 0, "carbs": 9, "protein": 0, "sugar": 7 }, "tags": ["value"] }
       ]
     },
     {
       "name": "Drinks",
       "emoji": "🥤",
       "items": [
-        {
-          "id": "sub-soft-drink-medium",
-          "name": "Soft Drink (Medium)",
-          "price": 2.99,
-          "nutrition": {
-            "calories": 220,
-            "sodium": 50,
-            "fat": 0,
-            "carbs": 58,
-            "protein": 0,
-            "sugar": 58
-          },
-          "tags": [],
-          "swapSuggestion": "sub-water-bottle"
-        },
-        {
-          "id": "sub-unsweetened-tea",
-          "name": "Unsweetened Tea (Medium)",
-          "price": 2.49,
-          "nutrition": {
-            "calories": 0,
-            "sodium": 10,
-            "fat": 0,
-            "carbs": 0,
-            "protein": 0,
-            "sugar": 0
-          },
-          "tags": ["popular"],
-          "swapSuggestion": null
-        },
-        {
-          "id": "sub-lemonade",
-          "name": "Lemonade (Medium)",
-          "price": 2.99,
-          "nutrition": {
-            "calories": 180,
-            "sodium": 20,
-            "fat": 0,
-            "carbs": 45,
-            "protein": 0,
-            "sugar": 44
-          },
-          "tags": [],
-          "swapSuggestion": "sub-unsweetened-tea"
-        },
-        {
-          "id": "sub-water-bottle",
-          "name": "Bottled Water",
-          "price": 2.49,
-          "nutrition": {
-            "calories": 0,
-            "sodium": 0,
-            "fat": 0,
-            "carbs": 0,
-            "protein": 0,
-            "sugar": 0
-          },
-          "tags": ["value"],
-          "swapSuggestion": null
-        }
-      ]
-    },
-    {
-      "name": "Sauces &amp; Condiments",
-      "emoji": "🫙",
-      "items": [
-        { "id": "sub-mayo", "name": "Mayonnaise", "price": 0, "nutrition": { "calories": 100, "sodium": 165, "fat": 11, "carbs": 0, "protein": 0, "sugar": 0 }, "tags": [], "swapSuggestion": "sub-mustard" },
-        { "id": "sub-mustard", "name": "Yellow Mustard", "price": 0, "nutrition": { "calories": 10, "sodium": 190, "fat": 0, "carbs": 1, "protein": 0, "sugar": 0 }, "tags": [] },
-        { "id": "sub-ranch", "name": "Ranch Dressing", "price": 0.50, "nutrition": { "calories": 180, "sodium": 350, "fat": 18, "carbs": 2, "protein": 0, "sugar": 1 }, "tags": [], "swapSuggestion": "sub-mustard" },
-        { "id": "sub-chipotle-southwest", "name": "Chipotle Southwest Sauce", "price": 0, "nutrition": { "calories": 100, "sodium": 280, "fat": 10, "carbs": 2, "protein": 0, "sugar": 1 }, "tags": [] },
-        { "id": "sub-sweet-onion", "name": "Sweet Onion Sauce", "price": 0, "nutrition": { "calories": 40, "sodium": 200, "fat": 0, "carbs": 10, "protein": 0, "sugar": 9 }, "tags": [] },
-        { "id": "sub-oil-vinegar", "name": "Oil & Vinegar", "price": 0, "nutrition": { "calories": 140, "sodium": 0, "fat": 15, "carbs": 1, "protein": 0, "sugar": 0 }, "tags": [] }
+        { "id": "sub-soft-drink-medium", "name": "Fountain Drink (Medium)", "price": 2.99, "nutrition": { "calories": 220, "sodium": 50, "fat": 0, "carbs": 58, "protein": 0, "sugar": 58 }, "tags": [], "swapSuggestion": "sub-water-bottle" },
+        { "id": "sub-unsweetened-tea", "name": "Unsweetened Tea", "price": 2.49, "nutrition": { "calories": 0, "sodium": 10, "fat": 0, "carbs": 0, "protein": 0, "sugar": 0 }, "tags": ["popular"] },
+        { "id": "sub-lemonade", "name": "Lemonade", "price": 2.99, "nutrition": { "calories": 180, "sodium": 20, "fat": 0, "carbs": 45, "protein": 0, "sugar": 44 }, "tags": [], "swapSuggestion": "sub-unsweetened-tea" },
+        { "id": "sub-water-bottle", "name": "Bottled Water", "price": 2.49, "nutrition": { "calories": 0, "sodium": 0, "fat": 0, "carbs": 0, "protein": 0, "sugar": 0 }, "tags": ["value"] }
       ]
     }
   ]
