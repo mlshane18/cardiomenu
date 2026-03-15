@@ -21,6 +21,7 @@ import paneraData from '../data/panera.json';
 import arbysData from '../data/arbys.json';
 import jackintheboxData from '../data/jackinthebox.json';
 import whataburgerData from '../data/whataburger.json';
+import jerseymikesData from '../data/jerseymikes.json';
 
 const restaurants = [
   mcdonaldsData, chickfilaData, starbucksData, tacobellData,
@@ -28,6 +29,7 @@ const restaurants = [
   chipotleData, dominosData, pandaexpressData, pizzahutData,
   sonicData, popeyesData, fiveguysData, kfcData,
   paneraData, arbysData, jackintheboxData, whataburgerData,
+  jerseymikesData,
 ];
 
 const RestaurantIcon = memo(function RestaurantIcon({ restaurant }) {
@@ -228,6 +230,19 @@ const RestaurantIcon = memo(function RestaurantIcon({ restaurant }) {
             <path d="M22 14 L30 14 L34 22 L34 36 Q34 40 30 40 L22 40 Q18 40 18 36 L18 22 Z" fill="#F37321" />
             <path d="M24 18 L28 18 L28 34 L24 34 Z" fill="white" />
             <circle cx="26" cy="26" r="2" fill="#F37321" />
+          </svg>
+        );
+      case 'jerseymikes':
+        return (
+          <svg {...svgProps}>
+            <rect width="52" height="52" fill="#0055A4" rx="8" />
+            {/* Sub sandwich shape */}
+            <path d="M8 22 Q26 14 44 22 L44 30 Q26 26 8 30 Z" fill="#F5DEB3" />
+            <path d="M10 24 Q26 20 42 24 L42 28 Q26 24 10 28 Z" fill="#D2691E" />
+            {/* Lettuce peeking out */}
+            <path d="M12 28 Q18 26 24 28 Q30 26 36 28 Q40 26 42 28" stroke="#228B22" strokeWidth="1.5" fill="none" />
+            {/* JM text */}
+            <text x="26" y="42" fontSize="10" fontWeight="bold" fill="white" textAnchor="middle" fontFamily="sans-serif">JM</text>
           </svg>
         );
       default:

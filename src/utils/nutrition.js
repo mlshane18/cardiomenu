@@ -29,15 +29,20 @@ export function getSatFatFromFat(totalFat) {
 
 export function totalNutrition(orderItems) {
   return orderItems.reduce(
-    (totals, item) => ({
-      calories: totals.calories + item.nutrition.calories * (item.quantity || 1),
-      sodium: totals.sodium + item.nutrition.sodium * (item.quantity || 1),
-      fat: totals.fat + item.nutrition.fat * (item.quantity || 1),
-      satFat: totals.satFat + getSatFatFromFat(item.nutrition.fat) * (item.quantity || 1),
-      carbs: totals.carbs + item.nutrition.carbs * (item.quantity || 1),
-      protein: totals.protein + item.nutrition.protein * (item.quantity || 1),
-      sugar: totals.sugar + item.nutrition.sugar * (item.quantity || 1),
-    }),
+    (totals, item) => {
+      const qty = item.quantity || 1;
+      const portionMultiplier = item.halfPortion ? 0.5 : 1;
+      const mult = qty * portionMultiplier;
+      return {
+        calories: totals.calories + Math.round(item.nutrition.calories * mult),
+        sodium: totals.sodium + Math.round(item.nutrition.sodium * mult),
+        fat: totals.fat + Math.round(item.nutrition.fat * mult),
+        satFat: totals.satFat + Math.round(getSatFatFromFat(item.nutrition.fat) * mult),
+        carbs: totals.carbs + Math.round(item.nutrition.carbs * mult),
+        protein: totals.protein + Math.round(item.nutrition.protein * mult),
+        sugar: totals.sugar + Math.round(item.nutrition.sugar * mult),
+      };
+    },
     { calories: 0, sodium: 0, fat: 0, satFat: 0, carbs: 0, protein: 0, sugar: 0 }
   );
 }

@@ -74,17 +74,21 @@ export default function OrderReview() {
           <div className="heading" style={{ fontSize: 14, marginBottom: 8 }}>Your Order at {restaurant.restaurant}</div>
           {orderItems.map(item => {
             const qty = item.quantity || 1;
-            const naLevel = getSodiumLevel(item.nutrition.sodium, sodiumTarget);
+            const portionMult = item.halfPortion ? 0.5 : 1;
+            const itemNa = Math.round(item.nutrition.sodium * qty * portionMult);
+            const itemCal = Math.round(item.nutrition.calories * qty * portionMult);
+            const naLevel = getSodiumLevel(Math.round(item.nutrition.sodium * portionMult), sodiumTarget);
             const naColor = getSodiumColor(naLevel);
             return (
               <div key={item.id} className="review-row">
                 <div style={{ flex: 1 }}>
                   <span style={{ fontWeight: 600 }}>{item.name}</span>
+                  {item.halfPortion && <span style={{ color: '#e9a345', fontWeight: 700 }}> (½)</span>}
                   {qty > 1 && <span style={{ color: '#8a7e6a' }}> ×{qty}</span>}
                 </div>
                 <div style={{ display: 'flex', gap: 6, alignItems: 'center' }}>
-                  <span style={{ fontSize: 11, fontWeight: 700, color: naColor }}>{item.nutrition.sodium * qty}mg</span>
-                  <span style={{ fontSize: 10, color: '#8a7e6a' }}>{item.nutrition.calories * qty}cal</span>
+                  <span style={{ fontSize: 11, fontWeight: 700, color: naColor }}>{itemNa}mg</span>
+                  <span style={{ fontSize: 10, color: '#8a7e6a' }}>{itemCal}cal</span>
                 </div>
               </div>
             );
@@ -99,14 +103,15 @@ export default function OrderReview() {
         <div className="game-card" style={{ marginBottom: 14 }}>
           <div className="heading" style={{ fontSize: 14, marginBottom: 10 }}>Sodium Breakdown</div>
           {orderItems.map(item => {
-            const na = item.nutrition.sodium * (item.quantity || 1);
+            const portionMult = item.halfPortion ? 0.5 : 1;
+            const na = Math.round(item.nutrition.sodium * (item.quantity || 1) * portionMult);
             const pct = Math.min((na / perMealNa) * 100, 100);
-            const naLevel = getSodiumLevel(item.nutrition.sodium, sodiumTarget);
+            const naLevel = getSodiumLevel(Math.round(item.nutrition.sodium * portionMult), sodiumTarget);
             const naColor = getSodiumColor(naLevel);
             return (
               <div key={item.id} style={{ marginBottom: 8 }}>
                 <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: 11, marginBottom: 3 }}>
-                  <span style={{ fontWeight: 600 }}>{item.name}</span>
+                  <span style={{ fontWeight: 600 }}>{item.name}{item.halfPortion ? ' (½)' : ''}</span>
                   <span style={{ fontWeight: 700, color: naColor }}>{na}mg</span>
                 </div>
                 <div className="sodium-bar" style={{ height: 10 }}>

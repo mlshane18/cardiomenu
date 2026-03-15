@@ -1,0 +1,66 @@
+{
+  "restaurant": "Jersey Mike's",
+  "id": "jerseymikes",
+  "color": "#0055A4",
+  "colorLight": "#D4E8F7",
+  "categories": [
+    {
+      "name": "Cold Subs",
+      "emoji": "🥖",
+      "items": [
+        { "id": "jm-blt", "name": "BLT (Regular)", "price": 9.25, "nutrition": { "calories": 560, "sodium": 1190, "fat": 28, "carbs": 50, "protein": 22, "sugar": 7 }, "tags": [], "swapSuggestion": "jm-turkey-provolone" },
+        { "id": "jm-turkey-provolone", "name": "Turkey & Provolone (Regular)", "price": 9.75, "nutrition": { "calories": 530, "sodium": 1350, "fat": 22, "carbs": 52, "protein": 30, "sugar": 8 }, "tags": ["popular"], "swapSuggestion": "jm-turkey-provolone-mini" },
+        { "id": "jm-turkey-provolone-mini", "name": "Turkey & Provolone (Mini)", "price": 7.25, "nutrition": { "calories": 340, "sodium": 870, "fat": 14, "carbs": 34, "protein": 20, "sugar": 5 }, "tags": ["value"] },
+        { "id": "jm-american-classic", "name": "American Classic (Regular)", "price": 10.25, "nutrition": { "calories": 660, "sodium": 1630, "fat": 32, "carbs": 54, "protein": 36, "sugar": 8 }, "tags": ["popular"], "swapSuggestion": "jm-turkey-provolone" },
+        { "id": "jm-veggie", "name": "Veggie Sub (Regular)", "price": 8.50, "nutrition": { "calories": 480, "sodium": 780, "fat": 22, "carbs": 52, "protein": 18, "sugar": 7 }, "tags": [] },
+        { "id": "jm-club-sub", "name": "Club Sub (Regular)", "price": 10.50, "nutrition": { "calories": 620, "sodium": 1480, "fat": 28, "carbs": 52, "protein": 34, "sugar": 8 }, "tags": [], "swapSuggestion": "jm-turkey-provolone" },
+        { "id": "jm-italian", "name": "Italian (Regular)", "price": 10.75, "nutrition": { "calories": 680, "sodium": 1890, "fat": 36, "carbs": 52, "protein": 32, "sugar": 7 }, "tags": ["popular"], "swapSuggestion": "jm-turkey-provolone" },
+        { "id": "jm-roast-beef-provolone", "name": "Roast Beef & Provolone (Regular)", "price": 10.50, "nutrition": { "calories": 580, "sodium": 1260, "fat": 24, "carbs": 52, "protein": 34, "sugar": 8 }, "tags": [], "swapSuggestion": "jm-turkey-provolone" }
+      ]
+    },
+    {
+      "name": "Hot Subs",
+      "emoji": "🔥",
+      "items": [
+        { "id": "jm-chipotle-cheesesteak", "name": "Chipotle Cheese Steak (Regular)", "price": 11.75, "nutrition": { "calories": 740, "sodium": 1680, "fat": 34, "carbs": 58, "protein": 42, "sugar": 9 }, "tags": ["popular"], "swapSuggestion": "jm-grilled-chicken" },
+        { "id": "jm-philly-cheesesteak", "name": "Philly Cheese Steak (Regular)", "price": 11.50, "nutrition": { "calories": 700, "sodium": 1520, "fat": 30, "carbs": 56, "protein": 40, "sugar": 8 }, "tags": ["popular"], "swapSuggestion": "jm-grilled-chicken" },
+        { "id": "jm-grilled-chicken", "name": "Grilled Chicken (Regular)", "price": 10.25, "nutrition": { "calories": 520, "sodium": 1080, "fat": 18, "carbs": 52, "protein": 36, "sugar": 7 }, "tags": [] },
+        { "id": "jm-meatball-marinara", "name": "Meatball & Cheese (Regular)", "price": 10.50, "nutrition": { "calories": 780, "sodium": 1750, "fat": 38, "carbs": 68, "protein": 36, "sugar": 12 }, "tags": [], "swapSuggestion": "jm-grilled-chicken" },
+        { "id": "jm-chicken-parm", "name": "Chicken Parmesan (Regular)", "price": 11.00, "nutrition": { "calories": 720, "sodium": 1620, "fat": 32, "carbs": 62, "protein": 38, "sugar": 10 }, "tags": [], "swapSuggestion": "jm-grilled-chicken" },
+        { "id": "jm-bbq-beef", "name": "BBQ Beef (Regular)", "price": 11.25, "nutrition": { "calories": 680, "sodium": 1440, "fat": 26, "carbs": 62, "protein": 38, "sugar": 14 }, "tags": [], "swapSuggestion": "jm-grilled-chicken" }
+      ]
+    },
+    {
+      "name": "Sides",
+      "emoji": "🍟",
+      "items": [
+        { "id": "jm-chips-regular", "name": "Regular Chips", "price": 2.29, "nutrition": { "calories": 230, "sodium": 260, "fat": 14, "carbs": 24, "protein": 3, "sugar": 1 }, "tags": [] },
+        { "id": "jm-chips-bbq", "name": "BBQ Chips", "price": 2.29, "nutrition": { "calories": 220, "sodium": 340, "fat": 12, "carbs": 26, "protein": 3, "sugar": 4 }, "tags": [] },
+        { "id": "jm-cookie", "name": "Chocolate Chip Cookie", "price": 2.49, "nutrition": { "calories": 420, "sodium": 260, "fat": 20, "carbs": 58, "protein": 4, "sugar": 32 }, "tags": [] },
+        { "id": "jm-brownie", "name": "Brownie", "price": 2.49, "nutrition": { "calories": 380, "sodium": 190, "fat": 18, "carbs": 52, "protein": 4, "sugar": 28 }, "tags": [] }
+      ]
+    },
+    {
+      "name": "Drinks",
+      "emoji": "🥤",
+      "items": [
+        { "id": "jm-fountain-sm", "name": "Fountain Drink (Small)", "price": 2.29, "nutrition": { "calories": 150, "sodium": 30, "fat": 0, "carbs": 40, "protein": 0, "sugar": 40 }, "tags": [] },
+        { "id": "jm-fountain-lg", "name": "Fountain Drink (Large)", "price": 2.99, "nutrition": { "calories": 290, "sodium": 55, "fat": 0, "carbs": 78, "protein": 0, "sugar": 78 }, "tags": [], "swapSuggestion": "jm-fountain-sm" },
+        { "id": "jm-water", "name": "Bottled Water", "price": 1.99, "nutrition": { "calories": 0, "sodium": 0, "fat": 0, "carbs": 0, "protein": 0, "sugar": 0 }, "tags": [] },
+        { "id": "jm-lemonade", "name": "Fresh-Squeezed Lemonade", "price": 3.49, "nutrition": { "calories": 210, "sodium": 15, "fat": 0, "carbs": 54, "protein": 0, "sugar": 50 }, "tags": ["popular"] }
+      ]
+    },
+    {
+      "name": "Sauces",
+      "emoji": "🫙",
+      "items": [
+        { "id": "jm-oil-vinegar", "name": "Oil & Vinegar (The Juice)", "price": 0, "nutrition": { "calories": 80, "sodium": 180, "fat": 8, "carbs": 2, "protein": 0, "sugar": 0 }, "tags": ["popular"] },
+        { "id": "jm-mayo", "name": "Mayonnaise", "price": 0, "nutrition": { "calories": 110, "sodium": 80, "fat": 12, "carbs": 0, "protein": 0, "sugar": 0 }, "tags": [] },
+        { "id": "jm-mustard", "name": "Yellow Mustard", "price": 0, "nutrition": { "calories": 5, "sodium": 55, "fat": 0, "carbs": 1, "protein": 0, "sugar": 0 }, "tags": [] },
+        { "id": "jm-hot-peppers", "name": "Hot Pepper Relish", "price": 0, "nutrition": { "calories": 10, "sodium": 150, "fat": 0, "carbs": 2, "protein": 0, "sugar": 1 }, "tags": [] },
+        { "id": "jm-chipotle-mayo", "name": "Chipotle Mayo", "price": 0, "nutrition": { "calories": 120, "sodium": 140, "fat": 13, "carbs": 1, "protein": 0, "sugar": 0 }, "tags": [] },
+        { "id": "jm-ranch", "name": "Ranch Dressing", "price": 0, "nutrition": { "calories": 130, "sodium": 240, "fat": 14, "carbs": 1, "protein": 0, "sugar": 1 }, "tags": [] }
+      ]
+    }
+  ]
+}

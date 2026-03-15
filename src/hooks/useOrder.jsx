@@ -60,6 +60,14 @@ function orderReducer(state, action) {
         ),
       };
     }
+    case 'TOGGLE_HALF_PORTION': {
+      return {
+        ...state,
+        orderItems: state.orderItems.map(i =>
+          i.id === action.payload ? { ...i, halfPortion: !i.halfPortion } : i
+        ),
+      };
+    }
     case 'FINALIZE_ORDER':
       return { ...state, screen: 'finalized' };
     case 'TRY_AGAIN':
