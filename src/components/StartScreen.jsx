@@ -122,6 +122,22 @@ export default function StartScreen() {
         )}
       </div>
 
+      {/* Educational quick-link */}
+      <div style={{ width: '100%', maxWidth: 340, marginTop: 20, textAlign: 'center' }}>
+        <a href="https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/sodium/sodium-and-salt"
+          target="_blank" rel="noopener noreferrer"
+          style={{
+            display: 'inline-flex', alignItems: 'center', gap: 6,
+            padding: '8px 16px',
+            background: 'rgba(255,255,255,0.6)', border: '2px solid rgba(45,90,74,0.3)',
+            borderRadius: 20, textDecoration: 'none',
+            fontSize: 11, fontWeight: 600, color: '#2d5a4a',
+            backdropFilter: 'blur(4px)',
+          }}>
+          <span>❤️</span> Learn about sodium & heart health (AHA) <span style={{ opacity: 0.5 }}>↗</span>
+        </a>
+      </div>
+
       <svg viewBox="0 0 400 30" width="100%" style={{ position: 'absolute', bottom: 0, left: 0 }}>
         <rect x="0" y="10" width="400" height="20" fill="#5AAF75"/>
         <rect x="0" y="8" width="400" height="6" fill="#6BC48A"/>

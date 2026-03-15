@@ -125,6 +125,24 @@ export default function OrderReview() {
           </div>
         </div>
 
+        {/* Educational tip */}
+        <div style={{
+          display: 'flex', alignItems: 'center', gap: 8,
+          padding: '10px 14px', marginBottom: 14,
+          background: '#EDFFF8', border: '2px solid #53c5ab',
+          borderRadius: 14, fontSize: 11, color: '#2d5a4a',
+        }}>
+          <span style={{ fontSize: 16 }}>💡</span>
+          <span style={{ flex: 1 }}>
+            The AHA recommends less than 1,500mg of sodium per day for most adults.{' '}
+            <a href="https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/sodium/how-much-sodium-should-i-eat-per-day"
+              target="_blank" rel="noopener noreferrer"
+              style={{ color: '#2d8a74', fontWeight: 700, textDecoration: 'underline' }}>
+              Learn why →
+            </a>
+          </span>
+        </div>
+
         {/* Swap suggestions */}
         {swaps.length > 0 && (
           <div style={{ marginBottom: 14 }}>

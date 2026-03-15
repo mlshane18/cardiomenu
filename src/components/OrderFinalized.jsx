@@ -253,6 +253,80 @@ export default function OrderFinalized() {
           </div>
         </div>
 
+        {/* Educational Resources */}
+        <div className="game-card" style={{ marginBottom: 20, textAlign: 'left' }}>
+          <div className="heading" style={{ fontSize: 13, marginBottom: 10, textAlign: 'center' }}>
+            Learn More About Heart Health
+          </div>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
+            <a href="https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/sodium/how-much-sodium-should-i-eat-per-day"
+              target="_blank" rel="noopener noreferrer"
+              style={{
+                display: 'flex', alignItems: 'center', gap: 10,
+                padding: '10px 12px', background: '#FFF0F3',
+                border: '2px solid #e94560', borderRadius: 12,
+                textDecoration: 'none', color: '#3a3428',
+                fontSize: 12, fontWeight: 600,
+              }}>
+              <span style={{ fontSize: 18, lineHeight: 1 }}>🧂</span>
+              <span style={{ flex: 1 }}>AHA: How Much Sodium Should I Eat?</span>
+              <span style={{ color: '#e94560', fontSize: 14 }}>→</span>
+            </a>
+            <a href="https://www.heart.org/en/healthy-living/healthy-eating"
+              target="_blank" rel="noopener noreferrer"
+              style={{
+                display: 'flex', alignItems: 'center', gap: 10,
+                padding: '10px 12px', background: '#EDFFF8',
+                border: '2px solid #53c5ab', borderRadius: 12,
+                textDecoration: 'none', color: '#3a3428',
+                fontSize: 12, fontWeight: 600,
+              }}>
+              <span style={{ fontSize: 18, lineHeight: 1 }}>🥗</span>
+              <span style={{ flex: 1 }}>AHA: Healthy Eating Guidelines</span>
+              <span style={{ color: '#53c5ab', fontSize: 14 }}>→</span>
+            </a>
+            <a href="https://www.heart.org/en/health-topics/heart-attack/life-after-a-heart-attack/cardiac-rehabilitation"
+              target="_blank" rel="noopener noreferrer"
+              style={{
+                display: 'flex', alignItems: 'center', gap: 10,
+                padding: '10px 12px', background: '#F0F4FF',
+                border: '2px solid #4AAEE0', borderRadius: 12,
+                textDecoration: 'none', color: '#3a3428',
+                fontSize: 12, fontWeight: 600,
+              }}>
+              <span style={{ fontSize: 18, lineHeight: 1 }}>❤️</span>
+              <span style={{ flex: 1 }}>AHA: Cardiac Rehabilitation</span>
+              <span style={{ color: '#4AAEE0', fontSize: 14 }}>→</span>
+            </a>
+            <a href="https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/fats/saturated-fats"
+              target="_blank" rel="noopener noreferrer"
+              style={{
+                display: 'flex', alignItems: 'center', gap: 10,
+                padding: '10px 12px', background: '#F5F0FF',
+                border: '2px solid #B088E8', borderRadius: 12,
+                textDecoration: 'none', color: '#3a3428',
+                fontSize: 12, fontWeight: 600,
+              }}>
+              <span style={{ fontSize: 18, lineHeight: 1 }}>🫀</span>
+              <span style={{ flex: 1 }}>AHA: Understanding Fats</span>
+              <span style={{ color: '#B088E8', fontSize: 14 }}>→</span>
+            </a>
+            <a href="https://www.nhlbi.nih.gov/health/heart-healthy-living/healthy-eating-plan"
+              target="_blank" rel="noopener noreferrer"
+              style={{
+                display: 'flex', alignItems: 'center', gap: 10,
+                padding: '10px 12px', background: '#FFF8DC',
+                border: '2px solid #DAA520', borderRadius: 12,
+                textDecoration: 'none', color: '#3a3428',
+                fontSize: 12, fontWeight: 600,
+              }}>
+              <span style={{ fontSize: 18, lineHeight: 1 }}>📋</span>
+              <span style={{ flex: 1 }}>NIH: DASH Eating Plan</span>
+              <span style={{ color: '#DAA520', fontSize: 14 }}>→</span>
+            </a>
+          </div>
+        </div>
+
         {/* Action buttons */}
         <div style={{ display: 'flex', flexDirection: 'column', gap: 8, marginTop: 24 }}>
           {tier === 'needsWork' ? (
