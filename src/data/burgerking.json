@@ -1,0 +1,364 @@
+{
+  "restaurant": "Burger King",
+  "id": "burgerking",
+  "color": "#F4941B",
+  "colorLight": "#FFC966",
+  "categories": [
+    {
+      "name": "Burgers",
+      "emoji": "🍔",
+      "items": [
+        {
+          "id": "bk-whopper",
+          "name": "Whopper",
+          "price": 6.49,
+          "nutrition": {
+            "calories": 660,
+            "sodium": 1080,
+            "fat": 39,
+            "carbs": 49,
+            "protein": 29,
+            "sugar": 8
+          },
+          "tags": ["popular"],
+          "swapSuggestion": "bk-whopper-jr"
+        },
+        {
+          "id": "bk-whopper-jr",
+          "name": "Whopper Jr.",
+          "price": 3.99,
+          "nutrition": {
+            "calories": 390,
+            "sodium": 680,
+            "fat": 21,
+            "carbs": 32,
+            "protein": 16,
+            "sugar": 5
+          },
+          "tags": ["value"],
+          "swapSuggestion": "bk-cheeseburger"
+        },
+        {
+          "id": "bk-double-whopper",
+          "name": "Double Whopper",
+          "price": 8.49,
+          "nutrition": {
+            "calories": 960,
+            "sodium": 1480,
+            "fat": 59,
+            "carbs": 49,
+            "protein": 52,
+            "sugar": 8
+          },
+          "tags": [],
+          "swapSuggestion": "bk-whopper-jr"
+        },
+        {
+          "id": "bk-bacon-king",
+          "name": "Bacon King",
+          "price": 7.99,
+          "nutrition": {
+            "calories": 1160,
+            "sodium": 1720,
+            "fat": 73,
+            "carbs": 49,
+            "protein": 62,
+            "sugar": 8
+          },
+          "tags": [],
+          "swapSuggestion": "bk-cheeseburger"
+        },
+        {
+          "id": "bk-cheeseburger",
+          "name": "Cheeseburger",
+          "price": 3.49,
+          "nutrition": {
+            "calories": 320,
+            "sodium": 720,
+            "fat": 16,
+            "carbs": 32,
+            "protein": 18,
+            "sugar": 4
+          },
+          "tags": ["value"],
+          "swapSuggestion": null
+        }
+      ]
+    },
+    {
+      "name": "Chicken",
+      "emoji": "🍗",
+      "items": [
+        {
+          "id": "bk-chking-sandwich",
+          "name": "Ch'King Sandwich",
+          "price": 5.99,
+          "nutrition": {
+            "calories": 560,
+            "sodium": 1240,
+            "fat": 28,
+            "carbs": 48,
+            "protein": 32,
+            "sugar": 6
+          },
+          "tags": ["popular"],
+          "swapSuggestion": "bk-chicken-fries"
+        },
+        {
+          "id": "bk-chicken-fries",
+          "name": "Chicken Fries (Regular)",
+          "price": 4.99,
+          "nutrition": {
+            "calories": 380,
+            "sodium": 880,
+            "fat": 18,
+            "carbs": 36,
+            "protein": 20,
+            "sugar": 0
+          },
+          "tags": ["popular"],
+          "swapSuggestion": "bk-nuggets-10"
+        },
+        {
+          "id": "bk-nuggets-10",
+          "name": "Chicken Nuggets (10 pc)",
+          "price": 4.49,
+          "nutrition": {
+            "calories": 420,
+            "sodium": 920,
+            "fat": 22,
+            "carbs": 28,
+            "protein": 24,
+            "sugar": 0
+          },
+          "tags": ["value"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "bk-chicken-sandwich",
+          "name": "Crispy Chicken Sandwich",
+          "price": 5.49,
+          "nutrition": {
+            "calories": 480,
+            "sodium": 1160,
+            "fat": 21,
+            "carbs": 51,
+            "protein": 25,
+            "sugar": 5
+          },
+          "tags": [],
+          "swapSuggestion": "bk-nuggets-10"
+        }
+      ]
+    },
+    {
+      "name": "Sides",
+      "emoji": "🍟",
+      "items": [
+        {
+          "id": "bk-fries-small",
+          "name": "Fries (Small)",
+          "price": 2.49,
+          "nutrition": {
+            "calories": 320,
+            "sodium": 510,
+            "fat": 14,
+            "carbs": 41,
+            "protein": 4,
+            "sugar": 0
+          },
+          "tags": ["value"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "bk-fries-medium",
+          "name": "Fries (Medium)",
+          "price": 2.99,
+          "nutrition": {
+            "calories": 420,
+            "sodium": 660,
+            "fat": 18,
+            "carbs": 56,
+            "protein": 5,
+            "sugar": 0
+          },
+          "tags": [],
+          "swapSuggestion": "bk-fries-small"
+        },
+        {
+          "id": "bk-onion-rings",
+          "name": "Onion Rings",
+          "price": 3.49,
+          "nutrition": {
+            "calories": 410,
+            "sodium": 720,
+            "fat": 21,
+            "carbs": 48,
+            "protein": 5,
+            "sugar": 2
+          },
+          "tags": [],
+          "swapSuggestion": "bk-fries-small"
+        },
+        {
+          "id": "bk-mozzarella-sticks",
+          "name": "Mozzarella Sticks (6 pc)",
+          "price": 3.99,
+          "nutrition": {
+            "calories": 440,
+            "sodium": 880,
+            "fat": 26,
+            "carbs": 32,
+            "protein": 16,
+            "sugar": 1
+          },
+          "tags": [],
+          "swapSuggestion": "bk-fries-small"
+        }
+      ]
+    },
+    {
+      "name": "Breakfast",
+      "emoji": "🥐",
+      "items": [
+        {
+          "id": "bk-croissan-wich",
+          "name": "Croissan'wich (Bacon, Egg & Cheese)",
+          "price": 4.99,
+          "nutrition": {
+            "calories": 380,
+            "sodium": 940,
+            "fat": 22,
+            "carbs": 28,
+            "protein": 17,
+            "sugar": 3
+          },
+          "tags": ["popular"],
+          "swapSuggestion": "bk-breakfast-wrap"
+        },
+        {
+          "id": "bk-breakfast-wrap",
+          "name": "Breakfast Wrap (Sausage, Egg & Cheese)",
+          "price": 4.49,
+          "nutrition": {
+            "calories": 420,
+            "sodium": 1120,
+            "fat": 24,
+            "carbs": 32,
+            "protein": 19,
+            "sugar": 2
+          },
+          "tags": [],
+          "swapSuggestion": "bk-croissan-wich"
+        },
+        {
+          "id": "bk-hash-browns",
+          "name": "Hash Browns",
+          "price": 2.49,
+          "nutrition": {
+            "calories": 150,
+            "sodium": 380,
+            "fat": 8,
+            "carbs": 16,
+            "protein": 2,
+            "sugar": 0
+          },
+          "tags": ["value"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "bk-french-toast-sticks",
+          "name": "French Toast Sticks (5 pc)",
+          "price": 3.99,
+          "nutrition": {
+            "calories": 390,
+            "sodium": 580,
+            "fat": 16,
+            "carbs": 52,
+            "protein": 6,
+            "sugar": 14
+          },
+          "tags": [],
+          "swapSuggestion": "bk-hash-browns"
+        }
+      ]
+    },
+    {
+      "name": "Drinks",
+      "emoji": "🥤",
+      "items": [
+        {
+          "id": "bk-iced-coffee",
+          "name": "Iced Coffee (Medium)",
+          "price": 3.49,
+          "nutrition": {
+            "calories": 120,
+            "sodium": 8,
+            "fat": 4,
+            "carbs": 16,
+            "protein": 2,
+            "sugar": 14
+          },
+          "tags": ["popular"],
+          "swapSuggestion": "bk-iced-coffee-unsweetened"
+        },
+        {
+          "id": "bk-iced-coffee-unsweetened",
+          "name": "Iced Coffee - Unsweetened (Medium)",
+          "price": 3.49,
+          "nutrition": {
+            "calories": 20,
+            "sodium": 8,
+            "fat": 2,
+            "carbs": 1,
+            "protein": 2,
+            "sugar": 0
+          },
+          "tags": [],
+          "swapSuggestion": null
+        },
+        {
+          "id": "bk-soft-drink-medium",
+          "name": "Soft Drink (Medium)",
+          "price": 2.49,
+          "nutrition": {
+            "calories": 210,
+            "sodium": 45,
+            "fat": 0,
+            "carbs": 55,
+            "protein": 0,
+            "sugar": 55
+          },
+          "tags": [],
+          "swapSuggestion": "bk-water"
+        },
+        {
+          "id": "bk-water",
+          "name": "Bottled Water",
+          "price": 2.99,
+          "nutrition": {
+            "calories": 0,
+            "sodium": 0,
+            "fat": 0,
+            "carbs": 0,
+            "protein": 0,
+            "sugar": 0
+          },
+          "tags": ["value"],
+          "swapSuggestion": null
+        }
+      ]
+    },
+    {
+      "name": "Sauces &amp; Condiments",
+      "emoji": "🫙",
+      "items": [
+        { "id": "bk-ketchup", "name": "Ketchup Packet", "price": 0, "nutrition": { "calories": 15, "sodium": 180, "fat": 0, "carbs": 4, "protein": 0, "sugar": 3 }, "tags": [] },
+        { "id": "bk-zesty-sauce", "name": "Zesty Sauce", "price": 0, "nutrition": { "calories": 70, "sodium": 280, "fat": 5, "carbs": 6, "protein": 0, "sugar": 2 }, "tags": [], "swapSuggestion": "bk-honey-mustard" },
+        { "id": "bk-bbq-sauce", "name": "Barbecue Sauce", "price": 0, "nutrition": { "calories": 35, "sodium": 360, "fat": 0, "carbs": 9, "protein": 0, "sugar": 8 }, "tags": [] },
+        { "id": "bk-ranch", "name": "Ranch Sauce", "price": 0.50, "nutrition": { "calories": 200, "sodium": 380, "fat": 21, "carbs": 1, "protein": 0, "sugar": 1 }, "tags": [], "swapSuggestion": "bk-honey-mustard" },
+        { "id": "bk-honey-mustard", "name": "Honey Mustard", "price": 0, "nutrition": { "calories": 40, "sodium": 210, "fat": 0, "carbs": 10, "protein": 0, "sugar": 9 }, "tags": [] }
+      ]
+    }
+  ]
+}

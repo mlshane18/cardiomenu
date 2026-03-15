@@ -1,0 +1,395 @@
+{
+  "restaurant": "Popeyes",
+  "id": "popeyes",
+  "color": "#F15A22",
+  "colorLight": "#F7956D",
+  "categories": [
+    {
+      "name": "Chicken",
+      "emoji": "🍗",
+      "items": [
+        {
+          "id": "pop-2pc-mild",
+          "name": "2 pc Chicken - Mild",
+          "price": 4.99,
+          "nutrition": {
+            "calories": 320,
+            "sodium": 680,
+            "fat": 16,
+            "carbs": 10,
+            "protein": 34,
+            "sugar": 0
+          },
+          "tags": ["popular"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "pop-2pc-spicy",
+          "name": "2 pc Chicken - Spicy",
+          "price": 4.99,
+          "nutrition": {
+            "calories": 320,
+            "sodium": 760,
+            "fat": 16,
+            "carbs": 10,
+            "protein": 34,
+            "sugar": 0
+          },
+          "tags": ["popular"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "pop-3pc-mild",
+          "name": "3 pc Chicken - Mild",
+          "price": 6.49,
+          "nutrition": {
+            "calories": 480,
+            "sodium": 1020,
+            "fat": 24,
+            "carbs": 15,
+            "protein": 51,
+            "sugar": 0
+          },
+          "tags": [],
+          "swapSuggestion": "pop-2pc-mild"
+        },
+        {
+          "id": "pop-3pc-spicy",
+          "name": "3 pc Chicken - Spicy",
+          "price": 6.49,
+          "nutrition": {
+            "calories": 480,
+            "sodium": 1140,
+            "fat": 24,
+            "carbs": 15,
+            "protein": 51,
+            "sugar": 0
+          },
+          "tags": [],
+          "swapSuggestion": "pop-2pc-spicy"
+        },
+        {
+          "id": "pop-tenders-3pc",
+          "name": "Tenders (3 pc)",
+          "price": 5.99,
+          "nutrition": {
+            "calories": 400,
+            "sodium": 920,
+            "fat": 18,
+            "carbs": 20,
+            "protein": 38,
+            "sugar": 0
+          },
+          "tags": [],
+          "swapSuggestion": "pop-2pc-mild"
+        }
+      ]
+    },
+    {
+      "name": "Sandwiches",
+      "emoji": "🥪",
+      "items": [
+        {
+          "id": "pop-chicken-classic",
+          "name": "Chicken Sandwich - Classic",
+          "price": 3.99,
+          "nutrition": {
+            "calories": 380,
+            "sodium": 1080,
+            "fat": 17,
+            "carbs": 40,
+            "protein": 22,
+            "sugar": 4
+          },
+          "tags": ["popular"],
+          "swapSuggestion": "pop-tenders-3pc"
+        },
+        {
+          "id": "pop-chicken-spicy",
+          "name": "Chicken Sandwich - Spicy",
+          "price": 3.99,
+          "nutrition": {
+            "calories": 380,
+            "sodium": 1160,
+            "fat": 17,
+            "carbs": 40,
+            "protein": 22,
+            "sugar": 4
+          },
+          "tags": ["popular"],
+          "swapSuggestion": "pop-tenders-3pc"
+        },
+        {
+          "id": "pop-chicken-deluxe",
+          "name": "Chicken Sandwich - Deluxe",
+          "price": 4.49,
+          "nutrition": {
+            "calories": 420,
+            "sodium": 1240,
+            "fat": 19,
+            "carbs": 42,
+            "protein": 24,
+            "sugar": 5
+          },
+          "tags": [],
+          "swapSuggestion": "pop-2pc-mild"
+        },
+        {
+          "id": "pop-family-feast-sandwich",
+          "name": "Family Feast Sandwich",
+          "price": 4.49,
+          "nutrition": {
+            "calories": 460,
+            "sodium": 1320,
+            "fat": 22,
+            "carbs": 44,
+            "protein": 26,
+            "sugar": 4
+          },
+          "tags": [],
+          "swapSuggestion": "pop-2pc-mild"
+        }
+      ]
+    },
+    {
+      "name": "Seafood",
+      "emoji": "🦐",
+      "items": [
+        {
+          "id": "pop-popcorn-shrimp",
+          "name": "Popcorn Shrimp",
+          "price": 4.99,
+          "nutrition": {
+            "calories": 370,
+            "sodium": 1040,
+            "fat": 18,
+            "carbs": 32,
+            "protein": 18,
+            "sugar": 1
+          },
+          "tags": ["popular"],
+          "swapSuggestion": "pop-2pc-mild"
+        },
+        {
+          "id": "pop-butterfly-shrimp",
+          "name": "Butterfly Shrimp",
+          "price": 5.99,
+          "nutrition": {
+            "calories": 420,
+            "sodium": 1120,
+            "fat": 20,
+            "carbs": 36,
+            "protein": 20,
+            "sugar": 1
+          },
+          "tags": [],
+          "swapSuggestion": "pop-popcorn-shrimp"
+        },
+        {
+          "id": "pop-fish-sandwich",
+          "name": "Fish Sandwich",
+          "price": 4.49,
+          "nutrition": {
+            "calories": 410,
+            "sodium": 1160,
+            "fat": 19,
+            "carbs": 42,
+            "protein": 20,
+            "sugar": 4
+          },
+          "tags": [],
+          "swapSuggestion": "pop-2pc-mild"
+        }
+      ]
+    },
+    {
+      "name": "Sides",
+      "emoji": "🍟",
+      "items": [
+        {
+          "id": "pop-cajun-fries-reg",
+          "name": "Cajun Fries (Regular)",
+          "price": 2.49,
+          "nutrition": {
+            "calories": 310,
+            "sodium": 540,
+            "fat": 14,
+            "carbs": 40,
+            "protein": 4,
+            "sugar": 0
+          },
+          "tags": ["popular"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "pop-cajun-fries-lg",
+          "name": "Cajun Fries (Large)",
+          "price": 3.49,
+          "nutrition": {
+            "calories": 480,
+            "sodium": 840,
+            "fat": 22,
+            "carbs": 62,
+            "protein": 6,
+            "sugar": 0
+          },
+          "tags": [],
+          "swapSuggestion": "pop-cajun-fries-reg"
+        },
+        {
+          "id": "pop-red-beans-rice",
+          "name": "Red Beans & Rice",
+          "price": 2.99,
+          "nutrition": {
+            "calories": 270,
+            "sodium": 840,
+            "fat": 10,
+            "carbs": 36,
+            "protein": 6,
+            "sugar": 2
+          },
+          "tags": ["value"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "pop-coleslaw",
+          "name": "Coleslaw",
+          "price": 2.49,
+          "nutrition": {
+            "calories": 170,
+            "sodium": 420,
+            "fat": 11,
+            "carbs": 14,
+            "protein": 2,
+            "sugar": 10
+          },
+          "tags": ["value"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "pop-mashed-potatoes",
+          "name": "Mashed Potatoes",
+          "price": 1.99,
+          "nutrition": {
+            "calories": 120,
+            "sodium": 380,
+            "fat": 5,
+            "carbs": 16,
+            "protein": 2,
+            "sugar": 1
+          },
+          "tags": ["value"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "pop-mac-cheese",
+          "name": "Mac & Cheese",
+          "price": 2.99,
+          "nutrition": {
+            "calories": 310,
+            "sodium": 680,
+            "fat": 14,
+            "carbs": 34,
+            "protein": 10,
+            "sugar": 3
+          },
+          "tags": [],
+          "swapSuggestion": "pop-red-beans-rice"
+        }
+      ]
+    },
+    {
+      "name": "Drinks & More",
+      "emoji": "🥤",
+      "items": [
+        {
+          "id": "pop-biscuit",
+          "name": "Biscuit",
+          "price": 1.49,
+          "nutrition": {
+            "calories": 190,
+            "sodium": 520,
+            "fat": 10,
+            "carbs": 22,
+            "protein": 4,
+            "sugar": 2
+          },
+          "tags": ["popular"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "pop-soft-drink-medium",
+          "name": "Soft Drink (Medium)",
+          "price": 2.49,
+          "nutrition": {
+            "calories": 220,
+            "sodium": 50,
+            "fat": 0,
+            "carbs": 58,
+            "protein": 0,
+            "sugar": 58
+          },
+          "tags": [],
+          "swapSuggestion": "pop-water"
+        },
+        {
+          "id": "pop-sweet-tea",
+          "name": "Sweet Iced Tea (Medium)",
+          "price": 2.49,
+          "nutrition": {
+            "calories": 180,
+            "sodium": 40,
+            "fat": 0,
+            "carbs": 46,
+            "protein": 0,
+            "sugar": 46
+          },
+          "tags": [],
+          "swapSuggestion": "pop-unsweet-tea"
+        },
+        {
+          "id": "pop-unsweet-tea",
+          "name": "Unsweet Iced Tea (Medium)",
+          "price": 2.49,
+          "nutrition": {
+            "calories": 5,
+            "sodium": 20,
+            "fat": 0,
+            "carbs": 0,
+            "protein": 0,
+            "sugar": 0
+          },
+          "tags": ["value"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "pop-water",
+          "name": "Bottled Water",
+          "price": 2.49,
+          "nutrition": {
+            "calories": 0,
+            "sodium": 0,
+            "fat": 0,
+            "carbs": 0,
+            "protein": 0,
+            "sugar": 0
+          },
+          "tags": ["value"],
+          "swapSuggestion": null
+        }
+      ]
+    },
+    {
+      "name": "Sauces &amp; Condiments",
+      "emoji": "🫙",
+      "items": [
+        { "id": "pop-blackened-ranch", "name": "Blackened Ranch Sauce", "price": 0.50, "nutrition": { "calories": 190, "sodium": 400, "fat": 19, "carbs": 2, "protein": 0, "sugar": 1 }, "tags": [] },
+        { "id": "pop-buttermilk-ranch", "name": "Buttermilk Ranch Sauce", "price": 0.50, "nutrition": { "calories": 200, "sodium": 380, "fat": 21, "carbs": 1, "protein": 0, "sugar": 1 }, "tags": [], "swapSuggestion": "pop-mardi-gras-mustard" },
+        { "id": "pop-sweet-heat", "name": "Sweet Heat Sauce", "price": 0, "nutrition": { "calories": 70, "sodium": 320, "fat": 2, "carbs": 12, "protein": 0, "sugar": 10 }, "tags": [] },
+        { "id": "pop-bold-bbq", "name": "Bold BBQ Sauce", "price": 0, "nutrition": { "calories": 50, "sodium": 400, "fat": 0, "carbs": 12, "protein": 0, "sugar": 11 }, "tags": [] },
+        { "id": "pop-mardi-gras-mustard", "name": "Mardi Gras Mustard", "price": 0, "nutrition": { "calories": 35, "sodium": 280, "fat": 1, "carbs": 6, "protein": 1, "sugar": 4 }, "tags": [] },
+        { "id": "pop-signature-hot", "name": "Signature Hot Sauce", "price": 0, "nutrition": { "calories": 10, "sodium": 240, "fat": 0, "carbs": 2, "protein": 0, "sugar": 0 }, "tags": [] }
+      ]
+    }
+  ]
+}

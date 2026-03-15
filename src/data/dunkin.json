@@ -1,0 +1,363 @@
+{
+  "restaurant": "Dunkin'",
+  "id": "dunkin",
+  "color": "#FF671F",
+  "colorLight": "#FFA657",
+  "categories": [
+    {
+      "name": "Hot Coffee",
+      "emoji": "☕",
+      "items": [
+        {
+          "id": "dun-original-blend-medium",
+          "name": "Original Blend - Medium",
+          "price": 2.69,
+          "nutrition": {
+            "calories": 15,
+            "sodium": 10,
+            "fat": 0,
+            "carbs": 2,
+            "protein": 2,
+            "sugar": 0
+          },
+          "tags": ["popular", "value"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "dun-latte-medium",
+          "name": "Latte - Medium",
+          "price": 4.69,
+          "nutrition": {
+            "calories": 210,
+            "sodium": 180,
+            "fat": 7,
+            "carbs": 26,
+            "protein": 13,
+            "sugar": 25
+          },
+          "tags": ["popular"],
+          "swapSuggestion": "dun-original-blend-medium"
+        },
+        {
+          "id": "dun-cappuccino-medium",
+          "name": "Cappuccino - Medium",
+          "price": 4.69,
+          "nutrition": {
+            "calories": 160,
+            "sodium": 160,
+            "fat": 5,
+            "carbs": 16,
+            "protein": 12,
+            "sugar": 15
+          },
+          "tags": [],
+          "swapSuggestion": "dun-original-blend-medium"
+        },
+        {
+          "id": "dun-caramel-macchiato-medium",
+          "name": "Caramel Macchiato - Medium",
+          "price": 4.99,
+          "nutrition": {
+            "calories": 290,
+            "sodium": 190,
+            "fat": 9,
+            "carbs": 42,
+            "protein": 12,
+            "sugar": 40
+          },
+          "tags": [],
+          "swapSuggestion": "dun-cappuccino-medium"
+        },
+        {
+          "id": "dun-mocha-medium",
+          "name": "Mocha - Medium",
+          "price": 4.99,
+          "nutrition": {
+            "calories": 320,
+            "sodium": 170,
+            "fat": 11,
+            "carbs": 42,
+            "protein": 12,
+            "sugar": 39
+          },
+          "tags": [],
+          "swapSuggestion": "dun-cappuccino-medium"
+        }
+      ]
+    },
+    {
+      "name": "Cold Drinks",
+      "emoji": "🧊",
+      "items": [
+        {
+          "id": "dun-iced-coffee-medium",
+          "name": "Iced Coffee - Medium",
+          "price": 2.99,
+          "nutrition": {
+            "calories": 10,
+            "sodium": 20,
+            "fat": 0,
+            "carbs": 2,
+            "protein": 1,
+            "sugar": 0
+          },
+          "tags": ["popular"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "dun-iced-latte-medium",
+          "name": "Iced Latte - Medium",
+          "price": 4.99,
+          "nutrition": {
+            "calories": 140,
+            "sodium": 190,
+            "fat": 5,
+            "carbs": 17,
+            "protein": 11,
+            "sugar": 16
+          },
+          "tags": ["popular"],
+          "swapSuggestion": "dun-iced-coffee-medium"
+        },
+        {
+          "id": "dun-iced-caramel-macchiato-medium",
+          "name": "Iced Caramel Macchiato - Medium",
+          "price": 5.29,
+          "nutrition": {
+            "calories": 220,
+            "sodium": 200,
+            "fat": 7,
+            "carbs": 34,
+            "protein": 11,
+            "sugar": 32
+          },
+          "tags": [],
+          "swapSuggestion": "dun-iced-latte-medium"
+        },
+        {
+          "id": "dun-coolatta-medium",
+          "name": "Coolatta - Medium",
+          "price": 3.99,
+          "nutrition": {
+            "calories": 240,
+            "sodium": 120,
+            "fat": 0,
+            "carbs": 61,
+            "protein": 0,
+            "sugar": 58
+          },
+          "tags": [],
+          "swapSuggestion": "dun-iced-coffee-medium"
+        }
+      ]
+    },
+    {
+      "name": "Breakfast Sandwiches",
+      "emoji": "🥪",
+      "items": [
+        {
+          "id": "dun-bacon-egg-cheese-croissant",
+          "name": "Bacon Egg & Cheese on Croissant",
+          "price": 4.99,
+          "nutrition": {
+            "calories": 480,
+            "sodium": 1280,
+            "fat": 26,
+            "carbs": 41,
+            "protein": 16,
+            "sugar": 4
+          },
+          "tags": ["popular"],
+          "swapSuggestion": "dun-sausage-egg-cheese-english-muffin"
+        },
+        {
+          "id": "dun-bacon-egg-cheese-bagel",
+          "name": "Bacon Egg & Cheese on Bagel",
+          "price": 5.19,
+          "nutrition": {
+            "calories": 490,
+            "sodium": 1340,
+            "fat": 21,
+            "carbs": 56,
+            "protein": 17,
+            "sugar": 5
+          },
+          "tags": [],
+          "swapSuggestion": "dun-bacon-egg-cheese-croissant"
+        },
+        {
+          "id": "dun-bacon-egg-cheese-muffin",
+          "name": "Bacon Egg & Cheese on English Muffin",
+          "price": 4.79,
+          "nutrition": {
+            "calories": 360,
+            "sodium": 1100,
+            "fat": 16,
+            "carbs": 41,
+            "protein": 16,
+            "sugar": 3
+          },
+          "tags": [],
+          "swapSuggestion": null
+        },
+        {
+          "id": "dun-sausage-egg-cheese-croissant",
+          "name": "Sausage Egg & Cheese on Croissant",
+          "price": 5.39,
+          "nutrition": {
+            "calories": 550,
+            "sodium": 1420,
+            "fat": 32,
+            "carbs": 41,
+            "protein": 18,
+            "sugar": 4
+          },
+          "tags": [],
+          "swapSuggestion": "dun-bacon-egg-cheese-croissant"
+        },
+        {
+          "id": "dun-sausage-egg-cheese-english-muffin",
+          "name": "Sausage Egg & Cheese on English Muffin",
+          "price": 5.19,
+          "nutrition": {
+            "calories": 420,
+            "sodium": 1240,
+            "fat": 22,
+            "carbs": 41,
+            "protein": 18,
+            "sugar": 3
+          },
+          "tags": [],
+          "swapSuggestion": "dun-bacon-egg-cheese-muffin"
+        }
+      ]
+    },
+    {
+      "name": "Wraps",
+      "emoji": "🌯",
+      "items": [
+        {
+          "id": "dun-wakeup-wrap",
+          "name": "Wake-Up Wrap",
+          "price": 4.99,
+          "nutrition": {
+            "calories": 330,
+            "sodium": 980,
+            "fat": 14,
+            "carbs": 38,
+            "protein": 15,
+            "sugar": 2
+          },
+          "tags": ["popular"],
+          "swapSuggestion": "dun-turkey-sausage-wakeup-wrap"
+        },
+        {
+          "id": "dun-turkey-sausage-wakeup-wrap",
+          "name": "Turkey Sausage Wake-Up Wrap",
+          "price": 5.19,
+          "nutrition": {
+            "calories": 290,
+            "sodium": 820,
+            "fat": 11,
+            "carbs": 38,
+            "protein": 14,
+            "sugar": 2
+          },
+          "tags": [],
+          "swapSuggestion": null
+        }
+      ]
+    },
+    {
+      "name": "Bakery & Sides",
+      "emoji": "🍰",
+      "items": [
+        {
+          "id": "dun-classic-donut",
+          "name": "Classic Glazed Donut",
+          "price": 1.59,
+          "nutrition": {
+            "calories": 260,
+            "sodium": 340,
+            "fat": 12,
+            "carbs": 36,
+            "protein": 3,
+            "sugar": 21
+          },
+          "tags": ["popular", "value"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "dun-munchkins-5pc",
+          "name": "Munchkins - 5 Piece",
+          "price": 2.49,
+          "nutrition": {
+            "calories": 240,
+            "sodium": 290,
+            "fat": 11,
+            "carbs": 32,
+            "protein": 2,
+            "sugar": 17
+          },
+          "tags": ["popular"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "dun-bagel-cream-cheese",
+          "name": "Bagel with Cream Cheese",
+          "price": 3.99,
+          "nutrition": {
+            "calories": 400,
+            "sodium": 820,
+            "fat": 14,
+            "carbs": 57,
+            "protein": 13,
+            "sugar": 6
+          },
+          "tags": [],
+          "swapSuggestion": null
+        },
+        {
+          "id": "dun-hash-browns",
+          "name": "Hash Browns",
+          "price": 2.29,
+          "nutrition": {
+            "calories": 150,
+            "sodium": 290,
+            "fat": 8,
+            "carbs": 17,
+            "protein": 2,
+            "sugar": 0
+          },
+          "tags": ["popular"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "dun-blueberry-muffin",
+          "name": "Blueberry Muffin",
+          "price": 3.29,
+          "nutrition": {
+            "calories": 420,
+            "sodium": 480,
+            "fat": 16,
+            "carbs": 64,
+            "protein": 6,
+            "sugar": 40
+          },
+          "tags": [],
+          "swapSuggestion": "dun-hash-browns"
+        }
+      ]
+    },
+    {
+      "name": "Sauces &amp; Condiments",
+      "emoji": "🫙",
+      "items": [
+        { "id": "dun-cream-cheese", "name": "Cream Cheese", "price": 0.50, "nutrition": { "calories": 100, "sodium": 180, "fat": 10, "carbs": 1, "protein": 2, "sugar": 0 }, "tags": [] },
+        { "id": "dun-butter", "name": "Butter Packet", "price": 0.25, "nutrition": { "calories": 100, "sodium": 80, "fat": 11, "carbs": 0, "protein": 0, "sugar": 0 }, "tags": [] },
+        { "id": "dun-sugar-packet", "name": "Sugar Packet", "price": 0, "nutrition": { "calories": 15, "sodium": 0, "fat": 0, "carbs": 4, "protein": 0, "sugar": 4 }, "tags": [] },
+        { "id": "dun-vanilla-swirl", "name": "Vanilla Flavor Swirl", "price": 0.50, "nutrition": { "calories": 80, "sodium": 160, "fat": 2, "carbs": 14, "protein": 3, "sugar": 13 }, "tags": [] }
+      ]
+    }
+  ]
+}

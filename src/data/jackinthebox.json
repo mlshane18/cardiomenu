@@ -1,0 +1,349 @@
+{
+  "restaurant": "Jack in the Box",
+  "id": "jackinthebox",
+  "color": "#E3262F",
+  "colorLight": "#F4ACAF",
+  "categories": [
+    {
+      "name": "Burgers",
+      "emoji": "🍔",
+      "items": [
+        {
+          "id": "jitb-jumbo-jack",
+          "name": "Jumbo Jack",
+          "price": 5.99,
+          "nutrition": {
+            "calories": 520,
+            "sodium": 1160,
+            "fat": 28,
+            "carbs": 40,
+            "protein": 24,
+            "sugar": 5
+          },
+          "tags": ["popular"],
+          "swapSuggestion": "jitb-jr-jack"
+        },
+        {
+          "id": "jitb-jumbo-jack-cheese",
+          "name": "Jumbo Jack with Cheese",
+          "price": 6.49,
+          "nutrition": {
+            "calories": 600,
+            "sodium": 1380,
+            "fat": 34,
+            "carbs": 42,
+            "protein": 28,
+            "sugar": 5
+          },
+          "tags": ["popular"],
+          "swapSuggestion": "jitb-jr-jack"
+        },
+        {
+          "id": "jitb-ultimate-cheeseburger",
+          "name": "Ultimate Cheeseburger",
+          "price": 6.99,
+          "nutrition": {
+            "calories": 650,
+            "sodium": 1420,
+            "fat": 38,
+            "carbs": 44,
+            "protein": 32,
+            "sugar": 4
+          },
+          "tags": [],
+          "swapSuggestion": "jitb-jr-jack"
+        },
+        {
+          "id": "jitb-jr-jack",
+          "name": "Jr. Jack",
+          "price": 3.99,
+          "nutrition": {
+            "calories": 360,
+            "sodium": 820,
+            "fat": 18,
+            "carbs": 32,
+            "protein": 16,
+            "sugar": 3
+          },
+          "tags": ["value"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "jitb-bacon-ultimate",
+          "name": "Bacon Ultimate Cheeseburger",
+          "price": 7.49,
+          "nutrition": {
+            "calories": 720,
+            "sodium": 1640,
+            "fat": 42,
+            "carbs": 46,
+            "protein": 36,
+            "sugar": 4
+          },
+          "tags": [],
+          "swapSuggestion": "jitb-jr-jack"
+        }
+      ]
+    },
+    {
+      "name": "Chicken",
+      "emoji": "🍗",
+      "items": [
+        {
+          "id": "jitb-spicy-chicken",
+          "name": "Spicy Chicken Sandwich",
+          "price": 6.49,
+          "nutrition": {
+            "calories": 480,
+            "sodium": 1240,
+            "fat": 22,
+            "carbs": 42,
+            "protein": 26,
+            "sugar": 2
+          },
+          "tags": ["popular"],
+          "swapSuggestion": "jitb-grilled-chicken"
+        },
+        {
+          "id": "jitb-grilled-chicken",
+          "name": "Grilled Chicken Sandwich",
+          "price": 6.99,
+          "nutrition": {
+            "calories": 380,
+            "sodium": 840,
+            "fat": 10,
+            "carbs": 40,
+            "protein": 34,
+            "sugar": 2
+          },
+          "tags": ["value"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "jitb-chicken-nuggets-4",
+          "name": "Chicken Nuggets (4pc)",
+          "price": 4.49,
+          "nutrition": {
+            "calories": 200,
+            "sodium": 560,
+            "fat": 10,
+            "carbs": 12,
+            "protein": 16,
+            "sugar": 0
+          },
+          "tags": ["value"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "jitb-chicken-nuggets-8",
+          "name": "Chicken Nuggets (8pc)",
+          "price": 6.99,
+          "nutrition": {
+            "calories": 400,
+            "sodium": 1120,
+            "fat": 20,
+            "carbs": 24,
+            "protein": 32,
+            "sugar": 0
+          },
+          "tags": [],
+          "swapSuggestion": "jitb-chicken-nuggets-4"
+        }
+      ]
+    },
+    {
+      "name": "Tacos & Wraps",
+      "emoji": "🌮",
+      "items": [
+        {
+          "id": "jitb-tacos-2pc",
+          "name": "Tacos (2pc)",
+          "price": 3.49,
+          "nutrition": {
+            "calories": 340,
+            "sodium": 880,
+            "fat": 18,
+            "carbs": 28,
+            "protein": 14,
+            "sugar": 1
+          },
+          "tags": ["popular"],
+          "swapSuggestion": "jitb-chicken-nuggets-4"
+        },
+        {
+          "id": "jitb-egg-rolls",
+          "name": "Egg Rolls (3pc)",
+          "price": 4.99,
+          "nutrition": {
+            "calories": 420,
+            "sodium": 1080,
+            "fat": 20,
+            "carbs": 46,
+            "protein": 8,
+            "sugar": 2
+          },
+          "tags": [],
+          "swapSuggestion": "jitb-tacos-2pc"
+        }
+      ]
+    },
+    {
+      "name": "Sides",
+      "emoji": "🍟",
+      "items": [
+        {
+          "id": "jitb-fries-sm",
+          "name": "French Fries (Small)",
+          "price": 2.49,
+          "nutrition": {
+            "calories": 320,
+            "sodium": 640,
+            "fat": 15,
+            "carbs": 40,
+            "protein": 4,
+            "sugar": 0
+          },
+          "tags": ["value"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "jitb-fries-med",
+          "name": "French Fries (Medium)",
+          "price": 2.99,
+          "nutrition": {
+            "calories": 420,
+            "sodium": 840,
+            "fat": 20,
+            "carbs": 52,
+            "protein": 5,
+            "sugar": 0
+          },
+          "tags": [],
+          "swapSuggestion": "jitb-fries-sm"
+        },
+        {
+          "id": "jitb-fries-lg",
+          "name": "French Fries (Large)",
+          "price": 3.49,
+          "nutrition": {
+            "calories": 520,
+            "sodium": 1040,
+            "fat": 25,
+            "carbs": 64,
+            "protein": 6,
+            "sugar": 0
+          },
+          "tags": [],
+          "swapSuggestion": "jitb-fries-sm"
+        },
+        {
+          "id": "jitb-onion-rings",
+          "name": "Onion Rings",
+          "price": 3.49,
+          "nutrition": {
+            "calories": 480,
+            "sodium": 720,
+            "fat": 22,
+            "carbs": 56,
+            "protein": 6,
+            "sugar": 2
+          },
+          "tags": [],
+          "swapSuggestion": "jitb-fries-sm"
+        },
+        {
+          "id": "jitb-curly-fries",
+          "name": "Curly Fries",
+          "price": 3.49,
+          "nutrition": {
+            "calories": 420,
+            "sodium": 800,
+            "fat": 20,
+            "carbs": 50,
+            "protein": 5,
+            "sugar": 0
+          },
+          "tags": [],
+          "swapSuggestion": "jitb-fries-sm"
+        }
+      ]
+    },
+    {
+      "name": "Drinks & Shakes",
+      "emoji": "🥤",
+      "items": [
+        {
+          "id": "jitb-water",
+          "name": "Bottled Water",
+          "price": 2.49,
+          "nutrition": {
+            "calories": 0,
+            "sodium": 0,
+            "fat": 0,
+            "carbs": 0,
+            "protein": 0,
+            "sugar": 0
+          },
+          "tags": ["popular"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "jitb-unsweetened-tea",
+          "name": "Unsweetened Iced Tea (Med)",
+          "price": 2.99,
+          "nutrition": {
+            "calories": 5,
+            "sodium": 15,
+            "fat": 0,
+            "carbs": 1,
+            "protein": 0,
+            "sugar": 0
+          },
+          "tags": ["value"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "jitb-vanilla-shake",
+          "name": "Vanilla Shake (Regular)",
+          "price": 4.99,
+          "nutrition": {
+            "calories": 540,
+            "sodium": 240,
+            "fat": 18,
+            "carbs": 82,
+            "protein": 13,
+            "sugar": 76
+          },
+          "tags": [],
+          "swapSuggestion": "jitb-water"
+        },
+        {
+          "id": "jitb-iced-coffee",
+          "name": "Iced Coffee (Med)",
+          "price": 3.49,
+          "nutrition": {
+            "calories": 20,
+            "sodium": 10,
+            "fat": 0,
+            "carbs": 2,
+            "protein": 1,
+            "sugar": 0
+          },
+          "tags": ["value"],
+          "swapSuggestion": null
+        }
+      ]
+    },
+    {
+      "name": "Sauces &amp; Condiments",
+      "emoji": "🫙",
+      "items": [
+        { "id": "jb-buttermilk-ranch", "name": "Buttermilk Ranch", "price": 0.50, "nutrition": { "calories": 200, "sodium": 380, "fat": 21, "carbs": 1, "protein": 0, "sugar": 1 }, "tags": [], "swapSuggestion": "jb-ketchup" },
+        { "id": "jb-bbq-sauce", "name": "Barbecue Sauce", "price": 0, "nutrition": { "calories": 40, "sodium": 340, "fat": 0, "carbs": 10, "protein": 0, "sugar": 9 }, "tags": [] },
+        { "id": "jb-sweet-sour", "name": "Sweet & Sour Sauce", "price": 0, "nutrition": { "calories": 45, "sodium": 250, "fat": 0, "carbs": 11, "protein": 0, "sugar": 10 }, "tags": [] },
+        { "id": "jb-franks-redhot", "name": "Frank's RedHot Sauce", "price": 0, "nutrition": { "calories": 0, "sodium": 190, "fat": 0, "carbs": 0, "protein": 0, "sugar": 0 }, "tags": [] },
+        { "id": "jb-ketchup", "name": "Ketchup Packet", "price": 0, "nutrition": { "calories": 15, "sodium": 180, "fat": 0, "carbs": 4, "protein": 0, "sugar": 3 }, "tags": [] }
+      ]
+    }
+  ]
+}

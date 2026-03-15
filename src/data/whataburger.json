@@ -1,0 +1,364 @@
+{
+  "restaurant": "Whataburger",
+  "id": "whataburger",
+  "color": "#FF6318",
+  "colorLight": "#FFB399",
+  "categories": [
+    {
+      "name": "Burgers",
+      "emoji": "🍔",
+      "items": [
+        {
+          "id": "whata-whataburger",
+          "name": "Whataburger",
+          "price": 6.99,
+          "nutrition": {
+            "calories": 580,
+            "sodium": 1140,
+            "fat": 30,
+            "carbs": 42,
+            "protein": 32,
+            "sugar": 4
+          },
+          "tags": ["popular"],
+          "swapSuggestion": "whata-jr"
+        },
+        {
+          "id": "whata-double-whataburger",
+          "name": "Double Meat Whataburger",
+          "price": 8.49,
+          "nutrition": {
+            "calories": 780,
+            "sodium": 1520,
+            "fat": 42,
+            "carbs": 42,
+            "protein": 50,
+            "sugar": 4
+          },
+          "tags": [],
+          "swapSuggestion": "whata-jr"
+        },
+        {
+          "id": "whata-jr",
+          "name": "Whataburger Jr",
+          "price": 4.99,
+          "nutrition": {
+            "calories": 420,
+            "sodium": 840,
+            "fat": 20,
+            "carbs": 40,
+            "protein": 22,
+            "sugar": 3
+          },
+          "tags": ["value"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "whata-patty-melt",
+          "name": "Patty Melt",
+          "price": 7.49,
+          "nutrition": {
+            "calories": 620,
+            "sodium": 1280,
+            "fat": 34,
+            "carbs": 44,
+            "protein": 32,
+            "sugar": 3
+          },
+          "tags": [],
+          "swapSuggestion": "whata-jr"
+        },
+        {
+          "id": "whata-bacon-cheese",
+          "name": "Bacon & Cheese Whataburger",
+          "price": 7.99,
+          "nutrition": {
+            "calories": 680,
+            "sodium": 1380,
+            "fat": 38,
+            "carbs": 42,
+            "protein": 36,
+            "sugar": 4
+          },
+          "tags": ["popular"],
+          "swapSuggestion": "whata-jr"
+        }
+      ]
+    },
+    {
+      "name": "Chicken",
+      "emoji": "🍗",
+      "items": [
+        {
+          "id": "whata-whatachickn",
+          "name": "Whatachick'n Sandwich",
+          "price": 6.49,
+          "nutrition": {
+            "calories": 500,
+            "sodium": 1060,
+            "fat": 22,
+            "carbs": 44,
+            "protein": 28,
+            "sugar": 2
+          },
+          "tags": ["popular"],
+          "swapSuggestion": "whata-grilled-chicken"
+        },
+        {
+          "id": "whata-grilled-chicken",
+          "name": "Grilled Chicken Sandwich",
+          "price": 6.99,
+          "nutrition": {
+            "calories": 420,
+            "sodium": 820,
+            "fat": 12,
+            "carbs": 40,
+            "protein": 34,
+            "sugar": 2
+          },
+          "tags": ["value"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "whata-chicken-strips-3",
+          "name": "Chicken Strips (3pc)",
+          "price": 7.99,
+          "nutrition": {
+            "calories": 400,
+            "sodium": 920,
+            "fat": 18,
+            "carbs": 24,
+            "protein": 34,
+            "sugar": 0
+          },
+          "tags": ["value"],
+          "swapSuggestion": null
+        }
+      ]
+    },
+    {
+      "name": "Breakfast",
+      "emoji": "🥐",
+      "items": [
+        {
+          "id": "whata-honey-butter-biscuit",
+          "name": "Honey Butter Chicken Biscuit",
+          "price": 4.99,
+          "nutrition": {
+            "calories": 480,
+            "sodium": 1080,
+            "fat": 24,
+            "carbs": 44,
+            "protein": 20,
+            "sugar": 6
+          },
+          "tags": ["popular"],
+          "swapSuggestion": "whata-breakfast-bowl"
+        },
+        {
+          "id": "whata-breakfast-bowl",
+          "name": "Breakfast on a Bun",
+          "price": 5.49,
+          "nutrition": {
+            "calories": 520,
+            "sodium": 1240,
+            "fat": 28,
+            "carbs": 40,
+            "protein": 24,
+            "sugar": 2
+          },
+          "tags": [],
+          "swapSuggestion": "whata-apple-slices"
+        },
+        {
+          "id": "whata-taquito",
+          "name": "Taquito",
+          "price": 2.99,
+          "nutrition": {
+            "calories": 280,
+            "sodium": 620,
+            "fat": 14,
+            "carbs": 28,
+            "protein": 10,
+            "sugar": 1
+          },
+          "tags": ["value"],
+          "swapSuggestion": null
+        }
+      ]
+    },
+    {
+      "name": "Sides",
+      "emoji": "🍟",
+      "items": [
+        {
+          "id": "whata-fries-sm",
+          "name": "Fries (Small)",
+          "price": 2.49,
+          "nutrition": {
+            "calories": 340,
+            "sodium": 620,
+            "fat": 16,
+            "carbs": 44,
+            "protein": 4,
+            "sugar": 0
+          },
+          "tags": ["value"],
+          "swapSuggestion": "whata-apple-slices"
+        },
+        {
+          "id": "whata-fries-med",
+          "name": "Fries (Medium)",
+          "price": 2.99,
+          "nutrition": {
+            "calories": 440,
+            "sodium": 820,
+            "fat": 21,
+            "carbs": 56,
+            "protein": 5,
+            "sugar": 0
+          },
+          "tags": [],
+          "swapSuggestion": "whata-apple-slices"
+        },
+        {
+          "id": "whata-fries-lg",
+          "name": "Fries (Large)",
+          "price": 3.49,
+          "nutrition": {
+            "calories": 560,
+            "sodium": 1040,
+            "fat": 27,
+            "carbs": 72,
+            "protein": 6,
+            "sugar": 0
+          },
+          "tags": [],
+          "swapSuggestion": "whata-apple-slices"
+        },
+        {
+          "id": "whata-onion-rings",
+          "name": "Onion Rings",
+          "price": 3.49,
+          "nutrition": {
+            "calories": 520,
+            "sodium": 780,
+            "fat": 24,
+            "carbs": 62,
+            "protein": 6,
+            "sugar": 2
+          },
+          "tags": [],
+          "swapSuggestion": "whata-apple-slices"
+        },
+        {
+          "id": "whata-apple-slices",
+          "name": "Apple Slices",
+          "price": 2.99,
+          "nutrition": {
+            "calories": 50,
+            "sodium": 0,
+            "fat": 0,
+            "carbs": 13,
+            "protein": 0,
+            "sugar": 10
+          },
+          "tags": ["popular"],
+          "swapSuggestion": null
+        }
+      ]
+    },
+    {
+      "name": "Drinks & Shakes",
+      "emoji": "🥤",
+      "items": [
+        {
+          "id": "whata-water",
+          "name": "Bottled Water",
+          "price": 2.49,
+          "nutrition": {
+            "calories": 0,
+            "sodium": 0,
+            "fat": 0,
+            "carbs": 0,
+            "protein": 0,
+            "sugar": 0
+          },
+          "tags": ["popular"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "whata-unsweetened-tea",
+          "name": "Unsweetened Iced Tea (Med)",
+          "price": 2.99,
+          "nutrition": {
+            "calories": 5,
+            "sodium": 10,
+            "fat": 0,
+            "carbs": 1,
+            "protein": 0,
+            "sugar": 0
+          },
+          "tags": ["value"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "whata-lemonade",
+          "name": "Lemonade (Med)",
+          "price": 3.29,
+          "nutrition": {
+            "calories": 190,
+            "sodium": 20,
+            "fat": 0,
+            "carbs": 48,
+            "protein": 0,
+            "sugar": 46
+          },
+          "tags": [],
+          "swapSuggestion": "whata-unsweetened-tea"
+        },
+        {
+          "id": "whata-vanilla-shake",
+          "name": "Vanilla Shake (Regular)",
+          "price": 4.99,
+          "nutrition": {
+            "calories": 580,
+            "sodium": 260,
+            "fat": 20,
+            "carbs": 84,
+            "protein": 14,
+            "sugar": 78
+          },
+          "tags": [],
+          "swapSuggestion": "whata-water"
+        },
+        {
+          "id": "whata-iced-coffee",
+          "name": "Iced Coffee (Med)",
+          "price": 3.49,
+          "nutrition": {
+            "calories": 25,
+            "sodium": 10,
+            "fat": 0,
+            "carbs": 3,
+            "protein": 1,
+            "sugar": 0
+          },
+          "tags": ["value"],
+          "swapSuggestion": null
+        }
+      ]
+    },
+    {
+      "name": "Sauces &amp; Condiments",
+      "emoji": "🫙",
+      "items": [
+        { "id": "wb-fancy-ketchup", "name": "Fancy Ketchup", "price": 0, "nutrition": { "calories": 15, "sodium": 180, "fat": 0, "carbs": 4, "protein": 0, "sugar": 3 }, "tags": [] },
+        { "id": "wb-spicy-ketchup", "name": "Spicy Ketchup", "price": 0, "nutrition": { "calories": 20, "sodium": 220, "fat": 0, "carbs": 5, "protein": 0, "sugar": 4 }, "tags": [] },
+        { "id": "wb-creamy-pepper-sauce", "name": "Creamy Pepper Sauce", "price": 0, "nutrition": { "calories": 120, "sodium": 340, "fat": 12, "carbs": 2, "protein": 0, "sugar": 1 }, "tags": [], "swapSuggestion": "wb-fancy-ketchup" },
+        { "id": "wb-honey-butter", "name": "Honey Butter", "price": 0.50, "nutrition": { "calories": 180, "sodium": 120, "fat": 11, "carbs": 20, "protein": 0, "sugar": 19 }, "tags": [] },
+        { "id": "wb-ranch", "name": "Ranch Dressing", "price": 0.50, "nutrition": { "calories": 200, "sodium": 380, "fat": 21, "carbs": 1, "protein": 0, "sugar": 1 }, "tags": [] }
+      ]
+    }
+  ]
+}

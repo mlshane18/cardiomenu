@@ -1,0 +1,378 @@
+{
+  "restaurant": "Domino's",
+  "id": "dominos",
+  "color": "#006491",
+  "colorLight": "#4D94D4",
+  "categories": [
+    {
+      "name": "Pizza (Medium, 2 slices)",
+      "emoji": "🍕",
+      "items": [
+        {
+          "id": "dom-cheese-pizza-2",
+          "name": "Hand Tossed Cheese (2 slices)",
+          "price": 7.99,
+          "nutrition": {
+            "calories": 550,
+            "sodium": 1040,
+            "fat": 18,
+            "carbs": 72,
+            "protein": 20,
+            "sugar": 4
+          },
+          "tags": ["popular"],
+          "swapSuggestion": "dom-thin-crust-cheese"
+        },
+        {
+          "id": "dom-pepperoni-pizza-2",
+          "name": "Pepperoni (2 slices)",
+          "price": 8.99,
+          "nutrition": {
+            "calories": 630,
+            "sodium": 1380,
+            "fat": 26,
+            "carbs": 72,
+            "protein": 24,
+            "sugar": 4
+          },
+          "tags": ["popular"],
+          "swapSuggestion": "dom-cheese-pizza-2"
+        },
+        {
+          "id": "dom-supreme-pizza-2",
+          "name": "MeatZZa Supreme (2 slices)",
+          "price": 10.99,
+          "nutrition": {
+            "calories": 760,
+            "sodium": 1680,
+            "fat": 36,
+            "carbs": 72,
+            "protein": 32,
+            "sugar": 6
+          },
+          "tags": [],
+          "swapSuggestion": "dom-cheese-pizza-2"
+        },
+        {
+          "id": "dom-meatZZa-pizza-2",
+          "name": "MeatZZa (2 slices)",
+          "price": 10.49,
+          "nutrition": {
+            "calories": 720,
+            "sodium": 1620,
+            "fat": 34,
+            "carbs": 72,
+            "protein": 30,
+            "sugar": 5
+          },
+          "tags": [],
+          "swapSuggestion": "dom-cheese-pizza-2"
+        },
+        {
+          "id": "dom-thin-crust-cheese",
+          "name": "Thin Crust Cheese (2 slices)",
+          "price": 7.49,
+          "nutrition": {
+            "calories": 440,
+            "sodium": 840,
+            "fat": 14,
+            "carbs": 56,
+            "protein": 18,
+            "sugar": 3
+          },
+          "tags": ["value"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "dom-philly-cheese-pizza-2",
+          "name": "Philly Cheese Steak (2 slices)",
+          "price": 9.99,
+          "nutrition": {
+            "calories": 680,
+            "sodium": 1440,
+            "fat": 28,
+            "carbs": 72,
+            "protein": 28,
+            "sugar": 5
+          },
+          "tags": [],
+          "swapSuggestion": "dom-cheese-pizza-2"
+        }
+      ]
+    },
+    {
+      "name": "Chicken",
+      "emoji": "🍗",
+      "items": [
+        {
+          "id": "dom-chicken-wings-8",
+          "name": "Chicken Wings (8 pc)",
+          "price": 6.99,
+          "nutrition": {
+            "calories": 380,
+            "sodium": 1120,
+            "fat": 20,
+            "carbs": 16,
+            "protein": 32,
+            "sugar": 2
+          },
+          "tags": ["popular"],
+          "swapSuggestion": "dom-boneless-chicken-5"
+        },
+        {
+          "id": "dom-boneless-chicken-5",
+          "name": "Boneless Chicken (5 pc)",
+          "price": 5.99,
+          "nutrition": {
+            "calories": 340,
+            "sodium": 980,
+            "fat": 16,
+            "carbs": 20,
+            "protein": 28,
+            "sugar": 1
+          },
+          "tags": ["value"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "dom-wings-buffalo-8",
+          "name": "Buffalo Wings (8 pc)",
+          "price": 6.99,
+          "nutrition": {
+            "calories": 360,
+            "sodium": 1280,
+            "fat": 18,
+            "carbs": 14,
+            "protein": 32,
+            "sugar": 2
+          },
+          "tags": [],
+          "swapSuggestion": "dom-boneless-chicken-5"
+        },
+        {
+          "id": "dom-wings-garlic-parm-8",
+          "name": "Garlic Parmesan Wings (8 pc)",
+          "price": 6.99,
+          "nutrition": {
+            "calories": 420,
+            "sodium": 1240,
+            "fat": 22,
+            "carbs": 18,
+            "protein": 32,
+            "sugar": 3
+          },
+          "tags": [],
+          "swapSuggestion": "dom-boneless-chicken-5"
+        }
+      ]
+    },
+    {
+      "name": "Pasta",
+      "emoji": "🍝",
+      "items": [
+        {
+          "id": "dom-alfredo-pasta",
+          "name": "Alfredo Pasta",
+          "price": 7.99,
+          "nutrition": {
+            "calories": 680,
+            "sodium": 1360,
+            "fat": 28,
+            "carbs": 78,
+            "protein": 22,
+            "sugar": 8
+          },
+          "tags": ["popular"],
+          "swapSuggestion": "dom-marinara-pasta"
+        },
+        {
+          "id": "dom-carbonara-pasta",
+          "name": "Carbonara Pasta",
+          "price": 7.99,
+          "nutrition": {
+            "calories": 720,
+            "sodium": 1520,
+            "fat": 32,
+            "carbs": 80,
+            "protein": 24,
+            "sugar": 6
+          },
+          "tags": [],
+          "swapSuggestion": "dom-marinara-pasta"
+        },
+        {
+          "id": "dom-marinara-pasta",
+          "name": "Marinara Pasta",
+          "price": 6.99,
+          "nutrition": {
+            "calories": 520,
+            "sodium": 1240,
+            "fat": 6,
+            "carbs": 88,
+            "protein": 18,
+            "sugar": 12
+          },
+          "tags": ["value"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "dom-philly-pasta",
+          "name": "Philly Cheese Pasta",
+          "price": 8.49,
+          "nutrition": {
+            "calories": 740,
+            "sodium": 1640,
+            "fat": 30,
+            "carbs": 82,
+            "protein": 28,
+            "sugar": 7
+          },
+          "tags": [],
+          "swapSuggestion": "dom-marinara-pasta"
+        }
+      ]
+    },
+    {
+      "name": "Sides",
+      "emoji": "🍞",
+      "items": [
+        {
+          "id": "dom-breadsticks-8",
+          "name": "Breadsticks (8 pc)",
+          "price": 4.99,
+          "nutrition": {
+            "calories": 360,
+            "sodium": 720,
+            "fat": 10,
+            "carbs": 52,
+            "protein": 10,
+            "sugar": 2
+          },
+          "tags": ["popular"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "dom-cheesy-bread",
+          "name": "Cheesy Bread",
+          "price": 5.99,
+          "nutrition": {
+            "calories": 520,
+            "sodium": 1080,
+            "fat": 26,
+            "carbs": 52,
+            "protein": 18,
+            "sugar": 2
+          },
+          "tags": [],
+          "swapSuggestion": "dom-breadsticks-8"
+        },
+        {
+          "id": "dom-garlic-knots-8",
+          "name": "Garlic Knots (8 pc)",
+          "price": 5.49,
+          "nutrition": {
+            "calories": 420,
+            "sodium": 880,
+            "fat": 14,
+            "carbs": 58,
+            "protein": 12,
+            "sugar": 3
+          },
+          "tags": [],
+          "swapSuggestion": "dom-breadsticks-8"
+        },
+        {
+          "id": "dom-cinnamon-twists",
+          "name": "Cinnamon Bread Twists (8 pc)",
+          "price": 4.99,
+          "nutrition": {
+            "calories": 480,
+            "sodium": 560,
+            "fat": 18,
+            "carbs": 68,
+            "protein": 8,
+            "sugar": 18
+          },
+          "tags": [],
+          "swapSuggestion": "dom-breadsticks-8"
+        },
+        {
+          "id": "dom-wings-sauce",
+          "name": "Dipping Sauce Cup (each)",
+          "price": 0.99,
+          "nutrition": {
+            "calories": 40,
+            "sodium": 340,
+            "fat": 2,
+            "carbs": 4,
+            "protein": 0,
+            "sugar": 2
+          },
+          "tags": ["value"],
+          "swapSuggestion": null
+        }
+      ]
+    },
+    {
+      "name": "Drinks",
+      "emoji": "🥤",
+      "items": [
+        {
+          "id": "dom-soft-drink-2l",
+          "name": "Soft Drink (2-Liter)",
+          "price": 3.49,
+          "nutrition": {
+            "calories": 140,
+            "sodium": 40,
+            "fat": 0,
+            "carbs": 37,
+            "protein": 0,
+            "sugar": 37
+          },
+          "tags": [],
+          "swapSuggestion": "dom-water-bottle"
+        },
+        {
+          "id": "dom-coca-cola-zero",
+          "name": "Coca-Cola Zero Sugar (2-Liter)",
+          "price": 3.49,
+          "nutrition": {
+            "calories": 0,
+            "sodium": 60,
+            "fat": 0,
+            "carbs": 1,
+            "protein": 0,
+            "sugar": 0
+          },
+          "tags": ["popular"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "dom-bottled-water",
+          "name": "Bottled Water",
+          "price": 2.49,
+          "nutrition": {
+            "calories": 0,
+            "sodium": 0,
+            "fat": 0,
+            "carbs": 0,
+            "protein": 0,
+            "sugar": 0
+          },
+          "tags": ["value"],
+          "swapSuggestion": null
+        }
+      ]
+    },
+    {
+      "name": "Sauces &amp; Condiments",
+      "emoji": "🫙",
+      "items": [
+        { "id": "dom-garlic-dipping-sauce", "name": "Garlic Dipping Sauce", "price": 0.50, "nutrition": { "calories": 250, "sodium": 480, "fat": 28, "carbs": 2, "protein": 0, "sugar": 0 }, "tags": [] },
+        { "id": "dom-ranch-dipping-cup", "name": "Ranch Dipping Cup", "price": 0.75, "nutrition": { "calories": 190, "sodium": 340, "fat": 19, "carbs": 2, "protein": 1, "sugar": 1 }, "tags": [], "swapSuggestion": "dom-marinara-dipping-sauce" },
+        { "id": "dom-marinara-dipping-sauce", "name": "Marinara Dipping Sauce", "price": 0.50, "nutrition": { "calories": 60, "sodium": 520, "fat": 0, "carbs": 13, "protein": 1, "sugar": 9 }, "tags": [] },
+        { "id": "dom-blue-cheese", "name": "Blue Cheese Dipping Cup", "price": 0.75, "nutrition": { "calories": 160, "sodium": 520, "fat": 16, "carbs": 2, "protein": 1, "sugar": 0 }, "tags": [] }
+      ]
+    }
+  ]
+}

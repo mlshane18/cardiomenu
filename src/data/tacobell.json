@@ -1,0 +1,320 @@
+{
+  "restaurant": "Taco Bell",
+  "id": "tacobell",
+  "color": "#702082",
+  "colorLight": "#A066C0",
+  "categories": [
+    {
+      "name": "Tacos",
+      "emoji": "🌮",
+      "items": [
+        {
+          "id": "tb-crunchy-taco",
+          "name": "Crunchy Taco",
+          "price": 1.49,
+          "nutrition": {
+            "calories": 170,
+            "sodium": 350,
+            "fat": 9,
+            "carbs": 13,
+            "protein": 8,
+            "sugar": 1
+          },
+          "tags": ["popular", "value"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "tb-soft-taco",
+          "name": "Soft Taco",
+          "price": 1.69,
+          "nutrition": {
+            "calories": 190,
+            "sodium": 420,
+            "fat": 9,
+            "carbs": 20,
+            "protein": 8,
+            "sugar": 1
+          },
+          "tags": ["popular"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "tb-doritos-locos-taco",
+          "name": "Doritos Locos Taco",
+          "price": 2.49,
+          "nutrition": {
+            "calories": 250,
+            "sodium": 580,
+            "fat": 14,
+            "carbs": 24,
+            "protein": 10,
+            "sugar": 2
+          },
+          "tags": ["popular"],
+          "swapSuggestion": "tb-crunchy-taco"
+        },
+        {
+          "id": "tb-cheesy-bean-burrito",
+          "name": "Cheesy Bean Burrito",
+          "price": 1.29,
+          "nutrition": {
+            "calories": 370,
+            "sodium": 1200,
+            "fat": 15,
+            "carbs": 48,
+            "protein": 14,
+            "sugar": 3
+          },
+          "tags": ["value"],
+          "swapSuggestion": "tb-crunchy-taco"
+        }
+      ]
+    },
+    {
+      "name": "Burritos",
+      "emoji": "🌯",
+      "items": [
+        {
+          "id": "tb-beefy-5-layer-burrito",
+          "name": "Beefy 5-Layer Burrito",
+          "price": 1.69,
+          "nutrition": {
+            "calories": 430,
+            "sodium": 1290,
+            "fat": 17,
+            "carbs": 55,
+            "protein": 16,
+            "sugar": 2
+          },
+          "tags": ["popular", "value"],
+          "swapSuggestion": "tb-cheesy-bean-burrito"
+        },
+        {
+          "id": "tb-burrito-supreme",
+          "name": "Burrito Supreme",
+          "price": 4.99,
+          "nutrition": {
+            "calories": 540,
+            "sodium": 1520,
+            "fat": 24,
+            "carbs": 56,
+            "protein": 24,
+            "sugar": 3
+          },
+          "tags": [],
+          "swapSuggestion": "tb-beefy-5-layer-burrito"
+        },
+        {
+          "id": "tb-xxl-grilled-stuft-burrito",
+          "name": "XXL Grilled Stuft Burrito",
+          "price": 3.99,
+          "nutrition": {
+            "calories": 510,
+            "sodium": 1420,
+            "fat": 22,
+            "carbs": 52,
+            "protein": 22,
+            "sugar": 2
+          },
+          "tags": [],
+          "swapSuggestion": "tb-beefy-5-layer-burrito"
+        }
+      ]
+    },
+    {
+      "name": "Specialties",
+      "emoji": "🔥",
+      "items": [
+        {
+          "id": "tb-crunchwrap-supreme",
+          "name": "Crunchwrap Supreme",
+          "price": 3.49,
+          "nutrition": {
+            "calories": 560,
+            "sodium": 1580,
+            "fat": 29,
+            "carbs": 51,
+            "protein": 21,
+            "sugar": 3
+          },
+          "tags": ["popular"],
+          "swapSuggestion": "tb-cheesy-bean-burrito"
+        },
+        {
+          "id": "tb-chalupa-supreme",
+          "name": "Chalupa Supreme",
+          "price": 2.79,
+          "nutrition": {
+            "calories": 390,
+            "sodium": 1070,
+            "fat": 21,
+            "carbs": 38,
+            "protein": 15,
+            "sugar": 2
+          },
+          "tags": ["popular"],
+          "swapSuggestion": "tb-soft-taco"
+        },
+        {
+          "id": "tb-cheesy-gordita-crunch",
+          "name": "Cheesy Gordita Crunch",
+          "price": 2.99,
+          "nutrition": {
+            "calories": 500,
+            "sodium": 1370,
+            "fat": 27,
+            "carbs": 48,
+            "protein": 20,
+            "sugar": 2
+          },
+          "tags": ["popular"],
+          "swapSuggestion": "tb-soft-taco"
+        },
+        {
+          "id": "tb-mexican-pizza",
+          "name": "Mexican Pizza",
+          "price": 3.49,
+          "nutrition": {
+            "calories": 540,
+            "sodium": 1420,
+            "fat": 28,
+            "carbs": 56,
+            "protein": 21,
+            "sugar": 3
+          },
+          "tags": [],
+          "swapSuggestion": "tb-crunchy-taco"
+        },
+        {
+          "id": "tb-quesadilla",
+          "name": "Cheese Quesadilla",
+          "price": 2.49,
+          "nutrition": {
+            "calories": 470,
+            "sodium": 1180,
+            "fat": 26,
+            "carbs": 40,
+            "protein": 16,
+            "sugar": 1
+          },
+          "tags": [],
+          "swapSuggestion": "tb-cheesy-bean-burrito"
+        }
+      ]
+    },
+    {
+      "name": "Sides",
+      "emoji": "🍟",
+      "items": [
+        {
+          "id": "tb-nachos-bellgrande",
+          "name": "Nachos BellGrande",
+          "price": 3.99,
+          "nutrition": {
+            "calories": 470,
+            "sodium": 1340,
+            "fat": 26,
+            "carbs": 45,
+            "protein": 14,
+            "sugar": 2
+          },
+          "tags": ["popular"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "tb-cinnamon-twists",
+          "name": "Cinnamon Twists",
+          "price": 1.49,
+          "nutrition": {
+            "calories": 170,
+            "sodium": 200,
+            "fat": 7,
+            "carbs": 25,
+            "protein": 1,
+            "sugar": 11
+          },
+          "tags": ["value"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "tb-black-beans-rice",
+          "name": "Black Beans & Rice",
+          "price": 1.99,
+          "nutrition": {
+            "calories": 170,
+            "sodium": 680,
+            "fat": 2,
+            "carbs": 31,
+            "protein": 6,
+            "sugar": 1
+          },
+          "tags": [],
+          "swapSuggestion": null
+        }
+      ]
+    },
+    {
+      "name": "Beverages",
+      "emoji": "🥤",
+      "items": [
+        {
+          "id": "tb-coca-cola-medium",
+          "name": "Coca-Cola - Medium",
+          "price": 2.49,
+          "nutrition": {
+            "calories": 220,
+            "sodium": 60,
+            "fat": 0,
+            "carbs": 58,
+            "protein": 0,
+            "sugar": 58
+          },
+          "tags": [],
+          "swapSuggestion": null
+        },
+        {
+          "id": "tb-iced-tea-medium",
+          "name": "Iced Tea - Medium",
+          "price": 2.49,
+          "nutrition": {
+            "calories": 90,
+            "sodium": 30,
+            "fat": 0,
+            "carbs": 24,
+            "protein": 0,
+            "sugar": 24
+          },
+          "tags": [],
+          "swapSuggestion": null
+        },
+        {
+          "id": "tb-water",
+          "name": "Water",
+          "price": 0,
+          "nutrition": {
+            "calories": 0,
+            "sodium": 0,
+            "fat": 0,
+            "carbs": 0,
+            "protein": 0,
+            "sugar": 0
+          },
+          "tags": [],
+          "swapSuggestion": null
+        }
+      ]
+    },
+    {
+      "name": "Sauces &amp; Condiments",
+      "emoji": "🫙",
+      "items": [
+        { "id": "tb-mild-sauce", "name": "Mild Sauce", "price": 0, "nutrition": { "calories": 10, "sodium": 200, "fat": 0, "carbs": 2, "protein": 0, "sugar": 0 }, "tags": [] },
+        { "id": "tb-hot-sauce", "name": "Hot Sauce", "price": 0, "nutrition": { "calories": 15, "sodium": 250, "fat": 0, "carbs": 3, "protein": 0, "sugar": 0 }, "tags": [], "swapSuggestion": "tb-mild-sauce" },
+        { "id": "tb-fire-sauce", "name": "Fire Sauce", "price": 0, "nutrition": { "calories": 20, "sodium": 300, "fat": 1, "carbs": 4, "protein": 0, "sugar": 0 }, "tags": [], "swapSuggestion": "tb-mild-sauce" },
+        { "id": "tb-diablo-sauce", "name": "Diablo Sauce", "price": 0, "nutrition": { "calories": 25, "sodium": 330, "fat": 1, "carbs": 5, "protein": 0, "sugar": 0 }, "tags": [], "swapSuggestion": "tb-mild-sauce" },
+        { "id": "tb-nacho-cheese-sauce", "name": "Nacho Cheese Sauce", "price": 0.50, "nutrition": { "calories": 110, "sodium": 560, "fat": 8, "carbs": 9, "protein": 3, "sugar": 1 }, "tags": [] },
+        { "id": "tb-creamy-jalapeno", "name": "Creamy Jalapeño Sauce", "price": 0.50, "nutrition": { "calories": 70, "sodium": 410, "fat": 5, "carbs": 7, "protein": 1, "sugar": 1 }, "tags": [] }
+      ]
+    }
+  ]
+}

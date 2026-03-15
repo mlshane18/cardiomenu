@@ -1,0 +1,72 @@
+{
+  "restaurant": "Panda Express",
+  "id": "pandaexpress",
+  "color": "#D52B1E",
+  "colorLight": "#FEE2E2",
+  "categories": [
+    {
+      "name": "Entrees",
+      "emoji": "🥡",
+      "items": [
+        { "id": "pe-orange-chicken", "name": "Orange Chicken", "price": 6.20, "nutrition": { "calories": 490, "sodium": 820, "fat": 23, "carbs": 51, "protein": 25, "sugar": 19 }, "tags": ["popular"], "swapSuggestion": "pe-string-bean-chicken" },
+        { "id": "pe-beijing-beef", "name": "Beijing Beef", "price": 6.20, "nutrition": { "calories": 470, "sodium": 890, "fat": 26, "carbs": 35, "protein": 21, "sugar": 16 }, "tags": [], "swapSuggestion": "pe-broccoli-beef" },
+        { "id": "pe-broccoli-beef", "name": "Broccoli Beef", "price": 6.20, "nutrition": { "calories": 150, "sodium": 520, "fat": 7, "carbs": 11, "protein": 9, "sugar": 3 }, "tags": [] },
+        { "id": "pe-kung-pao-chicken", "name": "Kung Pao Chicken", "price": 6.20, "nutrition": { "calories": 290, "sodium": 1010, "fat": 19, "carbs": 14, "protein": 16, "sugar": 5 }, "tags": ["popular"], "swapSuggestion": "pe-string-bean-chicken" },
+        { "id": "pe-grilled-teriyaki-chicken", "name": "Grilled Teriyaki Chicken", "price": 6.20, "nutrition": { "calories": 300, "sodium": 530, "fat": 13, "carbs": 8, "protein": 36, "sugar": 6 }, "tags": [] },
+        { "id": "pe-string-bean-chicken", "name": "String Bean Chicken Breast", "price": 6.20, "nutrition": { "calories": 190, "sodium": 740, "fat": 9, "carbs": 13, "protein": 14, "sugar": 4 }, "tags": [] },
+        { "id": "pe-mushroom-chicken", "name": "Mushroom Chicken", "price": 6.20, "nutrition": { "calories": 220, "sodium": 840, "fat": 14, "carbs": 10, "protein": 13, "sugar": 4 }, "tags": [] },
+        { "id": "pe-sweetfire-chicken", "name": "SweetFire Chicken Breast", "price": 6.20, "nutrition": { "calories": 380, "sodium": 370, "fat": 15, "carbs": 42, "protein": 18, "sugar": 22 }, "tags": [] },
+        { "id": "pe-honey-walnut-shrimp", "name": "Honey Walnut Shrimp", "price": 6.70, "nutrition": { "calories": 360, "sodium": 440, "fat": 23, "carbs": 27, "protein": 13, "sugar": 9 }, "tags": ["popular"] },
+        { "id": "pe-black-pepper-chicken", "name": "Black Pepper Chicken", "price": 6.20, "nutrition": { "calories": 280, "sodium": 1050, "fat": 15, "carbs": 15, "protein": 21, "sugar": 6 }, "tags": [], "swapSuggestion": "pe-grilled-teriyaki-chicken" }
+      ]
+    },
+    {
+      "name": "Sides",
+      "emoji": "🍚",
+      "items": [
+        { "id": "pe-fried-rice", "name": "Fried Rice", "price": 0, "nutrition": { "calories": 520, "sodium": 820, "fat": 16, "carbs": 85, "protein": 11, "sugar": 3 }, "tags": ["popular"], "swapSuggestion": "pe-white-rice" },
+        { "id": "pe-chow-mein", "name": "Chow Mein", "price": 0, "nutrition": { "calories": 510, "sodium": 860, "fat": 22, "carbs": 68, "protein": 13, "sugar": 9 }, "tags": ["popular"], "swapSuggestion": "pe-white-rice" },
+        { "id": "pe-white-rice", "name": "White Steamed Rice", "price": 0, "nutrition": { "calories": 380, "sodium": 0, "fat": 0, "carbs": 86, "protein": 7, "sugar": 0 }, "tags": [] },
+        { "id": "pe-brown-rice", "name": "Brown Steamed Rice", "price": 0, "nutrition": { "calories": 420, "sodium": 0, "fat": 4, "carbs": 86, "protein": 9, "sugar": 0 }, "tags": [] },
+        { "id": "pe-super-greens", "name": "Super Greens", "price": 0, "nutrition": { "calories": 90, "sodium": 320, "fat": 3, "carbs": 10, "protein": 6, "sugar": 3 }, "tags": [] }
+      ]
+    },
+    {
+      "name": "Plates",
+      "emoji": "🍽️",
+      "items": [
+        { "id": "pe-bowl", "name": "Bowl (1 Entree + 1 Side)", "price": 8.80, "nutrition": { "calories": 0, "sodium": 0, "fat": 0, "carbs": 0, "protein": 0, "sugar": 0 }, "tags": ["popular"] },
+        { "id": "pe-plate", "name": "Plate (2 Entrees + 1 Side)", "price": 10.40, "nutrition": { "calories": 0, "sodium": 0, "fat": 0, "carbs": 0, "protein": 0, "sugar": 0 }, "tags": ["popular"] },
+        { "id": "pe-bigger-plate", "name": "Bigger Plate (3 Entrees + 1 Side)", "price": 12.00, "nutrition": { "calories": 0, "sodium": 0, "fat": 0, "carbs": 0, "protein": 0, "sugar": 0 }, "tags": [] }
+      ]
+    },
+    {
+      "name": "Appetizers",
+      "emoji": "🥟",
+      "items": [
+        { "id": "pe-chicken-egg-roll", "name": "Chicken Egg Roll", "price": 2.20, "nutrition": { "calories": 200, "sodium": 390, "fat": 9, "carbs": 20, "protein": 8, "sugar": 2 }, "tags": ["popular"] },
+        { "id": "pe-veggie-spring-roll", "name": "Veggie Spring Roll (2pc)", "price": 2.20, "nutrition": { "calories": 190, "sodium": 360, "fat": 8, "carbs": 22, "protein": 4, "sugar": 1 }, "tags": [] },
+        { "id": "pe-cream-cheese-rangoon", "name": "Cream Cheese Rangoon (3pc)", "price": 2.60, "nutrition": { "calories": 190, "sodium": 310, "fat": 8, "carbs": 24, "protein": 5, "sugar": 1 }, "tags": ["popular"] }
+      ]
+    },
+    {
+      "name": "Drinks",
+      "emoji": "🥤",
+      "items": [
+        { "id": "pe-small-drink", "name": "Small Fountain Drink", "price": 2.30, "nutrition": { "calories": 140, "sodium": 15, "fat": 0, "carbs": 39, "protein": 0, "sugar": 39 }, "tags": [] },
+        { "id": "pe-medium-drink", "name": "Medium Fountain Drink", "price": 2.60, "nutrition": { "calories": 210, "sodium": 20, "fat": 0, "carbs": 58, "protein": 0, "sugar": 58 }, "tags": [], "swapSuggestion": "pe-small-drink" },
+        { "id": "pe-water", "name": "Bottled Water", "price": 2.30, "nutrition": { "calories": 0, "sodium": 0, "fat": 0, "carbs": 0, "protein": 0, "sugar": 0 }, "tags": [] }
+      ]
+    },
+    {
+      "name": "Sauces &amp; Condiments",
+      "emoji": "🫙",
+      "items": [
+        { "id": "pe-soy-sauce", "name": "Soy Sauce Packet", "price": 0, "nutrition": { "calories": 10, "sodium": 920, "fat": 0, "carbs": 1, "protein": 2, "sugar": 0 }, "tags": [], "swapSuggestion": "pe-hot-mustard" },
+        { "id": "pe-sweet-chili-sauce", "name": "Sweet Chili Sauce", "price": 0, "nutrition": { "calories": 60, "sodium": 480, "fat": 0, "carbs": 14, "protein": 0, "sugar": 13 }, "tags": [] },
+        { "id": "pe-teriyaki-sauce", "name": "Teriyaki Sauce", "price": 0, "nutrition": { "calories": 80, "sodium": 620, "fat": 2, "carbs": 14, "protein": 2, "sugar": 11 }, "tags": [] },
+        { "id": "pe-hot-mustard", "name": "Hot Mustard Sauce", "price": 0, "nutrition": { "calories": 40, "sodium": 290, "fat": 2, "carbs": 5, "protein": 1, "sugar": 2 }, "tags": [] }
+      ]
+    }
+  ]
+}

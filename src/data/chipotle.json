@@ -1,0 +1,380 @@
+{
+  "restaurant": "Chipotle",
+  "id": "chipotle",
+  "color": "#A81612",
+  "colorLight": "#E74C3C",
+  "categories": [
+    {
+      "name": "Bowls",
+      "emoji": "🥗",
+      "items": [
+        {
+          "id": "chip-chicken-bowl",
+          "name": "Chicken Bowl",
+          "price": 8.50,
+          "nutrition": {
+            "calories": 620,
+            "sodium": 1380,
+            "fat": 22,
+            "carbs": 68,
+            "protein": 38,
+            "sugar": 3
+          },
+          "tags": ["popular"],
+          "swapSuggestion": "chip-veggie-bowl"
+        },
+        {
+          "id": "chip-steak-bowl",
+          "name": "Steak Bowl",
+          "price": 9.25,
+          "nutrition": {
+            "calories": 740,
+            "sodium": 1520,
+            "fat": 32,
+            "carbs": 68,
+            "protein": 42,
+            "sugar": 3
+          },
+          "tags": ["popular"],
+          "swapSuggestion": "chip-chicken-bowl"
+        },
+        {
+          "id": "chip-barbacoa-bowl",
+          "name": "Barbacoa Bowl",
+          "price": 9.25,
+          "nutrition": {
+            "calories": 750,
+            "sodium": 1580,
+            "fat": 35,
+            "carbs": 68,
+            "protein": 40,
+            "sugar": 3
+          },
+          "tags": [],
+          "swapSuggestion": "chip-chicken-bowl"
+        },
+        {
+          "id": "chip-sofritas-bowl",
+          "name": "Sofritas Bowl",
+          "price": 8.50,
+          "nutrition": {
+            "calories": 620,
+            "sodium": 1250,
+            "fat": 20,
+            "carbs": 70,
+            "protein": 30,
+            "sugar": 2
+          },
+          "tags": [],
+          "swapSuggestion": null
+        },
+        {
+          "id": "chip-veggie-bowl",
+          "name": "Vegetarian Bowl",
+          "price": 7.75,
+          "nutrition": {
+            "calories": 540,
+            "sodium": 1100,
+            "fat": 18,
+            "carbs": 72,
+            "protein": 20,
+            "sugar": 3
+          },
+          "tags": [],
+          "swapSuggestion": null
+        }
+      ]
+    },
+    {
+      "name": "Burritos",
+      "emoji": "🌯",
+      "items": [
+        {
+          "id": "chip-chicken-burrito",
+          "name": "Chicken Burrito",
+          "price": 8.50,
+          "nutrition": {
+            "calories": 700,
+            "sodium": 1450,
+            "fat": 24,
+            "carbs": 74,
+            "protein": 40,
+            "sugar": 3
+          },
+          "tags": ["popular"],
+          "swapSuggestion": "chip-veggie-burrito"
+        },
+        {
+          "id": "chip-steak-burrito",
+          "name": "Steak Burrito",
+          "price": 9.25,
+          "nutrition": {
+            "calories": 820,
+            "sodium": 1580,
+            "fat": 34,
+            "carbs": 74,
+            "protein": 44,
+            "sugar": 3
+          },
+          "tags": ["popular"],
+          "swapSuggestion": "chip-chicken-burrito"
+        },
+        {
+          "id": "chip-barbacoa-burrito",
+          "name": "Barbacoa Burrito",
+          "price": 9.25,
+          "nutrition": {
+            "calories": 830,
+            "sodium": 1650,
+            "fat": 37,
+            "carbs": 74,
+            "protein": 42,
+            "sugar": 3
+          },
+          "tags": [],
+          "swapSuggestion": "chip-chicken-burrito"
+        },
+        {
+          "id": "chip-veggie-burrito",
+          "name": "Vegetarian Burrito",
+          "price": 7.75,
+          "nutrition": {
+            "calories": 620,
+            "sodium": 1160,
+            "fat": 20,
+            "carbs": 78,
+            "protein": 22,
+            "sugar": 3
+          },
+          "tags": [],
+          "swapSuggestion": null
+        }
+      ]
+    },
+    {
+      "name": "Tacos",
+      "emoji": "🌮",
+      "items": [
+        {
+          "id": "chip-chicken-tacos-3",
+          "name": "Chicken Tacos - 3 Piece",
+          "price": 8.50,
+          "nutrition": {
+            "calories": 570,
+            "sodium": 1300,
+            "fat": 20,
+            "carbs": 66,
+            "protein": 36,
+            "sugar": 2
+          },
+          "tags": ["popular"],
+          "swapSuggestion": "chip-veggie-tacos-3"
+        },
+        {
+          "id": "chip-steak-tacos-3",
+          "name": "Steak Tacos - 3 Piece",
+          "price": 9.25,
+          "nutrition": {
+            "calories": 690,
+            "sodium": 1440,
+            "fat": 30,
+            "carbs": 66,
+            "protein": 40,
+            "sugar": 2
+          },
+          "tags": [],
+          "swapSuggestion": "chip-chicken-tacos-3"
+        },
+        {
+          "id": "chip-barbacoa-tacos-3",
+          "name": "Barbacoa Tacos - 3 Piece",
+          "price": 9.25,
+          "nutrition": {
+            "calories": 700,
+            "sodium": 1520,
+            "fat": 33,
+            "carbs": 66,
+            "protein": 38,
+            "sugar": 2
+          },
+          "tags": [],
+          "swapSuggestion": "chip-chicken-tacos-3"
+        },
+        {
+          "id": "chip-veggie-tacos-3",
+          "name": "Vegetarian Tacos - 3 Piece",
+          "price": 7.75,
+          "nutrition": {
+            "calories": 490,
+            "sodium": 1050,
+            "fat": 16,
+            "carbs": 70,
+            "protein": 18,
+            "sugar": 2
+          },
+          "tags": [],
+          "swapSuggestion": null
+        }
+      ]
+    },
+    {
+      "name": "Sides & Extras",
+      "emoji": "🫒",
+      "items": [
+        {
+          "id": "chip-chips-guac",
+          "name": "Chips & Guacamole",
+          "price": 3.50,
+          "nutrition": {
+            "calories": 570,
+            "sodium": 840,
+            "fat": 35,
+            "carbs": 50,
+            "protein": 8,
+            "sugar": 2
+          },
+          "tags": ["popular"],
+          "swapSuggestion": "chip-chips-salsa"
+        },
+        {
+          "id": "chip-chips-salsa",
+          "name": "Chips & Salsa",
+          "price": 2.50,
+          "nutrition": {
+            "calories": 220,
+            "sodium": 560,
+            "fat": 9,
+            "carbs": 29,
+            "protein": 4,
+            "sugar": 1
+          },
+          "tags": [],
+          "swapSuggestion": null
+        },
+        {
+          "id": "chip-queso",
+          "name": "Queso",
+          "price": 2.00,
+          "nutrition": {
+            "calories": 120,
+            "sodium": 420,
+            "fat": 9,
+            "carbs": 3,
+            "protein": 5,
+            "sugar": 0
+          },
+          "tags": [],
+          "swapSuggestion": null
+        },
+        {
+          "id": "chip-side-rice",
+          "name": "Side of Rice",
+          "price": 2.25,
+          "nutrition": {
+            "calories": 180,
+            "sodium": 540,
+            "fat": 3,
+            "carbs": 36,
+            "protein": 4,
+            "sugar": 0
+          },
+          "tags": [],
+          "swapSuggestion": null
+        },
+        {
+          "id": "chip-side-beans",
+          "name": "Side of Beans",
+          "price": 2.25,
+          "nutrition": {
+            "calories": 160,
+            "sodium": 380,
+            "fat": 2,
+            "carbs": 28,
+            "protein": 10,
+            "sugar": 1
+          },
+          "tags": [],
+          "swapSuggestion": null
+        }
+      ]
+    },
+    {
+      "name": "Beverages",
+      "emoji": "🥤",
+      "items": [
+        {
+          "id": "chip-coca-cola-medium",
+          "name": "Coca-Cola - Medium",
+          "price": 2.65,
+          "nutrition": {
+            "calories": 220,
+            "sodium": 60,
+            "fat": 0,
+            "carbs": 58,
+            "protein": 0,
+            "sugar": 58
+          },
+          "tags": [],
+          "swapSuggestion": null
+        },
+        {
+          "id": "chip-sprite-medium",
+          "name": "Sprite - Medium",
+          "price": 2.65,
+          "nutrition": {
+            "calories": 210,
+            "sodium": 90,
+            "fat": 0,
+            "carbs": 56,
+            "protein": 0,
+            "sugar": 56
+          },
+          "tags": [],
+          "swapSuggestion": null
+        },
+        {
+          "id": "chip-iced-tea-medium",
+          "name": "Iced Tea - Medium",
+          "price": 2.65,
+          "nutrition": {
+            "calories": 0,
+            "sodium": 20,
+            "fat": 0,
+            "carbs": 0,
+            "protein": 0,
+            "sugar": 0
+          },
+          "tags": [],
+          "swapSuggestion": null
+        },
+        {
+          "id": "chip-water",
+          "name": "Water",
+          "price": 0,
+          "nutrition": {
+            "calories": 0,
+            "sodium": 0,
+            "fat": 0,
+            "carbs": 0,
+            "protein": 0,
+            "sugar": 0
+          },
+          "tags": [],
+          "swapSuggestion": null
+        }
+      ]
+    },
+    {
+      "name": "Sauces &amp; Condiments",
+      "emoji": "🫙",
+      "items": [
+        { "id": "chip-sour-cream", "name": "Sour Cream", "price": 0.75, "nutrition": { "calories": 110, "sodium": 45, "fat": 11, "carbs": 1, "protein": 1, "sugar": 0 }, "tags": [] },
+        { "id": "chip-guacamole", "name": "Guacamole", "price": 2.25, "nutrition": { "calories": 230, "sodium": 140, "fat": 21, "carbs": 11, "protein": 3, "sugar": 1 }, "tags": [] },
+        { "id": "chip-fresh-tomato-salsa", "name": "Fresh Tomato Salsa", "price": 0.25, "nutrition": { "calories": 20, "sodium": 230, "fat": 0, "carbs": 4, "protein": 1, "sugar": 1 }, "tags": [] },
+        { "id": "chip-tomatillo-red-salsa", "name": "Tomatillo Red Salsa", "price": 0.25, "nutrition": { "calories": 30, "sodium": 390, "fat": 0, "carbs": 6, "protein": 1, "sugar": 2 }, "tags": [], "swapSuggestion": "chip-fresh-tomato-salsa" },
+        { "id": "chip-tomatillo-green-salsa", "name": "Tomatillo Green Salsa", "price": 0.25, "nutrition": { "calories": 15, "sodium": 340, "fat": 0, "carbs": 3, "protein": 0, "sugar": 1 }, "tags": [] },
+        { "id": "chip-cheese", "name": "Cheese", "price": 1.00, "nutrition": { "calories": 110, "sodium": 370, "fat": 9, "carbs": 1, "protein": 7, "sugar": 0 }, "tags": [] }
+      ]
+    }
+  ]
+}

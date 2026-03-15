@@ -1,0 +1,77 @@
+{
+  "restaurant": "McDonald's",
+  "id": "mcdonalds",
+  "color": "#DA291C",
+  "colorLight": "#FEE2E2",
+  "categories": [
+    {
+      "name": "Burgers",
+      "emoji": "🍔",
+      "items": [
+        { "id": "mcd-hamburger", "name": "Hamburger", "price": 2.49, "nutrition": { "calories": 250, "sodium": 510, "fat": 9, "carbs": 31, "protein": 12, "sugar": 6 }, "tags": ["value"] },
+        { "id": "mcd-cheeseburger", "name": "Cheeseburger", "price": 2.99, "nutrition": { "calories": 300, "sodium": 720, "fat": 13, "carbs": 32, "protein": 15, "sugar": 7 }, "tags": ["value"], "swapSuggestion": "mcd-hamburger" },
+        { "id": "mcd-mcdouble", "name": "McDouble", "price": 3.49, "nutrition": { "calories": 400, "sodium": 920, "fat": 20, "carbs": 33, "protein": 22, "sugar": 7 }, "tags": ["popular"], "swapSuggestion": "mcd-hamburger" },
+        { "id": "mcd-qpc", "name": "Quarter Pounder with Cheese", "price": 6.19, "nutrition": { "calories": 520, "sodium": 1140, "fat": 26, "carbs": 42, "protein": 30, "sugar": 10 }, "tags": ["popular"], "swapSuggestion": "mcd-mcdouble" },
+        { "id": "mcd-big-mac", "name": "Big Mac", "price": 5.99, "nutrition": { "calories": 550, "sodium": 1010, "fat": 30, "carbs": 45, "protein": 25, "sugar": 9 }, "tags": ["popular"], "swapSuggestion": "mcd-mcdouble" },
+        { "id": "mcd-double-qpc", "name": "Double Quarter Pounder", "price": 7.79, "nutrition": { "calories": 740, "sodium": 1360, "fat": 42, "carbs": 42, "protein": 48, "sugar": 10 }, "tags": [], "swapSuggestion": "mcd-qpc" }
+      ]
+    },
+    {
+      "name": "Chicken",
+      "emoji": "🍗",
+      "items": [
+        { "id": "mcd-mcchicken", "name": "McChicken", "price": 2.49, "nutrition": { "calories": 400, "sodium": 560, "fat": 21, "carbs": 39, "protein": 14, "sugar": 5 }, "tags": ["value"] },
+        { "id": "mcd-10pc-nuggets", "name": "10pc Chicken McNuggets", "price": 5.49, "nutrition": { "calories": 410, "sodium": 900, "fat": 24, "carbs": 25, "protein": 23, "sugar": 0 }, "tags": ["popular"], "swapSuggestion": "mcd-4pc-nuggets" },
+        { "id": "mcd-4pc-nuggets", "name": "4pc Chicken McNuggets", "price": 2.79, "nutrition": { "calories": 170, "sodium": 360, "fat": 10, "carbs": 10, "protein": 9, "sugar": 0 }, "tags": ["value"] },
+        { "id": "mcd-crispy-chicken", "name": "Crispy Chicken Sandwich", "price": 5.49, "nutrition": { "calories": 470, "sodium": 1140, "fat": 20, "carbs": 46, "protein": 26, "sugar": 7 }, "tags": [], "swapSuggestion": "mcd-mcchicken" },
+        { "id": "mcd-grilled-chicken", "name": "Grilled Chicken Sandwich", "price": 5.99, "nutrition": { "calories": 380, "sodium": 820, "fat": 11, "carbs": 43, "protein": 32, "sugar": 9 }, "tags": [] }
+      ]
+    },
+    {
+      "name": "Sides",
+      "emoji": "🍟",
+      "items": [
+        { "id": "mcd-small-fries", "name": "Small Fries", "price": 2.39, "nutrition": { "calories": 220, "sodium": 180, "fat": 10, "carbs": 29, "protein": 3, "sugar": 0 }, "tags": ["value"] },
+        { "id": "mcd-medium-fries", "name": "Medium Fries", "price": 3.29, "nutrition": { "calories": 320, "sodium": 260, "fat": 15, "carbs": 43, "protein": 5, "sugar": 0 }, "tags": ["popular"], "swapSuggestion": "mcd-small-fries" },
+        { "id": "mcd-large-fries", "name": "Large Fries", "price": 3.99, "nutrition": { "calories": 480, "sodium": 400, "fat": 23, "carbs": 65, "protein": 7, "sugar": 0 }, "tags": [], "swapSuggestion": "mcd-medium-fries" },
+        { "id": "mcd-side-salad", "name": "Side Salad", "price": 2.99, "nutrition": { "calories": 15, "sodium": 10, "fat": 0, "carbs": 3, "protein": 1, "sugar": 2 }, "tags": [] },
+        { "id": "mcd-apple-slices", "name": "Apple Slices", "price": 1.49, "nutrition": { "calories": 15, "sodium": 0, "fat": 0, "carbs": 4, "protein": 0, "sugar": 3 }, "tags": [] }
+      ]
+    },
+    {
+      "name": "Drinks",
+      "emoji": "🥤",
+      "items": [
+        { "id": "mcd-small-coke", "name": "Small Coca-Cola", "price": 1.49, "nutrition": { "calories": 140, "sodium": 15, "fat": 0, "carbs": 39, "protein": 0, "sugar": 39 }, "tags": ["popular"] },
+        { "id": "mcd-medium-coke", "name": "Medium Coca-Cola", "price": 1.99, "nutrition": { "calories": 210, "sodium": 20, "fat": 0, "carbs": 58, "protein": 0, "sugar": 58 }, "tags": [], "swapSuggestion": "mcd-small-coke" },
+        { "id": "mcd-water", "name": "Dasani Water", "price": 1.29, "nutrition": { "calories": 0, "sodium": 0, "fat": 0, "carbs": 0, "protein": 0, "sugar": 0 }, "tags": [] },
+        { "id": "mcd-diet-coke", "name": "Diet Coke (Medium)", "price": 1.99, "nutrition": { "calories": 0, "sodium": 30, "fat": 0, "carbs": 0, "protein": 0, "sugar": 0 }, "tags": [] },
+        { "id": "mcd-sweet-tea", "name": "Sweet Tea (Medium)", "price": 1.49, "nutrition": { "calories": 160, "sodium": 10, "fat": 0, "carbs": 43, "protein": 0, "sugar": 43 }, "tags": [] },
+        { "id": "mcd-coffee", "name": "Coffee (Medium)", "price": 1.69, "nutrition": { "calories": 0, "sodium": 10, "fat": 0, "carbs": 0, "protein": 0, "sugar": 0 }, "tags": [] }
+      ]
+    },
+    {
+      "name": "Breakfast",
+      "emoji": "🥞",
+      "items": [
+        { "id": "mcd-egg-mcmuffin", "name": "Egg McMuffin", "price": 4.49, "nutrition": { "calories": 300, "sodium": 770, "fat": 13, "carbs": 30, "protein": 17, "sugar": 3 }, "tags": ["popular"] },
+        { "id": "mcd-sausage-mcmuffin", "name": "Sausage McMuffin", "price": 2.49, "nutrition": { "calories": 400, "sodium": 780, "fat": 26, "carbs": 29, "protein": 14, "sugar": 2 }, "tags": ["value"] },
+        { "id": "mcd-hotcakes", "name": "Hotcakes", "price": 4.49, "nutrition": { "calories": 580, "sodium": 600, "fat": 16, "carbs": 101, "protein": 9, "sugar": 45 }, "tags": [] },
+        { "id": "mcd-hash-brown", "name": "Hash Brown", "price": 1.89, "nutrition": { "calories": 140, "sodium": 310, "fat": 8, "carbs": 15, "protein": 1, "sugar": 0 }, "tags": ["value"] },
+        { "id": "mcd-fruit-yogurt", "name": "Fruit & Yogurt Parfait", "price": 2.49, "nutrition": { "calories": 150, "sodium": 70, "fat": 2, "carbs": 30, "protein": 4, "sugar": 22 }, "tags": [] }
+      ]
+    },
+    {
+      "name": "Sauces &amp; Condiments",
+      "emoji": "🫙",
+      "items": [
+        { "id": "mcd-big-mac-sauce", "name": "Big Mac Sauce", "price": 0, "nutrition": { "calories": 100, "sodium": 290, "fat": 11, "carbs": 1, "protein": 0, "sugar": 1 }, "tags": [], "swapSuggestion": "mcd-mustard" },
+        { "id": "mcd-ketchup", "name": "Ketchup Packet", "price": 0, "nutrition": { "calories": 15, "sodium": 180, "fat": 0, "carbs": 4, "protein": 0, "sugar": 3 }, "tags": [] },
+        { "id": "mcd-mustard", "name": "Mustard Packet", "price": 0, "nutrition": { "calories": 3, "sodium": 55, "fat": 0, "carbs": 0, "protein": 0, "sugar": 0 }, "tags": [] },
+        { "id": "mcd-hot-mustard", "name": "Hot Mustard", "price": 0, "nutrition": { "calories": 60, "sodium": 320, "fat": 3, "carbs": 7, "protein": 1, "sugar": 5 }, "tags": [], "swapSuggestion": "mcd-mustard" },
+        { "id": "mcd-ranch", "name": "Ranch Dressing", "price": 0.50, "nutrition": { "calories": 200, "sodium": 360, "fat": 21, "carbs": 1, "protein": 0, "sugar": 1 }, "tags": [], "swapSuggestion": "mcd-mustard" },
+        { "id": "mcd-sweet-sour", "name": "Sweet &amp; Sour Sauce", "price": 0, "nutrition": { "calories": 45, "sodium": 250, "fat": 0, "carbs": 11, "protein": 0, "sugar": 10 }, "tags": [] }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,313 @@
+{
+  "restaurant": "Wendy's",
+  "id": "wendys",
+  "color": "#00497B",
+  "colorLight": "#4A8BC2",
+  "categories": [
+    {
+      "name": "Burgers",
+      "emoji": "🍔",
+      "items": [
+        {
+          "id": "wen-daves-single",
+          "name": "Dave's Single",
+          "price": 4.19,
+          "nutrition": {
+            "calories": 250,
+            "sodium": 580,
+            "fat": 11,
+            "carbs": 28,
+            "protein": 15,
+            "sugar": 6
+          },
+          "tags": ["popular"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "wen-daves-double",
+          "name": "Dave's Double",
+          "price": 5.19,
+          "nutrition": {
+            "calories": 430,
+            "sodium": 920,
+            "fat": 19,
+            "carbs": 28,
+            "protein": 29,
+            "sugar": 6
+          },
+          "tags": ["popular"],
+          "swapSuggestion": "wen-daves-single"
+        },
+        {
+          "id": "wen-baconator",
+          "name": "Baconator",
+          "price": 6.69,
+          "nutrition": {
+            "calories": 570,
+            "sodium": 1380,
+            "fat": 35,
+            "carbs": 28,
+            "protein": 35,
+            "sugar": 6
+          },
+          "tags": [],
+          "swapSuggestion": "wen-daves-double"
+        },
+        {
+          "id": "wen-jr-cheeseburger",
+          "name": "Jr. Cheeseburger",
+          "price": 2.19,
+          "nutrition": {
+            "calories": 200,
+            "sodium": 420,
+            "fat": 8,
+            "carbs": 25,
+            "protein": 10,
+            "sugar": 5
+          },
+          "tags": ["value"],
+          "swapSuggestion": null
+        }
+      ]
+    },
+    {
+      "name": "Chicken",
+      "emoji": "🍗",
+      "items": [
+        {
+          "id": "wen-spicy-chicken-sandwich",
+          "name": "Spicy Chicken Sandwich",
+          "price": 4.49,
+          "nutrition": {
+            "calories": 360,
+            "sodium": 810,
+            "fat": 15,
+            "carbs": 41,
+            "protein": 16,
+            "sugar": 4
+          },
+          "tags": ["popular"],
+          "swapSuggestion": "wen-classic-chicken-sandwich"
+        },
+        {
+          "id": "wen-classic-chicken-sandwich",
+          "name": "Classic Chicken Sandwich",
+          "price": 4.49,
+          "nutrition": {
+            "calories": 320,
+            "sodium": 650,
+            "fat": 12,
+            "carbs": 41,
+            "protein": 16,
+            "sugar": 4
+          },
+          "tags": ["popular"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "wen-nuggets-6pc",
+          "name": "Nuggets - 6 Piece",
+          "price": 2.99,
+          "nutrition": {
+            "calories": 190,
+            "sodium": 390,
+            "fat": 10,
+            "carbs": 12,
+            "protein": 13,
+            "sugar": 0
+          },
+          "tags": ["popular", "value"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "wen-nuggets-10pc",
+          "name": "Nuggets - 10 Piece",
+          "price": 4.19,
+          "nutrition": {
+            "calories": 320,
+            "sodium": 650,
+            "fat": 17,
+            "carbs": 20,
+            "protein": 22,
+            "sugar": 0
+          },
+          "tags": [],
+          "swapSuggestion": "wen-nuggets-6pc"
+        }
+      ]
+    },
+    {
+      "name": "Sides",
+      "emoji": "🍟",
+      "items": [
+        {
+          "id": "wen-chili-small",
+          "name": "Chili - Small",
+          "price": 2.29,
+          "nutrition": {
+            "calories": 170,
+            "sodium": 820,
+            "fat": 5,
+            "carbs": 17,
+            "protein": 14,
+            "sugar": 2
+          },
+          "tags": ["value"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "wen-chili-large",
+          "name": "Chili - Large",
+          "price": 3.49,
+          "nutrition": {
+            "calories": 280,
+            "sodium": 1340,
+            "fat": 8,
+            "carbs": 28,
+            "protein": 23,
+            "sugar": 3
+          },
+          "tags": [],
+          "swapSuggestion": "wen-chili-small"
+        },
+        {
+          "id": "wen-baked-potato",
+          "name": "Baked Potato",
+          "price": 3.99,
+          "nutrition": {
+            "calories": 280,
+            "sodium": 450,
+            "fat": 6,
+            "carbs": 51,
+            "protein": 8,
+            "sugar": 2
+          },
+          "tags": [],
+          "swapSuggestion": null
+        },
+        {
+          "id": "wen-fries-small",
+          "name": "Fries - Small",
+          "price": 2.19,
+          "nutrition": {
+            "calories": 220,
+            "sodium": 320,
+            "fat": 10,
+            "carbs": 29,
+            "protein": 3,
+            "sugar": 0
+          },
+          "tags": ["popular"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "wen-fries-medium",
+          "name": "Fries - Medium",
+          "price": 2.69,
+          "nutrition": {
+            "calories": 320,
+            "sodium": 470,
+            "fat": 14,
+            "carbs": 42,
+            "protein": 4,
+            "sugar": 0
+          },
+          "tags": [],
+          "swapSuggestion": "wen-fries-small"
+        },
+        {
+          "id": "wen-apple-bites",
+          "name": "Apple Bites",
+          "price": 1.99,
+          "nutrition": {
+            "calories": 80,
+            "sodium": 10,
+            "fat": 0,
+            "carbs": 21,
+            "protein": 0,
+            "sugar": 18
+          },
+          "tags": [],
+          "swapSuggestion": null
+        }
+      ]
+    },
+    {
+      "name": "Frosty & Beverages",
+      "emoji": "🥤",
+      "items": [
+        {
+          "id": "wen-frosty-small",
+          "name": "Frosty - Small",
+          "price": 2.49,
+          "nutrition": {
+            "calories": 350,
+            "sodium": 150,
+            "fat": 9,
+            "carbs": 58,
+            "protein": 8,
+            "sugar": 56
+          },
+          "tags": ["popular"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "wen-lemonade-small",
+          "name": "Lemonade - Small",
+          "price": 2.19,
+          "nutrition": {
+            "calories": 160,
+            "sodium": 20,
+            "fat": 0,
+            "carbs": 42,
+            "protein": 0,
+            "sugar": 41
+          },
+          "tags": [],
+          "swapSuggestion": null
+        },
+        {
+          "id": "wen-iced-tea-small",
+          "name": "Iced Tea - Small",
+          "price": 2.19,
+          "nutrition": {
+            "calories": 0,
+            "sodium": 20,
+            "fat": 0,
+            "carbs": 0,
+            "protein": 0,
+            "sugar": 0
+          },
+          "tags": [],
+          "swapSuggestion": null
+        },
+        {
+          "id": "wen-water",
+          "name": "Water",
+          "price": 0,
+          "nutrition": {
+            "calories": 0,
+            "sodium": 0,
+            "fat": 0,
+            "carbs": 0,
+            "protein": 0,
+            "sugar": 0
+          },
+          "tags": [],
+          "swapSuggestion": null
+        }
+      ]
+    },
+    {
+      "name": "Sauces &amp; Condiments",
+      "emoji": "🫙",
+      "items": [
+        { "id": "wen-ketchup", "name": "Ketchup Packet", "price": 0, "nutrition": { "calories": 15, "sodium": 180, "fat": 0, "carbs": 4, "protein": 0, "sugar": 3 }, "tags": [] },
+        { "id": "wen-ranch", "name": "Ranch Dressing", "price": 0.50, "nutrition": { "calories": 200, "sodium": 370, "fat": 21, "carbs": 1, "protein": 0, "sugar": 1 }, "tags": [], "swapSuggestion": "wen-honey-mustard" },
+        { "id": "wen-bbq-sauce", "name": "Barbecue Sauce", "price": 0, "nutrition": { "calories": 45, "sodium": 380, "fat": 0, "carbs": 11, "protein": 0, "sugar": 10 }, "tags": [] },
+        { "id": "wen-honey-mustard", "name": "Honey Mustard", "price": 0, "nutrition": { "calories": 35, "sodium": 200, "fat": 0, "carbs": 9, "protein": 0, "sugar": 8 }, "tags": [] },
+        { "id": "wen-sawesome-sauce", "name": "S'Awesome Sauce", "price": 0, "nutrition": { "calories": 80, "sodium": 340, "fat": 5, "carbs": 9, "protein": 0, "sugar": 7 }, "tags": [], "swapSuggestion": "wen-honey-mustard" }
+      ]
+    }
+  ]
+}

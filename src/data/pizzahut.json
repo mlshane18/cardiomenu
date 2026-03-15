@@ -1,0 +1,393 @@
+{
+  "restaurant": "Pizza Hut",
+  "id": "pizzahut",
+  "color": "#EE3A23",
+  "colorLight": "#F28B7D",
+  "categories": [
+    {
+      "name": "Pizza (Medium, 2 slices)",
+      "emoji": "🍕",
+      "items": [
+        {
+          "id": "ph-hand-tossed-cheese-2",
+          "name": "Hand Tossed Cheese (2 slices)",
+          "price": 7.99,
+          "nutrition": {
+            "calories": 560,
+            "sodium": 1120,
+            "fat": 20,
+            "carbs": 70,
+            "protein": 22,
+            "sugar": 4
+          },
+          "tags": ["popular"],
+          "swapSuggestion": "ph-veggie-lovers-2"
+        },
+        {
+          "id": "ph-pepperoni-pizza-2",
+          "name": "Pepperoni (2 slices)",
+          "price": 8.99,
+          "nutrition": {
+            "calories": 640,
+            "sodium": 1420,
+            "fat": 28,
+            "carbs": 70,
+            "protein": 26,
+            "sugar": 4
+          },
+          "tags": ["popular"],
+          "swapSuggestion": "ph-veggie-lovers-2"
+        },
+        {
+          "id": "ph-meat-lovers-2",
+          "name": "Meat Lover's (2 slices)",
+          "price": 10.49,
+          "nutrition": {
+            "calories": 800,
+            "sodium": 1760,
+            "fat": 42,
+            "carbs": 70,
+            "protein": 38,
+            "sugar": 5
+          },
+          "tags": [],
+          "swapSuggestion": "ph-hand-tossed-cheese-2"
+        },
+        {
+          "id": "ph-supreme-pizza-2",
+          "name": "Supreme (2 slices)",
+          "price": 10.99,
+          "nutrition": {
+            "calories": 740,
+            "sodium": 1680,
+            "fat": 34,
+            "carbs": 74,
+            "protein": 34,
+            "sugar": 6
+          },
+          "tags": [],
+          "swapSuggestion": "ph-hand-tossed-cheese-2"
+        },
+        {
+          "id": "ph-veggie-lovers-2",
+          "name": "Veggie Lover's (2 slices)",
+          "price": 8.49,
+          "nutrition": {
+            "calories": 480,
+            "sodium": 960,
+            "fat": 14,
+            "carbs": 72,
+            "protein": 18,
+            "sugar": 5
+          },
+          "tags": ["value"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "ph-honolulu-hawaiian-2",
+          "name": "Honolulu Hawaiian (2 slices)",
+          "price": 9.99,
+          "nutrition": {
+            "calories": 620,
+            "sodium": 1280,
+            "fat": 22,
+            "carbs": 78,
+            "protein": 26,
+            "sugar": 12
+          },
+          "tags": [],
+          "swapSuggestion": "ph-veggie-lovers-2"
+        }
+      ]
+    },
+    {
+      "name": "Wings",
+      "emoji": "🍗",
+      "items": [
+        {
+          "id": "ph-boneless-wings-8",
+          "name": "Boneless Wings (8 pc)",
+          "price": 6.99,
+          "nutrition": {
+            "calories": 400,
+            "sodium": 1080,
+            "fat": 20,
+            "carbs": 24,
+            "protein": 30,
+            "sugar": 1
+          },
+          "tags": ["popular"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "ph-traditional-wings-8",
+          "name": "Traditional Wings (8 pc)",
+          "price": 6.99,
+          "nutrition": {
+            "calories": 360,
+            "sodium": 1240,
+            "fat": 20,
+            "carbs": 12,
+            "protein": 32,
+            "sugar": 1
+          },
+          "tags": ["popular"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "ph-wings-buffalo-8",
+          "name": "Buffalo Wings (8 pc)",
+          "price": 6.99,
+          "nutrition": {
+            "calories": 340,
+            "sodium": 1360,
+            "fat": 18,
+            "carbs": 10,
+            "protein": 32,
+            "sugar": 1
+          },
+          "tags": [],
+          "swapSuggestion": null
+        },
+        {
+          "id": "ph-wings-garlic-parm-8",
+          "name": "Garlic Parmesan Wings (8 pc)",
+          "price": 6.99,
+          "nutrition": {
+            "calories": 400,
+            "sodium": 1200,
+            "fat": 22,
+            "carbs": 16,
+            "protein": 32,
+            "sugar": 2
+          },
+          "tags": [],
+          "swapSuggestion": null
+        },
+        {
+          "id": "ph-wings-lemon-pepper-8",
+          "name": "Lemon Pepper Wings (8 pc)",
+          "price": 6.99,
+          "nutrition": {
+            "calories": 380,
+            "sodium": 1100,
+            "fat": 20,
+            "carbs": 14,
+            "protein": 32,
+            "sugar": 1
+          },
+          "tags": [],
+          "swapSuggestion": null
+        }
+      ]
+    },
+    {
+      "name": "Pasta",
+      "emoji": "🍝",
+      "items": [
+        {
+          "id": "ph-tuscani-alfredo",
+          "name": "Tuscani Alfredo",
+          "price": 8.49,
+          "nutrition": {
+            "calories": 720,
+            "sodium": 1440,
+            "fat": 32,
+            "carbs": 80,
+            "protein": 24,
+            "sugar": 8
+          },
+          "tags": ["popular"],
+          "swapSuggestion": "ph-marinara-pasta"
+        },
+        {
+          "id": "ph-marinara-pasta",
+          "name": "Marinara Pasta",
+          "price": 7.49,
+          "nutrition": {
+            "calories": 540,
+            "sodium": 1320,
+            "fat": 8,
+            "carbs": 92,
+            "protein": 18,
+            "sugar": 14
+          },
+          "tags": ["value"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "ph-meaty-marinara",
+          "name": "Meaty Marinara Pasta",
+          "price": 8.99,
+          "nutrition": {
+            "calories": 680,
+            "sodium": 1520,
+            "fat": 22,
+            "carbs": 90,
+            "protein": 28,
+            "sugar": 12
+          },
+          "tags": [],
+          "swapSuggestion": "ph-marinara-pasta"
+        },
+        {
+          "id": "ph-veggie-marinara",
+          "name": "Veggie Marinara Pasta",
+          "price": 7.99,
+          "nutrition": {
+            "calories": 580,
+            "sodium": 1280,
+            "fat": 10,
+            "carbs": 96,
+            "protein": 18,
+            "sugar": 13
+          },
+          "tags": [],
+          "swapSuggestion": "ph-marinara-pasta"
+        }
+      ]
+    },
+    {
+      "name": "Sides",
+      "emoji": "🍞",
+      "items": [
+        {
+          "id": "ph-breadsticks-8",
+          "name": "Breadsticks (8 pc)",
+          "price": 4.99,
+          "nutrition": {
+            "calories": 360,
+            "sodium": 760,
+            "fat": 12,
+            "carbs": 50,
+            "protein": 10,
+            "sugar": 2
+          },
+          "tags": ["popular"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "ph-cheese-sticks-6",
+          "name": "Cheese Sticks (6 pc)",
+          "price": 5.99,
+          "nutrition": {
+            "calories": 480,
+            "sodium": 1120,
+            "fat": 24,
+            "carbs": 44,
+            "protein": 18,
+            "sugar": 1
+          },
+          "tags": [],
+          "swapSuggestion": "ph-breadsticks-8"
+        },
+        {
+          "id": "ph-garlic-knots-8",
+          "name": "Garlic Knots (8 pc)",
+          "price": 5.49,
+          "nutrition": {
+            "calories": 420,
+            "sodium": 920,
+            "fat": 14,
+            "carbs": 56,
+            "protein": 12,
+            "sugar": 3
+          },
+          "tags": [],
+          "swapSuggestion": "ph-breadsticks-8"
+        },
+        {
+          "id": "ph-cinnamon-sticks-8",
+          "name": "Cinnamon Sticks (8 pc)",
+          "price": 4.99,
+          "nutrition": {
+            "calories": 460,
+            "sodium": 520,
+            "fat": 16,
+            "carbs": 66,
+            "protein": 8,
+            "sugar": 20
+          },
+          "tags": [],
+          "swapSuggestion": "ph-breadsticks-8"
+        },
+        {
+          "id": "ph-dipping-sauce",
+          "name": "Dipping Sauce Cup (each)",
+          "price": 0.99,
+          "nutrition": {
+            "calories": 50,
+            "sodium": 380,
+            "fat": 2,
+            "carbs": 6,
+            "protein": 0,
+            "sugar": 3
+          },
+          "tags": ["value"],
+          "swapSuggestion": null
+        }
+      ]
+    },
+    {
+      "name": "Drinks",
+      "emoji": "🥤",
+      "items": [
+        {
+          "id": "ph-soft-drink-2l",
+          "name": "Soft Drink (2-Liter)",
+          "price": 3.49,
+          "nutrition": {
+            "calories": 140,
+            "sodium": 45,
+            "fat": 0,
+            "carbs": 38,
+            "protein": 0,
+            "sugar": 38
+          },
+          "tags": [],
+          "swapSuggestion": "ph-water-bottle"
+        },
+        {
+          "id": "ph-sprite-zero",
+          "name": "Sprite Zero Sugar (2-Liter)",
+          "price": 3.49,
+          "nutrition": {
+            "calories": 0,
+            "sodium": 80,
+            "fat": 0,
+            "carbs": 0,
+            "protein": 0,
+            "sugar": 0
+          },
+          "tags": ["popular"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "ph-bottled-water",
+          "name": "Bottled Water",
+          "price": 2.49,
+          "nutrition": {
+            "calories": 0,
+            "sodium": 0,
+            "fat": 0,
+            "carbs": 0,
+            "protein": 0,
+            "sugar": 0
+          },
+          "tags": ["value"],
+          "swapSuggestion": null
+        }
+      ]
+    },
+    {
+      "name": "Sauces &amp; Condiments",
+      "emoji": "🫙",
+      "items": [
+        { "id": "ph-ranch-dipping-cup", "name": "Ranch Dipping Cup", "price": 0.75, "nutrition": { "calories": 190, "sodium": 360, "fat": 19, "carbs": 2, "protein": 1, "sugar": 1 }, "tags": [], "swapSuggestion": "ph-marinara-dipping-cup" },
+        { "id": "ph-marinara-dipping-cup", "name": "Marinara Dipping Cup", "price": 0.50, "nutrition": { "calories": 60, "sodium": 540, "fat": 0, "carbs": 14, "protein": 1, "sugar": 10 }, "tags": [] },
+        { "id": "ph-blue-cheese", "name": "Blue Cheese Dipping Cup", "price": 0.75, "nutrition": { "calories": 160, "sodium": 540, "fat": 16, "carbs": 2, "protein": 1, "sugar": 0 }, "tags": [] },
+        { "id": "ph-garlic-dip", "name": "Garlic Dip", "price": 0.50, "nutrition": { "calories": 240, "sodium": 500, "fat": 27, "carbs": 1, "protein": 0, "sugar": 0 }, "tags": [] }
+      ]
+    }
+  ]
+}

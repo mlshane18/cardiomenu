@@ -1,0 +1,69 @@
+{
+  "restaurant": "Five Guys",
+  "id": "fiveguys",
+  "color": "#D4202C",
+  "colorLight": "#FEE2E2",
+  "categories": [
+    {
+      "name": "Burgers",
+      "emoji": "🍔",
+      "items": [
+        { "id": "fg-little-hamburger", "name": "Little Hamburger", "price": 7.69, "nutrition": { "calories": 480, "sodium": 380, "fat": 26, "carbs": 39, "protein": 23, "sugar": 8 }, "tags": ["value"] },
+        { "id": "fg-little-cheeseburger", "name": "Little Cheeseburger", "price": 8.69, "nutrition": { "calories": 550, "sodium": 690, "fat": 32, "carbs": 40, "protein": 27, "sugar": 8 }, "tags": [], "swapSuggestion": "fg-little-hamburger" },
+        { "id": "fg-hamburger", "name": "Hamburger", "price": 10.99, "nutrition": { "calories": 700, "sodium": 430, "fat": 43, "carbs": 39, "protein": 39, "sugar": 8 }, "tags": ["popular"], "swapSuggestion": "fg-little-hamburger" },
+        { "id": "fg-cheeseburger", "name": "Cheeseburger", "price": 12.29, "nutrition": { "calories": 840, "sodium": 1050, "fat": 55, "carbs": 40, "protein": 47, "sugar": 8 }, "tags": ["popular"], "swapSuggestion": "fg-little-cheeseburger" },
+        { "id": "fg-bacon-burger", "name": "Bacon Burger", "price": 12.99, "nutrition": { "calories": 780, "sodium": 690, "fat": 50, "carbs": 39, "protein": 43, "sugar": 8 }, "tags": [], "swapSuggestion": "fg-hamburger" },
+        { "id": "fg-bacon-cheeseburger", "name": "Bacon Cheeseburger", "price": 13.99, "nutrition": { "calories": 920, "sodium": 1310, "fat": 62, "carbs": 40, "protein": 51, "sugar": 8 }, "tags": [], "swapSuggestion": "fg-little-cheeseburger" }
+      ]
+    },
+    {
+      "name": "Hot Dogs",
+      "emoji": "🌭",
+      "items": [
+        { "id": "fg-hot-dog", "name": "Hot Dog", "price": 6.99, "nutrition": { "calories": 520, "sodium": 1130, "fat": 35, "carbs": 40, "protein": 18, "sugar": 8 }, "tags": [], "swapSuggestion": "fg-little-hamburger" },
+        { "id": "fg-cheese-dog", "name": "Cheese Dog", "price": 7.69, "nutrition": { "calories": 590, "sodium": 1440, "fat": 41, "carbs": 40, "protein": 22, "sugar": 8 }, "tags": [], "swapSuggestion": "fg-hot-dog" },
+        { "id": "fg-bacon-dog", "name": "Bacon Dog", "price": 8.29, "nutrition": { "calories": 600, "sodium": 1390, "fat": 42, "carbs": 40, "protein": 22, "sugar": 8 }, "tags": [], "swapSuggestion": "fg-hot-dog" }
+      ]
+    },
+    {
+      "name": "Fries",
+      "emoji": "🍟",
+      "items": [
+        { "id": "fg-little-fries", "name": "Little Fries", "price": 5.29, "nutrition": { "calories": 526, "sodium": 531, "fat": 24, "carbs": 72, "protein": 8, "sugar": 1 }, "tags": ["value"] },
+        { "id": "fg-regular-fries", "name": "Regular Fries", "price": 6.99, "nutrition": { "calories": 953, "sodium": 962, "fat": 43, "carbs": 131, "protein": 15, "sugar": 2 }, "tags": ["popular"], "swapSuggestion": "fg-little-fries" },
+        { "id": "fg-large-fries", "name": "Large Fries", "price": 8.49, "nutrition": { "calories": 1314, "sodium": 1327, "fat": 60, "carbs": 180, "protein": 21, "sugar": 3 }, "tags": [], "swapSuggestion": "fg-regular-fries" },
+        { "id": "fg-little-cajun", "name": "Little Cajun Fries", "price": 5.29, "nutrition": { "calories": 526, "sodium": 748, "fat": 24, "carbs": 72, "protein": 8, "sugar": 1 }, "tags": [], "swapSuggestion": "fg-little-fries" }
+      ]
+    },
+    {
+      "name": "Drinks",
+      "emoji": "🥤",
+      "items": [
+        { "id": "fg-regular-drink", "name": "Regular Fountain Drink", "price": 3.59, "nutrition": { "calories": 210, "sodium": 20, "fat": 0, "carbs": 58, "protein": 0, "sugar": 58 }, "tags": ["popular"] },
+        { "id": "fg-large-drink", "name": "Large Fountain Drink", "price": 4.09, "nutrition": { "calories": 300, "sodium": 30, "fat": 0, "carbs": 82, "protein": 0, "sugar": 82 }, "tags": [], "swapSuggestion": "fg-regular-drink" },
+        { "id": "fg-water", "name": "Bottled Water", "price": 2.49, "nutrition": { "calories": 0, "sodium": 0, "fat": 0, "carbs": 0, "protein": 0, "sugar": 0 }, "tags": [] }
+      ]
+    },
+    {
+      "name": "Milkshakes",
+      "emoji": "🥛",
+      "items": [
+        { "id": "fg-vanilla-shake", "name": "Vanilla Milkshake", "price": 6.99, "nutrition": { "calories": 670, "sodium": 360, "fat": 41, "carbs": 63, "protein": 14, "sugar": 55 }, "tags": [] },
+        { "id": "fg-chocolate-shake", "name": "Chocolate Milkshake", "price": 6.99, "nutrition": { "calories": 740, "sodium": 480, "fat": 41, "carbs": 79, "protein": 16, "sugar": 69 }, "tags": ["popular"] },
+        { "id": "fg-peanut-butter-shake", "name": "Peanut Butter Milkshake", "price": 6.99, "nutrition": { "calories": 800, "sodium": 500, "fat": 50, "carbs": 68, "protein": 22, "sugar": 53 }, "tags": [] }
+      ]
+    },
+    {
+      "name": "Sauces &amp; Condiments",
+      "emoji": "🫙",
+      "items": [
+        { "id": "fg-ketchup", "name": "Ketchup Packet", "price": 0, "nutrition": { "calories": 15, "sodium": 180, "fat": 0, "carbs": 4, "protein": 0, "sugar": 3 }, "tags": [] },
+        { "id": "fg-mustard", "name": "Yellow Mustard", "price": 0, "nutrition": { "calories": 10, "sodium": 190, "fat": 0, "carbs": 1, "protein": 0, "sugar": 0 }, "tags": [] },
+        { "id": "fg-mayo", "name": "Mayonnaise", "price": 0, "nutrition": { "calories": 100, "sodium": 165, "fat": 11, "carbs": 0, "protein": 0, "sugar": 0 }, "tags": [], "swapSuggestion": "fg-mustard" },
+        { "id": "fg-bbq-sauce", "name": "Barbecue Sauce", "price": 0, "nutrition": { "calories": 40, "sodium": 340, "fat": 0, "carbs": 10, "protein": 0, "sugar": 9 }, "tags": [] },
+        { "id": "fg-hot-sauce", "name": "Hot Sauce", "price": 0, "nutrition": { "calories": 5, "sodium": 180, "fat": 0, "carbs": 1, "protein": 0, "sugar": 0 }, "tags": [] },
+        { "id": "fg-a1-steak-sauce", "name": "A1 Steak Sauce", "price": 0, "nutrition": { "calories": 15, "sodium": 260, "fat": 0, "carbs": 3, "protein": 0, "sugar": 2 }, "tags": [] }
+      ]
+    }
+  ]
+}

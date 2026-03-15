@@ -1,0 +1,334 @@
+{
+  "restaurant": "Arby's",
+  "id": "arbys",
+  "color": "#D2172A",
+  "colorLight": "#E8ACBA",
+  "categories": [
+    {
+      "name": "Roast Beef",
+      "emoji": "🥩",
+      "items": [
+        {
+          "id": "arbys-classic-roast-beef",
+          "name": "Classic Roast Beef",
+          "price": 5.49,
+          "nutrition": {
+            "calories": 360,
+            "sodium": 940,
+            "fat": 16,
+            "carbs": 35,
+            "protein": 23,
+            "sugar": 3
+          },
+          "tags": ["popular"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "arbys-beef-n-cheddar-classic",
+          "name": "Beef 'n Cheddar (Classic)",
+          "price": 6.49,
+          "nutrition": {
+            "calories": 450,
+            "sodium": 1220,
+            "fat": 22,
+            "carbs": 40,
+            "protein": 26,
+            "sugar": 4
+          },
+          "tags": ["popular"],
+          "swapSuggestion": "arbys-classic-roast-beef"
+        },
+        {
+          "id": "arbys-beef-n-cheddar-mid",
+          "name": "Beef 'n Cheddar (Mid)",
+          "price": 7.49,
+          "nutrition": {
+            "calories": 560,
+            "sodium": 1540,
+            "fat": 28,
+            "carbs": 48,
+            "protein": 32,
+            "sugar": 5
+          },
+          "tags": [],
+          "swapSuggestion": "arbys-classic-roast-beef"
+        },
+        {
+          "id": "arbys-french-dip-swiss",
+          "name": "French Dip & Swiss",
+          "price": 7.99,
+          "nutrition": {
+            "calories": 480,
+            "sodium": 1380,
+            "fat": 20,
+            "carbs": 42,
+            "protein": 32,
+            "sugar": 2
+          },
+          "tags": [],
+          "swapSuggestion": "arbys-classic-roast-beef"
+        }
+      ]
+    },
+    {
+      "name": "Chicken",
+      "emoji": "🍗",
+      "items": [
+        {
+          "id": "arbys-crispy-chicken",
+          "name": "Crispy Chicken Sandwich",
+          "price": 6.99,
+          "nutrition": {
+            "calories": 440,
+            "sodium": 1060,
+            "fat": 20,
+            "carbs": 44,
+            "protein": 22,
+            "sugar": 3
+          },
+          "tags": ["popular"],
+          "swapSuggestion": "arbys-grilled-chicken"
+        },
+        {
+          "id": "arbys-grilled-chicken",
+          "name": "Grilled Chicken Sandwich",
+          "price": 7.49,
+          "nutrition": {
+            "calories": 360,
+            "sodium": 800,
+            "fat": 10,
+            "carbs": 42,
+            "protein": 32,
+            "sugar": 2
+          },
+          "tags": ["value"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "arbys-buffalo-chicken",
+          "name": "Buffalo Chicken Sandwich",
+          "price": 7.49,
+          "nutrition": {
+            "calories": 420,
+            "sodium": 1280,
+            "fat": 18,
+            "carbs": 40,
+            "protein": 28,
+            "sugar": 2
+          },
+          "tags": [],
+          "swapSuggestion": "arbys-grilled-chicken"
+        }
+      ]
+    },
+    {
+      "name": "Tenders & Sliders",
+      "emoji": "🍖",
+      "items": [
+        {
+          "id": "arbys-tenders-3pc",
+          "name": "Chicken Tenders (3pc)",
+          "price": 7.99,
+          "nutrition": {
+            "calories": 380,
+            "sodium": 920,
+            "fat": 18,
+            "carbs": 22,
+            "protein": 32,
+            "sugar": 0
+          },
+          "tags": ["popular"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "arbys-tenders-5pc",
+          "name": "Chicken Tenders (5pc)",
+          "price": 11.49,
+          "nutrition": {
+            "calories": 630,
+            "sodium": 1520,
+            "fat": 30,
+            "carbs": 36,
+            "protein": 54,
+            "sugar": 0
+          },
+          "tags": [],
+          "swapSuggestion": "arbys-tenders-3pc"
+        },
+        {
+          "id": "arbys-roast-beef-sliders",
+          "name": "Roast Beef Sliders (2pc)",
+          "price": 6.49,
+          "nutrition": {
+            "calories": 420,
+            "sodium": 1100,
+            "fat": 18,
+            "carbs": 42,
+            "protein": 22,
+            "sugar": 2
+          },
+          "tags": ["value"],
+          "swapSuggestion": null
+        }
+      ]
+    },
+    {
+      "name": "Sides",
+      "emoji": "🍟",
+      "items": [
+        {
+          "id": "arbys-curly-fries-sm",
+          "name": "Curly Fries (Small)",
+          "price": 2.99,
+          "nutrition": {
+            "calories": 310,
+            "sodium": 580,
+            "fat": 15,
+            "carbs": 38,
+            "protein": 4,
+            "sugar": 0
+          },
+          "tags": ["popular"],
+          "swapSuggestion": "arbys-side-salad"
+        },
+        {
+          "id": "arbys-curly-fries-med",
+          "name": "Curly Fries (Medium)",
+          "price": 3.49,
+          "nutrition": {
+            "calories": 420,
+            "sodium": 800,
+            "fat": 20,
+            "carbs": 52,
+            "protein": 6,
+            "sugar": 0
+          },
+          "tags": [],
+          "swapSuggestion": "arbys-side-salad"
+        },
+        {
+          "id": "arbys-mozzarella-sticks",
+          "name": "Mozzarella Sticks (4pc)",
+          "price": 5.99,
+          "nutrition": {
+            "calories": 380,
+            "sodium": 1040,
+            "fat": 20,
+            "carbs": 28,
+            "protein": 18,
+            "sugar": 1
+          },
+          "tags": [],
+          "swapSuggestion": "arbys-side-salad"
+        },
+        {
+          "id": "arbys-jalapeno-bites",
+          "name": "Jalapeno Bites (8pc)",
+          "price": 4.99,
+          "nutrition": {
+            "calories": 320,
+            "sodium": 920,
+            "fat": 16,
+            "carbs": 32,
+            "protein": 12,
+            "sugar": 0
+          },
+          "tags": [],
+          "swapSuggestion": "arbys-side-salad"
+        },
+        {
+          "id": "arbys-side-salad",
+          "name": "Side Salad",
+          "price": 3.49,
+          "nutrition": {
+            "calories": 70,
+            "sodium": 200,
+            "fat": 3,
+            "carbs": 10,
+            "protein": 2,
+            "sugar": 2
+          },
+          "tags": ["value"],
+          "swapSuggestion": null
+        }
+      ]
+    },
+    {
+      "name": "Desserts & Drinks",
+      "emoji": "🥤",
+      "items": [
+        {
+          "id": "arbys-apple-turnover",
+          "name": "Apple Turnover",
+          "price": 3.99,
+          "nutrition": {
+            "calories": 320,
+            "sodium": 280,
+            "fat": 14,
+            "carbs": 44,
+            "protein": 3,
+            "sugar": 22
+          },
+          "tags": [],
+          "swapSuggestion": null
+        },
+        {
+          "id": "arbys-water",
+          "name": "Bottled Water",
+          "price": 2.49,
+          "nutrition": {
+            "calories": 0,
+            "sodium": 0,
+            "fat": 0,
+            "carbs": 0,
+            "protein": 0,
+            "sugar": 0
+          },
+          "tags": ["popular"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "arbys-unsweetened-tea",
+          "name": "Unsweetened Iced Tea (Med)",
+          "price": 2.99,
+          "nutrition": {
+            "calories": 5,
+            "sodium": 10,
+            "fat": 0,
+            "carbs": 1,
+            "protein": 0,
+            "sugar": 0
+          },
+          "tags": ["value"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "arbys-lemonade",
+          "name": "Lemonade (Med)",
+          "price": 2.99,
+          "nutrition": {
+            "calories": 180,
+            "sodium": 30,
+            "fat": 0,
+            "carbs": 44,
+            "protein": 0,
+            "sugar": 42
+          },
+          "tags": [],
+          "swapSuggestion": "arbys-unsweetened-tea"
+        }
+      ]
+    },
+    {
+      "name": "Sauces &amp; Condiments",
+      "emoji": "🫙",
+      "items": [
+        { "id": "arb-arbys-sauce", "name": "Arby's Sauce", "price": 0, "nutrition": { "calories": 70, "sodium": 400, "fat": 4, "carbs": 8, "protein": 0, "sugar": 7 }, "tags": [], "swapSuggestion": "arb-honey-mustard" },
+        { "id": "arb-horsey-sauce", "name": "Horsey Sauce", "price": 0, "nutrition": { "calories": 80, "sodium": 280, "fat": 6, "carbs": 7, "protein": 0, "sugar": 5 }, "tags": [], "swapSuggestion": "arb-honey-mustard" },
+        { "id": "arb-ranch", "name": "Ranch Sauce", "price": 0.50, "nutrition": { "calories": 200, "sodium": 380, "fat": 21, "carbs": 1, "protein": 0, "sugar": 1 }, "tags": [] },
+        { "id": "arb-bbq-dip", "name": "Barbecue Dip", "price": 0, "nutrition": { "calories": 50, "sodium": 380, "fat": 1, "carbs": 11, "protein": 0, "sugar": 10 }, "tags": [] },
+        { "id": "arb-honey-mustard", "name": "Honey Mustard", "price": 0, "nutrition": { "calories": 35, "sodium": 200, "fat": 0, "carbs": 9, "protein": 0, "sugar": 8 }, "tags": [] }
+      ]
+    }
+  ]
+}

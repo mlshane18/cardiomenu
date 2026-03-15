@@ -1,0 +1,304 @@
+{
+  "restaurant": "KFC",
+  "id": "kfc",
+  "color": "#B40204",
+  "colorLight": "#E8BCBF",
+  "categories": [
+    {
+      "name": "Chicken",
+      "emoji": "🍗",
+      "items": [
+        {
+          "id": "kfc-2pc-original",
+          "name": "2pc Original Recipe",
+          "price": 7.99,
+          "nutrition": {
+            "calories": 540,
+            "sodium": 1120,
+            "fat": 28,
+            "carbs": 16,
+            "protein": 44,
+            "sugar": 0
+          },
+          "tags": ["popular"],
+          "swapSuggestion": "kfc-2pc-grilled"
+        },
+        {
+          "id": "kfc-2pc-extra-crispy",
+          "name": "2pc Extra Crispy",
+          "price": 7.99,
+          "nutrition": {
+            "calories": 590,
+            "sodium": 1240,
+            "fat": 32,
+            "carbs": 18,
+            "protein": 42,
+            "sugar": 0
+          },
+          "tags": [],
+          "swapSuggestion": "kfc-2pc-grilled"
+        },
+        {
+          "id": "kfc-2pc-grilled",
+          "name": "2pc Grilled Chicken",
+          "price": 8.49,
+          "nutrition": {
+            "calories": 340,
+            "sodium": 680,
+            "fat": 12,
+            "carbs": 10,
+            "protein": 48,
+            "sugar": 0
+          },
+          "tags": ["value"],
+          "swapSuggestion": null
+        }
+      ]
+    },
+    {
+      "name": "Sandwiches",
+      "emoji": "🥪",
+      "items": [
+        {
+          "id": "kfc-chicken-sandwich",
+          "name": "Classic Chicken Sandwich",
+          "price": 5.49,
+          "nutrition": {
+            "calories": 420,
+            "sodium": 960,
+            "fat": 17,
+            "carbs": 42,
+            "protein": 28,
+            "sugar": 2
+          },
+          "tags": ["popular"],
+          "swapSuggestion": "kfc-grilled-chicken-sandwich"
+        },
+        {
+          "id": "kfc-spicy-chicken-sandwich",
+          "name": "Spicy Chicken Sandwich",
+          "price": 5.99,
+          "nutrition": {
+            "calories": 450,
+            "sodium": 1080,
+            "fat": 19,
+            "carbs": 44,
+            "protein": 26,
+            "sugar": 2
+          },
+          "tags": [],
+          "swapSuggestion": "kfc-grilled-chicken-sandwich"
+        },
+        {
+          "id": "kfc-grilled-chicken-sandwich",
+          "name": "Grilled Chicken Sandwich",
+          "price": 6.49,
+          "nutrition": {
+            "calories": 340,
+            "sodium": 710,
+            "fat": 8,
+            "carbs": 40,
+            "protein": 32,
+            "sugar": 2
+          },
+          "tags": ["value"],
+          "swapSuggestion": null
+        }
+      ]
+    },
+    {
+      "name": "Tenders",
+      "emoji": "🍖",
+      "items": [
+        {
+          "id": "kfc-tenders-3pc",
+          "name": "Chicken Tenders (3pc)",
+          "price": 6.99,
+          "nutrition": {
+            "calories": 340,
+            "sodium": 850,
+            "fat": 15,
+            "carbs": 20,
+            "protein": 32,
+            "sugar": 0
+          },
+          "tags": ["popular"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "kfc-tenders-5pc",
+          "name": "Chicken Tenders (5pc)",
+          "price": 9.99,
+          "nutrition": {
+            "calories": 570,
+            "sodium": 1400,
+            "fat": 25,
+            "carbs": 33,
+            "protein": 54,
+            "sugar": 0
+          },
+          "tags": [],
+          "swapSuggestion": "kfc-tenders-3pc"
+        }
+      ]
+    },
+    {
+      "name": "Sides",
+      "emoji": "🥔",
+      "items": [
+        {
+          "id": "kfc-mac-cheese",
+          "name": "Mac & Cheese",
+          "price": 3.49,
+          "nutrition": {
+            "calories": 320,
+            "sodium": 680,
+            "fat": 14,
+            "carbs": 38,
+            "protein": 8,
+            "sugar": 1
+          },
+          "tags": [],
+          "swapSuggestion": "kfc-green-beans"
+        },
+        {
+          "id": "kfc-coleslaw",
+          "name": "Coleslaw",
+          "price": 2.99,
+          "nutrition": {
+            "calories": 170,
+            "sodium": 380,
+            "fat": 9,
+            "carbs": 20,
+            "protein": 2,
+            "sugar": 8
+          },
+          "tags": ["value"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "kfc-mashed-potatoes",
+          "name": "Mashed Potatoes & Gravy",
+          "price": 2.99,
+          "nutrition": {
+            "calories": 140,
+            "sodium": 520,
+            "fat": 5,
+            "carbs": 20,
+            "protein": 2,
+            "sugar": 0
+          },
+          "tags": [],
+          "swapSuggestion": "kfc-green-beans"
+        },
+        {
+          "id": "kfc-green-beans",
+          "name": "Green Beans",
+          "price": 2.99,
+          "nutrition": {
+            "calories": 60,
+            "sodium": 320,
+            "fat": 2,
+            "carbs": 10,
+            "protein": 2,
+            "sugar": 1
+          },
+          "tags": ["value"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "kfc-corn",
+          "name": "Corn on the Cob",
+          "price": 3.49,
+          "nutrition": {
+            "calories": 150,
+            "sodium": 240,
+            "fat": 2,
+            "carbs": 32,
+            "protein": 4,
+            "sugar": 2
+          },
+          "tags": [],
+          "swapSuggestion": null
+        },
+        {
+          "id": "kfc-biscuit",
+          "name": "Buttermilk Biscuit",
+          "price": 2.49,
+          "nutrition": {
+            "calories": 180,
+            "sodium": 560,
+            "fat": 9,
+            "carbs": 20,
+            "protein": 3,
+            "sugar": 1
+          },
+          "tags": [],
+          "swapSuggestion": "kfc-corn"
+        }
+      ]
+    },
+    {
+      "name": "Drinks",
+      "emoji": "🥤",
+      "items": [
+        {
+          "id": "kfc-water",
+          "name": "Bottled Water",
+          "price": 2.49,
+          "nutrition": {
+            "calories": 0,
+            "sodium": 0,
+            "fat": 0,
+            "carbs": 0,
+            "protein": 0,
+            "sugar": 0
+          },
+          "tags": ["popular"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "kfc-unsweetened-tea",
+          "name": "Unsweetened Iced Tea (Med)",
+          "price": 2.99,
+          "nutrition": {
+            "calories": 5,
+            "sodium": 15,
+            "fat": 0,
+            "carbs": 1,
+            "protein": 0,
+            "sugar": 0
+          },
+          "tags": ["value"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "kfc-sweet-tea",
+          "name": "Sweet Iced Tea (Med)",
+          "price": 2.99,
+          "nutrition": {
+            "calories": 120,
+            "sodium": 20,
+            "fat": 0,
+            "carbs": 30,
+            "protein": 0,
+            "sugar": 28
+          },
+          "tags": [],
+          "swapSuggestion": "kfc-unsweetened-tea"
+        }
+      ]
+    },
+    {
+      "name": "Sauces &amp; Condiments",
+      "emoji": "🫙",
+      "items": [
+        { "id": "kfc-colonels-honey-mustard", "name": "Colonel's Honey Mustard", "price": 0, "nutrition": { "calories": 45, "sodium": 210, "fat": 0, "carbs": 11, "protein": 0, "sugar": 10 }, "tags": [] },
+        { "id": "kfc-ketchup", "name": "Ketchup Packet", "price": 0, "nutrition": { "calories": 15, "sodium": 180, "fat": 0, "carbs": 4, "protein": 0, "sugar": 3 }, "tags": [] },
+        { "id": "kfc-ranch", "name": "Ranch Dressing", "price": 0.50, "nutrition": { "calories": 200, "sodium": 380, "fat": 21, "carbs": 1, "protein": 0, "sugar": 1 }, "tags": [], "swapSuggestion": "kfc-colonels-honey-mustard" },
+        { "id": "kfc-honey-sauce", "name": "Honey Sauce", "price": 0, "nutrition": { "calories": 60, "sodium": 80, "fat": 0, "carbs": 15, "protein": 0, "sugar": 15 }, "tags": [] },
+        { "id": "kfc-finger-lickin-good", "name": "Finger Lickin Good Sauce", "price": 0, "nutrition": { "calories": 50, "sodium": 320, "fat": 3, "carbs": 5, "protein": 0, "sugar": 3 }, "tags": [] }
+      ]
+    }
+  ]
+}

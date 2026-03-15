@@ -1,0 +1,348 @@
+{
+  "restaurant": "Panera Bread",
+  "id": "panera",
+  "color": "#4B7B3F",
+  "colorLight": "#A8D5BA",
+  "categories": [
+    {
+      "name": "Soups",
+      "emoji": "🍲",
+      "items": [
+        {
+          "id": "panera-broccoli-cheddar-cup",
+          "name": "Broccoli Cheddar Soup (Cup)",
+          "price": 5.49,
+          "nutrition": {
+            "calories": 210,
+            "sodium": 920,
+            "fat": 12,
+            "carbs": 18,
+            "protein": 9,
+            "sugar": 2
+          },
+          "tags": ["popular"],
+          "swapSuggestion": "panera-creamy-tomato-cup"
+        },
+        {
+          "id": "panera-broccoli-cheddar-bowl",
+          "name": "Broccoli Cheddar Soup (Bowl)",
+          "price": 6.99,
+          "nutrition": {
+            "calories": 420,
+            "sodium": 1840,
+            "fat": 24,
+            "carbs": 36,
+            "protein": 18,
+            "sugar": 4
+          },
+          "tags": [],
+          "swapSuggestion": "panera-creamy-tomato-cup"
+        },
+        {
+          "id": "panera-creamy-tomato-cup",
+          "name": "Creamy Tomato Soup (Cup)",
+          "price": 5.49,
+          "nutrition": {
+            "calories": 190,
+            "sodium": 750,
+            "fat": 8,
+            "carbs": 22,
+            "protein": 6,
+            "sugar": 8
+          },
+          "tags": ["value"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "panera-chicken-noodle-cup",
+          "name": "Chicken Noodle Soup (Cup)",
+          "price": 5.49,
+          "nutrition": {
+            "calories": 180,
+            "sodium": 820,
+            "fat": 4,
+            "carbs": 24,
+            "protein": 14,
+            "sugar": 1
+          },
+          "tags": ["popular"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "panera-chicken-noodle-bowl",
+          "name": "Chicken Noodle Soup (Bowl)",
+          "price": 6.99,
+          "nutrition": {
+            "calories": 360,
+            "sodium": 1640,
+            "fat": 8,
+            "carbs": 48,
+            "protein": 28,
+            "sugar": 2
+          },
+          "tags": [],
+          "swapSuggestion": "panera-chicken-noodle-cup"
+        }
+      ]
+    },
+    {
+      "name": "Sandwiches",
+      "emoji": "🥪",
+      "items": [
+        {
+          "id": "panera-bacon-turkey-bravo",
+          "name": "Bacon Turkey Bravo",
+          "price": 9.49,
+          "nutrition": {
+            "calories": 500,
+            "sodium": 1480,
+            "fat": 19,
+            "carbs": 48,
+            "protein": 32,
+            "sugar": 4
+          },
+          "tags": ["popular"],
+          "swapSuggestion": "panera-mediterranean-veggie"
+        },
+        {
+          "id": "panera-napa-almond-chicken",
+          "name": "Napa Almond Chicken Salad Sandwich",
+          "price": 9.99,
+          "nutrition": {
+            "calories": 520,
+            "sodium": 1120,
+            "fat": 26,
+            "carbs": 46,
+            "protein": 24,
+            "sugar": 6
+          },
+          "tags": [],
+          "swapSuggestion": "panera-mediterranean-veggie"
+        },
+        {
+          "id": "panera-mediterranean-veggie",
+          "name": "Mediterranean Veggie",
+          "price": 8.99,
+          "nutrition": {
+            "calories": 380,
+            "sodium": 780,
+            "fat": 12,
+            "carbs": 54,
+            "protein": 14,
+            "sugar": 5
+          },
+          "tags": ["value"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "panera-half-turkey-sandwich",
+          "name": "Half Turkey Sandwich",
+          "price": 6.49,
+          "nutrition": {
+            "calories": 280,
+            "sodium": 820,
+            "fat": 8,
+            "carbs": 32,
+            "protein": 20,
+            "sugar": 2
+          },
+          "tags": ["value"],
+          "swapSuggestion": null
+        }
+      ]
+    },
+    {
+      "name": "Salads",
+      "emoji": "🥗",
+      "items": [
+        {
+          "id": "panera-fuji-apple-chicken",
+          "name": "Fuji Apple Chicken Salad",
+          "price": 11.49,
+          "nutrition": {
+            "calories": 420,
+            "sodium": 980,
+            "fat": 14,
+            "carbs": 38,
+            "protein": 38,
+            "sugar": 12
+          },
+          "tags": ["popular"],
+          "swapSuggestion": "panera-caesar-salad"
+        },
+        {
+          "id": "panera-caesar-salad",
+          "name": "Caesar Salad (Half)",
+          "price": 6.49,
+          "nutrition": {
+            "calories": 210,
+            "sodium": 580,
+            "fat": 13,
+            "carbs": 12,
+            "protein": 14,
+            "sugar": 1
+          },
+          "tags": ["value"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "panera-greek-salad",
+          "name": "Greek Salad (Half)",
+          "price": 7.49,
+          "nutrition": {
+            "calories": 240,
+            "sodium": 920,
+            "fat": 16,
+            "carbs": 18,
+            "protein": 8,
+            "sugar": 4
+          },
+          "tags": [],
+          "swapSuggestion": "panera-caesar-salad"
+        }
+      ]
+    },
+    {
+      "name": "Bakery",
+      "emoji": "🥐",
+      "items": [
+        {
+          "id": "panera-bagel-plain",
+          "name": "Plain Bagel",
+          "price": 3.99,
+          "nutrition": {
+            "calories": 280,
+            "sodium": 520,
+            "fat": 2,
+            "carbs": 54,
+            "protein": 10,
+            "sugar": 2
+          },
+          "tags": ["popular"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "panera-everything-bagel",
+          "name": "Everything Bagel",
+          "price": 3.99,
+          "nutrition": {
+            "calories": 300,
+            "sodium": 640,
+            "fat": 3,
+            "carbs": 56,
+            "protein": 11,
+            "sugar": 2
+          },
+          "tags": [],
+          "swapSuggestion": "panera-bagel-plain"
+        },
+        {
+          "id": "panera-bear-claw",
+          "name": "Bear Claw",
+          "price": 4.49,
+          "nutrition": {
+            "calories": 380,
+            "sodium": 280,
+            "fat": 18,
+            "carbs": 50,
+            "protein": 6,
+            "sugar": 24
+          },
+          "tags": ["popular"],
+          "swapSuggestion": "panera-bagel-plain"
+        },
+        {
+          "id": "panera-chocolate-chip-cookie",
+          "name": "Chocolate Chip Cookie",
+          "price": 3.49,
+          "nutrition": {
+            "calories": 420,
+            "sodium": 340,
+            "fat": 20,
+            "carbs": 54,
+            "protein": 5,
+            "sugar": 38
+          },
+          "tags": [],
+          "swapSuggestion": "panera-bagel-plain"
+        }
+      ]
+    },
+    {
+      "name": "Drinks",
+      "emoji": "🥤",
+      "items": [
+        {
+          "id": "panera-water",
+          "name": "Bottled Water",
+          "price": 2.79,
+          "nutrition": {
+            "calories": 0,
+            "sodium": 0,
+            "fat": 0,
+            "carbs": 0,
+            "protein": 0,
+            "sugar": 0
+          },
+          "tags": ["popular"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "panera-iced-green-tea",
+          "name": "Iced Green Tea (Med)",
+          "price": 3.29,
+          "nutrition": {
+            "calories": 5,
+            "sodium": 10,
+            "fat": 0,
+            "carbs": 1,
+            "protein": 0,
+            "sugar": 0
+          },
+          "tags": ["value"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "panera-iced-coffee",
+          "name": "Iced Coffee (Med)",
+          "price": 3.49,
+          "nutrition": {
+            "calories": 15,
+            "sodium": 5,
+            "fat": 0,
+            "carbs": 2,
+            "protein": 1,
+            "sugar": 0
+          },
+          "tags": ["value"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "panera-lemonade",
+          "name": "Lemonade (Med)",
+          "price": 3.29,
+          "nutrition": {
+            "calories": 170,
+            "sodium": 25,
+            "fat": 0,
+            "carbs": 42,
+            "protein": 0,
+            "sugar": 40
+          },
+          "tags": [],
+          "swapSuggestion": "panera-iced-green-tea"
+        }
+      ]
+    },
+    {
+      "name": "Sauces &amp; Condiments",
+      "emoji": "🫙",
+      "items": [
+        { "id": "pan-caesar-dressing", "name": "Caesar Dressing", "price": 0.50, "nutrition": { "calories": 220, "sodium": 420, "fat": 22, "carbs": 2, "protein": 2, "sugar": 1 }, "tags": [], "swapSuggestion": "pan-honey-mustard" },
+        { "id": "pan-green-goddess-dressing", "name": "Green Goddess Dressing", "price": 0.50, "nutrition": { "calories": 190, "sodium": 380, "fat": 18, "carbs": 4, "protein": 2, "sugar": 2 }, "tags": [] },
+        { "id": "pan-bbq-sauce", "name": "Barbecue Sauce", "price": 0, "nutrition": { "calories": 40, "sodium": 340, "fat": 0, "carbs": 10, "protein": 0, "sugar": 9 }, "tags": [] },
+        { "id": "pan-honey-mustard", "name": "Honey Mustard", "price": 0, "nutrition": { "calories": 35, "sodium": 200, "fat": 0, "carbs": 9, "protein": 0, "sugar": 8 }, "tags": [] }
+      ]
+    }
+  ]
+}

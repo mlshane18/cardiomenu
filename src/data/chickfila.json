@@ -1,0 +1,394 @@
+{
+  "restaurant": "Chick-fil-A",
+  "id": "chickfila",
+  "color": "#E51636",
+  "colorLight": "#F4A0AA",
+  "categories": [
+    {
+      "name": "Chicken Sandwiches",
+      "emoji": "🥪",
+      "items": [
+        {
+          "id": "cfa-original-chicken-sandwich",
+          "name": "Original Chicken Sandwich",
+          "price": 5.15,
+          "nutrition": {
+            "calories": 440,
+            "sodium": 1190,
+            "fat": 17,
+            "carbs": 41,
+            "protein": 33,
+            "sugar": 7
+          },
+          "tags": ["popular"],
+          "swapSuggestion": "cfa-grilled-chicken-sandwich"
+        },
+        {
+          "id": "cfa-spicy-chicken-sandwich",
+          "name": "Spicy Chicken Sandwich",
+          "price": 5.15,
+          "nutrition": {
+            "calories": 450,
+            "sodium": 1350,
+            "fat": 18,
+            "carbs": 41,
+            "protein": 33,
+            "sugar": 5
+          },
+          "tags": ["popular"],
+          "swapSuggestion": "cfa-original-chicken-sandwich"
+        },
+        {
+          "id": "cfa-grilled-chicken-sandwich",
+          "name": "Grilled Chicken Sandwich",
+          "price": 7.45,
+          "nutrition": {
+            "calories": 320,
+            "sodium": 1120,
+            "fat": 7,
+            "carbs": 41,
+            "protein": 38,
+            "sugar": 6
+          },
+          "tags": [],
+          "swapSuggestion": null
+        },
+        {
+          "id": "cfa-original-chicken-deluxe",
+          "name": "Original Chicken Deluxe Sandwich",
+          "price": 6.55,
+          "nutrition": {
+            "calories": 520,
+            "sodium": 1280,
+            "fat": 23,
+            "carbs": 43,
+            "protein": 35,
+            "sugar": 7
+          },
+          "tags": [],
+          "swapSuggestion": "cfa-grilled-chicken-sandwich"
+        },
+        {
+          "id": "cfa-spicy-chicken-deluxe",
+          "name": "Spicy Chicken Deluxe Sandwich",
+          "price": 6.55,
+          "nutrition": {
+            "calories": 530,
+            "sodium": 1440,
+            "fat": 24,
+            "carbs": 43,
+            "protein": 35,
+            "sugar": 5
+          },
+          "tags": [],
+          "swapSuggestion": "cfa-grilled-chicken-sandwich"
+        }
+      ]
+    },
+    {
+      "name": "Nuggets & Strips",
+      "emoji": "🍗",
+      "items": [
+        {
+          "id": "cfa-nuggets-8ct",
+          "name": "8-Count Nuggets",
+          "price": 4.45,
+          "nutrition": {
+            "calories": 250,
+            "sodium": 480,
+            "fat": 12,
+            "carbs": 12,
+            "protein": 26,
+            "sugar": 0
+          },
+          "tags": ["popular", "value"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "cfa-nuggets-12ct",
+          "name": "12-Count Nuggets",
+          "price": 6.45,
+          "nutrition": {
+            "calories": 375,
+            "sodium": 720,
+            "fat": 18,
+            "carbs": 18,
+            "protein": 39,
+            "sugar": 0
+          },
+          "tags": ["popular"],
+          "swapSuggestion": "cfa-grilled-nuggets-8ct"
+        },
+        {
+          "id": "cfa-grilled-nuggets-8ct",
+          "name": "Grilled 8-Count Nuggets",
+          "price": 5.95,
+          "nutrition": {
+            "calories": 140,
+            "sodium": 560,
+            "fat": 3,
+            "carbs": 1,
+            "protein": 28,
+            "sugar": 0
+          },
+          "tags": [],
+          "swapSuggestion": null
+        },
+        {
+          "id": "cfa-chicken-strips-3",
+          "name": "Chicken Strips - 3 Piece",
+          "price": 6.25,
+          "nutrition": {
+            "calories": 290,
+            "sodium": 730,
+            "fat": 12,
+            "carbs": 15,
+            "protein": 35,
+            "sugar": 0
+          },
+          "tags": [],
+          "swapSuggestion": null
+        },
+        {
+          "id": "cfa-grilled-strips-3",
+          "name": "Grilled Strips - 3 Piece",
+          "price": 7.45,
+          "nutrition": {
+            "calories": 180,
+            "sodium": 710,
+            "fat": 5,
+            "carbs": 2,
+            "protein": 35,
+            "sugar": 0
+          },
+          "tags": [],
+          "swapSuggestion": null
+        }
+      ]
+    },
+    {
+      "name": "Salads",
+      "emoji": "🥗",
+      "items": [
+        {
+          "id": "cfa-cobb-salad",
+          "name": "Cobb Salad",
+          "price": 8.59,
+          "nutrition": {
+            "calories": 440,
+            "sodium": 1210,
+            "fat": 20,
+            "carbs": 24,
+            "protein": 40,
+            "sugar": 8
+          },
+          "tags": [],
+          "swapSuggestion": null
+        },
+        {
+          "id": "cfa-grilled-market-salad",
+          "name": "Grilled Market Salad",
+          "price": 8.59,
+          "nutrition": {
+            "calories": 380,
+            "sodium": 1080,
+            "fat": 16,
+            "carbs": 32,
+            "protein": 38,
+            "sugar": 14
+          },
+          "tags": ["popular"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "cfa-southwest-grilled-salad",
+          "name": "Southwest Grilled Salad",
+          "price": 8.59,
+          "nutrition": {
+            "calories": 420,
+            "sodium": 1140,
+            "fat": 18,
+            "carbs": 35,
+            "protein": 36,
+            "sugar": 8
+          },
+          "tags": [],
+          "swapSuggestion": null
+        }
+      ]
+    },
+    {
+      "name": "Sides",
+      "emoji": "🍟",
+      "items": [
+        {
+          "id": "cfa-waffle-fries-small",
+          "name": "Waffle Fries - Small",
+          "price": 2.45,
+          "nutrition": {
+            "calories": 320,
+            "sodium": 370,
+            "fat": 14,
+            "carbs": 42,
+            "protein": 3,
+            "sugar": 0
+          },
+          "tags": ["popular"],
+          "swapSuggestion": "cfa-fruit-cup"
+        },
+        {
+          "id": "cfa-waffle-fries-medium",
+          "name": "Waffle Fries - Medium",
+          "price": 2.65,
+          "nutrition": {
+            "calories": 400,
+            "sodium": 460,
+            "fat": 18,
+            "carbs": 53,
+            "protein": 4,
+            "sugar": 0
+          },
+          "tags": [],
+          "swapSuggestion": "cfa-waffle-fries-small"
+        },
+        {
+          "id": "cfa-mac-and-cheese",
+          "name": "Mac & Cheese",
+          "price": 3.29,
+          "nutrition": {
+            "calories": 370,
+            "sodium": 950,
+            "fat": 14,
+            "carbs": 49,
+            "protein": 12,
+            "sugar": 6
+          },
+          "tags": [],
+          "swapSuggestion": "cfa-fruit-cup"
+        },
+        {
+          "id": "cfa-fruit-cup",
+          "name": "Fruit Cup",
+          "price": 3.95,
+          "nutrition": {
+            "calories": 60,
+            "sodium": 15,
+            "fat": 0,
+            "carbs": 14,
+            "protein": 1,
+            "sugar": 11
+          },
+          "tags": [],
+          "swapSuggestion": null
+        },
+        {
+          "id": "cfa-side-salad",
+          "name": "Side Salad",
+          "price": 3.59,
+          "nutrition": {
+            "calories": 180,
+            "sodium": 370,
+            "fat": 13,
+            "carbs": 14,
+            "protein": 4,
+            "sugar": 2
+          },
+          "tags": [],
+          "swapSuggestion": null
+        }
+      ]
+    },
+    {
+      "name": "Beverages & Soups",
+      "emoji": "🥤",
+      "items": [
+        {
+          "id": "cfa-chicken-soup-small",
+          "name": "Chicken Soup - Small",
+          "price": 3.85,
+          "nutrition": {
+            "calories": 140,
+            "sodium": 860,
+            "fat": 4,
+            "carbs": 14,
+            "protein": 13,
+            "sugar": 2
+          },
+          "tags": [],
+          "swapSuggestion": null
+        },
+        {
+          "id": "cfa-sweet-tea-small",
+          "name": "Sweet Tea - Small",
+          "price": 2.45,
+          "nutrition": {
+            "calories": 140,
+            "sodium": 50,
+            "fat": 0,
+            "carbs": 36,
+            "protein": 0,
+            "sugar": 36
+          },
+          "tags": ["popular"],
+          "swapSuggestion": "cfa-unsweet-tea-small"
+        },
+        {
+          "id": "cfa-unsweet-tea-small",
+          "name": "Unsweetened Tea - Small",
+          "price": 2.45,
+          "nutrition": {
+            "calories": 0,
+            "sodium": 30,
+            "fat": 0,
+            "carbs": 0,
+            "protein": 0,
+            "sugar": 0
+          },
+          "tags": [],
+          "swapSuggestion": null
+        },
+        {
+          "id": "cfa-lemonade-small",
+          "name": "Lemonade - Small",
+          "price": 2.45,
+          "nutrition": {
+            "calories": 170,
+            "sodium": 10,
+            "fat": 0,
+            "carbs": 44,
+            "protein": 0,
+            "sugar": 42
+          },
+          "tags": [],
+          "swapSuggestion": null
+        },
+        {
+          "id": "cfa-water",
+          "name": "Water",
+          "price": 0,
+          "nutrition": {
+            "calories": 0,
+            "sodium": 0,
+            "fat": 0,
+            "carbs": 0,
+            "protein": 0,
+            "sugar": 0
+          },
+          "tags": [],
+          "swapSuggestion": null
+        }
+      ]
+    },
+    {
+      "name": "Sauces &amp; Condiments",
+      "emoji": "🫙",
+      "items": [
+        { "id": "cfa-chickfila-sauce", "name": "Chick-fil-A Sauce", "price": 0, "nutrition": { "calories": 140, "sodium": 270, "fat": 14, "carbs": 2, "protein": 0, "sugar": 1 }, "tags": [], "swapSuggestion": "cfa-honey-mustard" },
+        { "id": "cfa-polynesian-sauce", "name": "Polynesian Sauce", "price": 0, "nutrition": { "calories": 110, "sodium": 390, "fat": 4, "carbs": 18, "protein": 0, "sugar": 16 }, "tags": [], "swapSuggestion": "cfa-garden-herb-ranch" },
+        { "id": "cfa-garden-herb-ranch", "name": "Garden Herb Ranch Sauce", "price": 0, "nutrition": { "calories": 170, "sodium": 280, "fat": 17, "carbs": 2, "protein": 0, "sugar": 1 }, "tags": [] },
+        { "id": "cfa-honey-mustard", "name": "Honey Mustard Sauce", "price": 0, "nutrition": { "calories": 45, "sodium": 200, "fat": 0, "carbs": 11, "protein": 0, "sugar": 10 }, "tags": [] },
+        { "id": "cfa-bbq-sauce", "name": "Barbecue Sauce", "price": 0, "nutrition": { "calories": 60, "sodium": 360, "fat": 0, "carbs": 14, "protein": 0, "sugar": 12 }, "tags": [] }
+      ]
+    }
+  ]
+}

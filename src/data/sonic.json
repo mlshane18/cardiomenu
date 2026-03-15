@@ -1,0 +1,409 @@
+{
+  "restaurant": "Sonic Drive-In",
+  "id": "sonic",
+  "color": "#D5202A",
+  "colorLight": "#E87070",
+  "categories": [
+    {
+      "name": "Burgers",
+      "emoji": "🍔",
+      "items": [
+        {
+          "id": "sonic-cheeseburger",
+          "name": "Sonic Cheeseburger",
+          "price": 3.99,
+          "nutrition": {
+            "calories": 420,
+            "sodium": 1040,
+            "fat": 22,
+            "carbs": 38,
+            "protein": 22,
+            "sugar": 5
+          },
+          "tags": ["popular"],
+          "swapSuggestion": "sonic-hamburger"
+        },
+        {
+          "id": "sonic-hamburger",
+          "name": "Sonic Hamburger",
+          "price": 3.49,
+          "nutrition": {
+            "calories": 380,
+            "sodium": 880,
+            "fat": 19,
+            "carbs": 38,
+            "protein": 20,
+            "sugar": 5
+          },
+          "tags": ["value"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "sonic-bacon-cheeseburger",
+          "name": "SuperSONIC Bacon Cheeseburger",
+          "price": 5.99,
+          "nutrition": {
+            "calories": 680,
+            "sodium": 1480,
+            "fat": 42,
+            "carbs": 38,
+            "protein": 40,
+            "sugar": 5
+          },
+          "tags": [],
+          "swapSuggestion": "sonic-cheeseburger"
+        },
+        {
+          "id": "sonic-double-burger",
+          "name": "Quarter Pound Double",
+          "price": 6.49,
+          "nutrition": {
+            "calories": 820,
+            "sodium": 1520,
+            "fat": 50,
+            "carbs": 38,
+            "protein": 52,
+            "sugar": 5
+          },
+          "tags": [],
+          "swapSuggestion": "sonic-cheeseburger"
+        },
+        {
+          "id": "sonic-jr-burger",
+          "name": "Jr. Burger",
+          "price": 2.99,
+          "nutrition": {
+            "calories": 300,
+            "sodium": 640,
+            "fat": 15,
+            "carbs": 28,
+            "protein": 14,
+            "sugar": 4
+          },
+          "tags": ["value"],
+          "swapSuggestion": null
+        }
+      ]
+    },
+    {
+      "name": "Hot Dogs",
+      "emoji": "🌭",
+      "items": [
+        {
+          "id": "sonic-classic-hotdog",
+          "name": "Classic Hot Dog",
+          "price": 2.99,
+          "nutrition": {
+            "calories": 310,
+            "sodium": 920,
+            "fat": 17,
+            "carbs": 24,
+            "protein": 12,
+            "sugar": 2
+          },
+          "tags": ["popular"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "sonic-chili-cheese-coney",
+          "name": "Chili Cheese Coney",
+          "price": 3.99,
+          "nutrition": {
+            "calories": 470,
+            "sodium": 1280,
+            "fat": 26,
+            "carbs": 34,
+            "protein": 18,
+            "sugar": 3
+          },
+          "tags": ["popular"],
+          "swapSuggestion": "sonic-classic-hotdog"
+        },
+        {
+          "id": "sonic-footlong-coney",
+          "name": "Footlong Chili Cheese Coney",
+          "price": 4.99,
+          "nutrition": {
+            "calories": 720,
+            "sodium": 1840,
+            "fat": 42,
+            "carbs": 52,
+            "protein": 28,
+            "sugar": 4
+          },
+          "tags": [],
+          "swapSuggestion": "sonic-classic-hotdog"
+        },
+        {
+          "id": "sonic-chicago-dog",
+          "name": "Chicago Style Hot Dog",
+          "price": 3.49,
+          "nutrition": {
+            "calories": 380,
+            "sodium": 1160,
+            "fat": 20,
+            "carbs": 32,
+            "protein": 14,
+            "sugar": 2
+          },
+          "tags": [],
+          "swapSuggestion": "sonic-classic-hotdog"
+        }
+      ]
+    },
+    {
+      "name": "Chicken",
+      "emoji": "🍗",
+      "items": [
+        {
+          "id": "sonic-crispy-chicken-sandwich",
+          "name": "Crispy Chicken Sandwich",
+          "price": 5.49,
+          "nutrition": {
+            "calories": 520,
+            "sodium": 1240,
+            "fat": 24,
+            "carbs": 52,
+            "protein": 28,
+            "sugar": 4
+          },
+          "tags": ["popular"],
+          "swapSuggestion": "sonic-grilled-chicken"
+        },
+        {
+          "id": "sonic-grilled-chicken",
+          "name": "Grilled Chicken Sandwich",
+          "price": 5.49,
+          "nutrition": {
+            "calories": 380,
+            "sodium": 1080,
+            "fat": 11,
+            "carbs": 42,
+            "protein": 36,
+            "sugar": 3
+          },
+          "tags": ["value"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "sonic-popcorn-chicken",
+          "name": "Popcorn Chicken (Regular)",
+          "price": 4.49,
+          "nutrition": {
+            "calories": 420,
+            "sodium": 1040,
+            "fat": 20,
+            "carbs": 36,
+            "protein": 24,
+            "sugar": 1
+          },
+          "tags": [],
+          "swapSuggestion": "sonic-grilled-chicken"
+        },
+        {
+          "id": "sonic-chicken-strips-3",
+          "name": "Chicken Strips (3 pc)",
+          "price": 4.99,
+          "nutrition": {
+            "calories": 380,
+            "sodium": 960,
+            "fat": 18,
+            "carbs": 28,
+            "protein": 30,
+            "sugar": 0
+          },
+          "tags": [],
+          "swapSuggestion": "sonic-grilled-chicken"
+        }
+      ]
+    },
+    {
+      "name": "Sides & Shakes",
+      "emoji": "🍟",
+      "items": [
+        {
+          "id": "sonic-tots-small",
+          "name": "Tots (Small)",
+          "price": 2.99,
+          "nutrition": {
+            "calories": 310,
+            "sodium": 520,
+            "fat": 14,
+            "carbs": 38,
+            "protein": 4,
+            "sugar": 0
+          },
+          "tags": ["popular"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "sonic-tots-medium",
+          "name": "Tots (Medium)",
+          "price": 3.49,
+          "nutrition": {
+            "calories": 460,
+            "sodium": 780,
+            "fat": 21,
+            "carbs": 57,
+            "protein": 6,
+            "sugar": 0
+          },
+          "tags": [],
+          "swapSuggestion": "sonic-tots-small"
+        },
+        {
+          "id": "sonic-fries-small",
+          "name": "Fries (Small)",
+          "price": 2.99,
+          "nutrition": {
+            "calories": 330,
+            "sodium": 560,
+            "fat": 15,
+            "carbs": 42,
+            "protein": 4,
+            "sugar": 0
+          },
+          "tags": [],
+          "swapSuggestion": null
+        },
+        {
+          "id": "sonic-onion-rings",
+          "name": "Onion Rings",
+          "price": 3.49,
+          "nutrition": {
+            "calories": 420,
+            "sodium": 720,
+            "fat": 22,
+            "carbs": 46,
+            "protein": 5,
+            "sugar": 1
+          },
+          "tags": [],
+          "swapSuggestion": "sonic-tots-small"
+        },
+        {
+          "id": "sonic-mozzarella-sticks",
+          "name": "Mozzarella Sticks (6 pc)",
+          "price": 3.99,
+          "nutrition": {
+            "calories": 420,
+            "sodium": 880,
+            "fat": 25,
+            "carbs": 32,
+            "protein": 16,
+            "sugar": 1
+          },
+          "tags": [],
+          "swapSuggestion": "sonic-tots-small"
+        },
+        {
+          "id": "sonic-shake-medium",
+          "name": "Shake (Medium)",
+          "price": 3.99,
+          "nutrition": {
+            "calories": 480,
+            "sodium": 280,
+            "fat": 16,
+            "carbs": 68,
+            "protein": 12,
+            "sugar": 58
+          },
+          "tags": ["popular"],
+          "swapSuggestion": "sonic-slush"
+        }
+      ]
+    },
+    {
+      "name": "Drinks",
+      "emoji": "🥤",
+      "items": [
+        {
+          "id": "sonic-soft-drink-medium",
+          "name": "Soft Drink (Medium)",
+          "price": 2.49,
+          "nutrition": {
+            "calories": 220,
+            "sodium": 50,
+            "fat": 0,
+            "carbs": 58,
+            "protein": 0,
+            "sugar": 58
+          },
+          "tags": [],
+          "swapSuggestion": "sonic-water"
+        },
+        {
+          "id": "sonic-slush",
+          "name": "Slush (Medium)",
+          "price": 2.99,
+          "nutrition": {
+            "calories": 190,
+            "sodium": 20,
+            "fat": 0,
+            "carbs": 48,
+            "protein": 0,
+            "sugar": 46
+          },
+          "tags": ["popular"],
+          "swapSuggestion": "sonic-water"
+        },
+        {
+          "id": "sonic-sweet-tea",
+          "name": "Sweet Iced Tea (Medium)",
+          "price": 2.49,
+          "nutrition": {
+            "calories": 180,
+            "sodium": 30,
+            "fat": 0,
+            "carbs": 46,
+            "protein": 0,
+            "sugar": 46
+          },
+          "tags": [],
+          "swapSuggestion": "sonic-unsweet-tea"
+        },
+        {
+          "id": "sonic-unsweet-tea",
+          "name": "Unsweet Iced Tea (Medium)",
+          "price": 2.49,
+          "nutrition": {
+            "calories": 5,
+            "sodium": 20,
+            "fat": 0,
+            "carbs": 0,
+            "protein": 0,
+            "sugar": 0
+          },
+          "tags": ["value"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "sonic-water",
+          "name": "Bottled Water",
+          "price": 2.49,
+          "nutrition": {
+            "calories": 0,
+            "sodium": 0,
+            "fat": 0,
+            "carbs": 0,
+            "protein": 0,
+            "sugar": 0
+          },
+          "tags": ["value"],
+          "swapSuggestion": null
+        }
+      ]
+    },
+    {
+      "name": "Sauces &amp; Condiments",
+      "emoji": "🫙",
+      "items": [
+        { "id": "son-ranch", "name": "Ranch Sauce", "price": 0.50, "nutrition": { "calories": 200, "sodium": 380, "fat": 21, "carbs": 1, "protein": 0, "sugar": 1 }, "tags": [], "swapSuggestion": "son-honey-mustard" },
+        { "id": "son-ketchup", "name": "Ketchup Packet", "price": 0, "nutrition": { "calories": 15, "sodium": 180, "fat": 0, "carbs": 4, "protein": 0, "sugar": 3 }, "tags": [] },
+        { "id": "son-marinara", "name": "Marinara Sauce", "price": 0, "nutrition": { "calories": 60, "sodium": 520, "fat": 0, "carbs": 14, "protein": 1, "sugar": 10 }, "tags": [] },
+        { "id": "son-honey-mustard", "name": "Honey Mustard", "price": 0, "nutrition": { "calories": 40, "sodium": 210, "fat": 0, "carbs": 10, "protein": 0, "sugar": 9 }, "tags": [] },
+        { "id": "son-signature-sauce", "name": "Signature Sauce", "price": 0, "nutrition": { "calories": 90, "sodium": 320, "fat": 6, "carbs": 9, "protein": 0, "sugar": 7 }, "tags": [], "swapSuggestion": "son-honey-mustard" }
+      ]
+    }
+  ]
+}

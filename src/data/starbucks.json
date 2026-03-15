@@ -1,0 +1,365 @@
+{
+  "restaurant": "Starbucks",
+  "id": "starbucks",
+  "color": "#00704A",
+  "colorLight": "#009D6F",
+  "categories": [
+    {
+      "name": "Hot Coffee",
+      "emoji": "☕",
+      "items": [
+        {
+          "id": "sbx-pike-place-grande",
+          "name": "Pike Place Roast - Grande",
+          "price": 2.95,
+          "nutrition": {
+            "calories": 5,
+            "sodium": 5,
+            "fat": 0,
+            "carbs": 0,
+            "protein": 1,
+            "sugar": 0
+          },
+          "tags": ["popular"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "sbx-caffe-latte-grande",
+          "name": "Caffe Latte - Grande",
+          "price": 5.25,
+          "nutrition": {
+            "calories": 190,
+            "sodium": 150,
+            "fat": 7,
+            "carbs": 18,
+            "protein": 13,
+            "sugar": 17
+          },
+          "tags": ["popular"],
+          "swapSuggestion": "sbx-pike-place-grande"
+        },
+        {
+          "id": "sbx-caramel-macchiato-grande",
+          "name": "Caramel Macchiato - Grande",
+          "price": 5.45,
+          "nutrition": {
+            "calories": 250,
+            "sodium": 170,
+            "fat": 8,
+            "carbs": 36,
+            "protein": 12,
+            "sugar": 34
+          },
+          "tags": [],
+          "swapSuggestion": "sbx-caffe-latte-grande"
+        },
+        {
+          "id": "sbx-cappuccino-grande",
+          "name": "Cappuccino - Grande",
+          "price": 5.25,
+          "nutrition": {
+            "calories": 150,
+            "sodium": 130,
+            "fat": 5,
+            "carbs": 11,
+            "protein": 11,
+            "sugar": 10
+          },
+          "tags": [],
+          "swapSuggestion": null
+        },
+        {
+          "id": "sbx-mocha-grande",
+          "name": "Mocha - Grande",
+          "price": 5.45,
+          "nutrition": {
+            "calories": 290,
+            "sodium": 160,
+            "fat": 11,
+            "carbs": 36,
+            "protein": 12,
+            "sugar": 33
+          },
+          "tags": [],
+          "swapSuggestion": "sbx-cappuccino-grande"
+        }
+      ]
+    },
+    {
+      "name": "Cold Drinks",
+      "emoji": "🧊",
+      "items": [
+        {
+          "id": "sbx-cold-brew-grande",
+          "name": "Cold Brew - Grande",
+          "price": 3.45,
+          "nutrition": {
+            "calories": 5,
+            "sodium": 10,
+            "fat": 0,
+            "carbs": 1,
+            "protein": 1,
+            "sugar": 0
+          },
+          "tags": ["popular"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "sbx-iced-caffe-latte-grande",
+          "name": "Iced Caffe Latte - Grande",
+          "price": 5.45,
+          "nutrition": {
+            "calories": 130,
+            "sodium": 160,
+            "fat": 5,
+            "carbs": 13,
+            "protein": 11,
+            "sugar": 12
+          },
+          "tags": ["popular"],
+          "swapSuggestion": "sbx-cold-brew-grande"
+        },
+        {
+          "id": "sbx-iced-caramel-macchiato-grande",
+          "name": "Iced Caramel Macchiato - Grande",
+          "price": 5.65,
+          "nutrition": {
+            "calories": 180,
+            "sodium": 180,
+            "fat": 6,
+            "carbs": 29,
+            "protein": 11,
+            "sugar": 27
+          },
+          "tags": [],
+          "swapSuggestion": "sbx-iced-caffe-latte-grande"
+        },
+        {
+          "id": "sbx-iced-coffee-grande",
+          "name": "Iced Coffee - Grande",
+          "price": 3.65,
+          "nutrition": {
+            "calories": 10,
+            "sodium": 20,
+            "fat": 0,
+            "carbs": 2,
+            "protein": 1,
+            "sugar": 0
+          },
+          "tags": [],
+          "swapSuggestion": null
+        },
+        {
+          "id": "sbx-caramel-frappuccino-grande",
+          "name": "Caramel Frappuccino - Grande",
+          "price": 5.95,
+          "nutrition": {
+            "calories": 320,
+            "sodium": 200,
+            "fat": 10,
+            "carbs": 52,
+            "protein": 10,
+            "sugar": 48
+          },
+          "tags": [],
+          "swapSuggestion": "sbx-iced-caffe-latte-grande"
+        }
+      ]
+    },
+    {
+      "name": "Breakfast",
+      "emoji": "🥐",
+      "items": [
+        {
+          "id": "sbx-bacon-gouda-sandwich",
+          "name": "Bacon Gouda Cheese Sandwich",
+          "price": 5.95,
+          "nutrition": {
+            "calories": 420,
+            "sodium": 1280,
+            "fat": 21,
+            "carbs": 40,
+            "protein": 18,
+            "sugar": 3
+          },
+          "tags": ["popular"],
+          "swapSuggestion": "sbx-egg-bites"
+        },
+        {
+          "id": "sbx-egg-bites",
+          "name": "Egg Bites - Bacon & Gruyere",
+          "price": 4.95,
+          "nutrition": {
+            "calories": 170,
+            "sodium": 520,
+            "fat": 10,
+            "carbs": 4,
+            "protein": 17,
+            "sugar": 0
+          },
+          "tags": [],
+          "swapSuggestion": null
+        },
+        {
+          "id": "sbx-oatmeal",
+          "name": "Steel-Cut Oatmeal",
+          "price": 4.45,
+          "nutrition": {
+            "calories": 160,
+            "sodium": 180,
+            "fat": 3,
+            "carbs": 28,
+            "protein": 5,
+            "sugar": 12
+          },
+          "tags": ["popular"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "sbx-impossible-sandwich",
+          "name": "Impossible Breakfast Sandwich",
+          "price": 5.95,
+          "nutrition": {
+            "calories": 390,
+            "sodium": 1040,
+            "fat": 17,
+            "carbs": 42,
+            "protein": 16,
+            "sugar": 3
+          },
+          "tags": [],
+          "swapSuggestion": "sbx-egg-bites"
+        }
+      ]
+    },
+    {
+      "name": "Lunch",
+      "emoji": "🥪",
+      "items": [
+        {
+          "id": "sbx-turkey-pesto-panini",
+          "name": "Turkey Pesto Panini",
+          "price": 9.95,
+          "nutrition": {
+            "calories": 460,
+            "sodium": 1340,
+            "fat": 18,
+            "carbs": 48,
+            "protein": 28,
+            "sugar": 3
+          },
+          "tags": ["popular"],
+          "swapSuggestion": "sbx-chicken-bacon-panini"
+        },
+        {
+          "id": "sbx-chicken-bacon-panini",
+          "name": "Chicken & Bacon Panini",
+          "price": 9.95,
+          "nutrition": {
+            "calories": 510,
+            "sodium": 1420,
+            "fat": 21,
+            "carbs": 49,
+            "protein": 32,
+            "sugar": 4
+          },
+          "tags": [],
+          "swapSuggestion": "sbx-egg-bites"
+        },
+        {
+          "id": "sbx-caprese-panini",
+          "name": "Caprese Panini",
+          "price": 8.95,
+          "nutrition": {
+            "calories": 380,
+            "sodium": 1100,
+            "fat": 16,
+            "carbs": 42,
+            "protein": 14,
+            "sugar": 3
+          },
+          "tags": [],
+          "swapSuggestion": null
+        }
+      ]
+    },
+    {
+      "name": "Snacks & Treats",
+      "emoji": "🍰",
+      "items": [
+        {
+          "id": "sbx-cake-pop",
+          "name": "Cake Pop",
+          "price": 2.45,
+          "nutrition": {
+            "calories": 170,
+            "sodium": 160,
+            "fat": 8,
+            "carbs": 24,
+            "protein": 1,
+            "sugar": 18
+          },
+          "tags": ["popular"],
+          "swapSuggestion": null
+        },
+        {
+          "id": "sbx-cheese-danish",
+          "name": "Cheese Danish",
+          "price": 4.45,
+          "nutrition": {
+            "calories": 380,
+            "sodium": 380,
+            "fat": 17,
+            "carbs": 50,
+            "protein": 8,
+            "sugar": 24
+          },
+          "tags": [],
+          "swapSuggestion": "sbx-oatmeal"
+        },
+        {
+          "id": "sbx-chocolate-croissant",
+          "name": "Chocolate Croissant",
+          "price": 4.25,
+          "nutrition": {
+            "calories": 360,
+            "sodium": 320,
+            "fat": 19,
+            "carbs": 43,
+            "protein": 7,
+            "sugar": 19
+          },
+          "tags": [],
+          "swapSuggestion": "sbx-oatmeal"
+        },
+        {
+          "id": "sbx-blueberry-muffin",
+          "name": "Blueberry Muffin",
+          "price": 4.95,
+          "nutrition": {
+            "calories": 410,
+            "sodium": 460,
+            "fat": 16,
+            "carbs": 62,
+            "protein": 6,
+            "sugar": 38
+          },
+          "tags": [],
+          "swapSuggestion": "sbx-egg-bites"
+        }
+      ]
+    },
+    {
+      "name": "Sauces &amp; Condiments",
+      "emoji": "🫙",
+      "items": [
+        { "id": "sbux-vanilla-syrup", "name": "Vanilla Syrup Pump", "price": 0.50, "nutrition": { "calories": 20, "sodium": 0, "fat": 0, "carbs": 5, "protein": 0, "sugar": 5 }, "tags": [] },
+        { "id": "sbux-caramel-drizzle", "name": "Caramel Drizzle", "price": 0.50, "nutrition": { "calories": 80, "sodium": 170, "fat": 2, "carbs": 16, "protein": 0, "sugar": 14 }, "tags": [], "swapSuggestion": "sbux-vanilla-syrup" },
+        { "id": "sbux-mocha-sauce", "name": "Mocha Sauce", "price": 0.50, "nutrition": { "calories": 25, "sodium": 15, "fat": 0, "carbs": 6, "protein": 0, "sugar": 5 }, "tags": [] },
+        { "id": "sbux-hazelnut-syrup", "name": "Hazelnut Syrup Pump", "price": 0.50, "nutrition": { "calories": 20, "sodium": 0, "fat": 0, "carbs": 5, "protein": 0, "sugar": 5 }, "tags": [] },
+        { "id": "sbux-whipped-cream", "name": "Whipped Cream Topping", "price": 0.50, "nutrition": { "calories": 50, "sodium": 5, "fat": 5, "carbs": 1, "protein": 0, "sugar": 1 }, "tags": [] },
+        { "id": "sbux-honey-packet", "name": "Honey Packet", "price": 0, "nutrition": { "calories": 60, "sodium": 0, "fat": 0, "carbs": 16, "protein": 0, "sugar": 16 }, "tags": [] }
+      ]
+    }
+  ]
+}
