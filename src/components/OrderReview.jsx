@@ -1,9 +1,10 @@
+import { memo, useMemo } from 'react';
 import { useOrder } from '../hooks/useOrder';
 import { totalNutrition, getPipMood, getPipMessage, getLetterGrade, getGradeColor, getSodiumPercent, getSatFatFromFat, getSodiumColor, getSodiumLevel } from '../utils/nutrition';
 import { getSwapSuggestions, getAllItems } from '../utils/swaps';
 import Pip, { PipSmall } from './Pip';
 
-function GaugeRing({ value, target, label, unit, color }) {
+const GaugeRing = memo(function GaugeRing({ value, target, label, unit, color }) {
   const pct = Math.min((value / target) * 100, 100);
   const grade = getLetterGrade(value, target);
   const gradeCol = getGradeColor(grade);
@@ -25,16 +26,17 @@ function GaugeRing({ value, target, label, unit, color }) {
       <div style={{ fontSize: 10, color: '#8a7e6a' }}>{value}{unit} / {target}{unit}</div>
     </div>
   );
-}
+});
 
 export default function OrderReview() {
   const { state, dispatch } = useOrder();
   const { orderItems, restaurant, sodiumTarget, calorieTarget, satFatTarget } = state;
-  const totals = totalNutrition(orderItems);
+
+  const totals = useMemo(() => totalNutrition(orderItems), [orderItems]);
   const mood = getPipMood(totals, sodiumTarget);
   const message = getPipMessage(mood, totals, sodiumTarget);
-  const allItems = getAllItems(restaurant);
-  const swaps = getSwapSuggestions(orderItems, allItems);
+  const allItems = useMemo(() => getAllItems(restaurant), [restaurant]);
+  const swaps = useMemo(() => getSwapSuggestions(orderItems, allItems), [orderItems, allItems]);
 
   const perMealNa = Math.round(sodiumTarget / 3);
   const naGrade = getLetterGrade(totals.sodium, perMealNa);

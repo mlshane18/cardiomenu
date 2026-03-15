@@ -1,4 +1,4 @@
-import { createContext, useContext, useReducer } from 'react';
+import { createContext, useContext, useReducer, useMemo } from 'react';
 import { DEFAULT_DAILY_SODIUM, DEFAULT_DAILY_CALORIES, DEFAULT_DAILY_SAT_FAT } from '../utils/nutrition';
 
 const OrderContext = createContext(null);
@@ -71,8 +71,9 @@ function orderReducer(state, action) {
 
 export function OrderProvider({ children }) {
   const [state, dispatch] = useReducer(orderReducer, initialState);
+  const value = useMemo(() => ({ state, dispatch }), [state]);
   return (
-    <OrderContext.Provider value={{ state, dispatch }}>
+    <OrderContext.Provider value={value}>
       {children}
     </OrderContext.Provider>
   );

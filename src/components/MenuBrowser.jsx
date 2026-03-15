@@ -1,3 +1,4 @@
+import { useMemo } from 'react';
 import { useOrder } from '../hooks/useOrder';
 import { totalNutrition, getSodiumPercent, getSodiumColor, getSodiumLevel, getPipMood, getPipMessage, getSatFatFromFat } from '../utils/nutrition';
 import { PipSmall } from './Pip';
@@ -6,7 +7,8 @@ import MenuItem from './MenuItem';
 export default function MenuBrowser() {
   const { state, dispatch } = useOrder();
   const { restaurant, orderItems, activeCategory, sodiumTarget, calorieTarget } = state;
-  const totals = totalNutrition(orderItems);
+
+  const totals = useMemo(() => totalNutrition(orderItems), [orderItems]);
   const naPercent = getSodiumPercent(totals.sodium, sodiumTarget);
   const naLevel = getSodiumLevel(totals.sodium, sodiumTarget);
   const naColor = getSodiumColor(naLevel);

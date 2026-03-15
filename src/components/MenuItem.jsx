@@ -1,7 +1,8 @@
+import { memo, useCallback } from 'react';
 import { getSodiumLevel, getSodiumColor, getSatFatFromFat } from '../utils/nutrition';
 import { useOrder } from '../hooks/useOrder';
 
-export default function MenuItem({ item }) {
+const MenuItem = memo(function MenuItem({ item }) {
   const { state, dispatch } = useOrder();
   const sodiumLevel = getSodiumLevel(item.nutrition.sodium, state.sodiumTarget);
   const sodiumColor = getSodiumColor(sodiumLevel);
@@ -10,6 +11,9 @@ export default function MenuItem({ item }) {
   const satFat = getSatFatFromFat(item.nutrition.fat);
 
   const naClass = sodiumLevel === 'green' ? 'na-low' : sodiumLevel === 'yellow' ? 'na-med' : 'na-high';
+
+  const handleAdd = useCallback(() => dispatch({ type: 'ADD_ITEM', payload: item }), [dispatch, item]);
+  const handleRemove = useCallback(() => dispatch({ type: 'REMOVE_ITEM', payload: item.id }), [dispatch, item.id]);
 
   return (
     <div className={`menu-item-game${quantity > 0 ? ' selected' : ''}`}>
@@ -31,7 +35,7 @@ export default function MenuItem({ item }) {
         {quantity > 0 ? (
           <div style={{ display: 'flex', alignItems: 'center', gap: 6, background: '#F0FFF8', borderRadius: 10, padding: '4px 8px', border: '2px solid #53c5ab' }}>
             <button
-              onClick={() => dispatch({ type: 'REMOVE_ITEM', payload: item.id })}
+              onClick={handleRemove}
               className="heading"
               style={{ width: 26, height: 26, borderRadius: '50%', border: '2px solid #e94560', background: 'white', color: '#e94560', fontSize: 16, cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center' }}
             >
@@ -39,7 +43,7 @@ export default function MenuItem({ item }) {
             </button>
             <span className="heading" style={{ fontSize: 15, color: '#2d8a74', width: 16, textAlign: 'center' }}>{quantity}</span>
             <button
-              onClick={() => dispatch({ type: 'ADD_ITEM', payload: item })}
+              onClick={handleAdd}
               className="heading"
               style={{ width: 26, height: 26, borderRadius: '50%', border: '2px solid #2d8a74', background: '#53c5ab', color: 'white', fontSize: 16, cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center' }}
             >
@@ -48,7 +52,7 @@ export default function MenuItem({ item }) {
           </div>
         ) : (
           <button
-            onClick={() => dispatch({ type: 'ADD_ITEM', payload: item })}
+            onClick={handleAdd}
             style={{
               padding: '6px 14px',
               background: 'linear-gradient(180deg, #53c5ab, #3da88f)',
@@ -68,4 +72,6 @@ export default function MenuItem({ item }) {
       </div>
     </div>
   );
-}
+});
+
+export default MenuItem;

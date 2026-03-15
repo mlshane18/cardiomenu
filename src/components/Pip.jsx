@@ -1,4 +1,6 @@
-export default function Pip({ mood = 'happy', size = 80 }) {
+import { memo } from 'react';
+
+const Pip = memo(function Pip({ mood = 'happy', size = 80 }) {
   const s = size;
   const isSwimming = mood === 'thrilled' || mood === 'happy';
   const swimSpeed = mood === 'thrilled' ? '0.8s' : '1.4s';
@@ -163,9 +165,11 @@ export default function Pip({ mood = 'happy', size = 80 }) {
       </g>
     </svg>
   );
-}
+});
 
-export function PipSmall({ mood = 'happy' }) {
+export default Pip;
+
+export const PipSmall = memo(function PipSmall({ mood = 'happy' }) {
   return (
     <svg viewBox="0 0 40 50" width="32" height="40" style={{ flexShrink: 0 }}>
       {/* Body - oval shape facing forward */}
@@ -241,4 +245,4 @@ export function PipSmall({ mood = 'happy' }) {
       )}
     </svg>
   );
-}
+});

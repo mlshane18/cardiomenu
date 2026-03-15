@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import { useOrder } from '../hooks/useOrder';
 import { totalNutrition, getPipMood, getLetterGrade } from '../utils/nutrition';
 import Pip from './Pip';
@@ -33,7 +33,7 @@ function GoldStar({ size = 80, delay = 0 }) {
 
 function ConfettiBurst() {
   const colors = ['#FFD700', '#e94560', '#53c5ab', '#4AAEE0', '#B088E8', '#FF6B35'];
-  const pieces = Array.from({ length: 24 }, (_, i) => ({
+  const pieces = useMemo(() => Array.from({ length: 24 }, (_, i) => ({
     id: i,
     color: colors[i % colors.length],
     x: 50 + (Math.random() - 0.5) * 80,
@@ -42,7 +42,7 @@ function ConfettiBurst() {
     rotation: Math.random() * 720,
     delay: Math.random() * 300,
     size: 4 + Math.random() * 6,
-  }));
+  })), []);
 
   return (
     <div style={{
@@ -130,7 +130,7 @@ function SadPipIcon() {
 export default function OrderFinalized() {
   const { state, dispatch } = useOrder();
   const { orderItems, restaurant, sodiumTarget, calorieTarget, satFatTarget } = state;
-  const totals = totalNutrition(orderItems);
+  const totals = useMemo(() => totalNutrition(orderItems), [orderItems]);
   const mood = getPipMood(totals, sodiumTarget);
 
   const perMealNa = Math.round(sodiumTarget / 3);

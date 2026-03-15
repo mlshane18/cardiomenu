@@ -1,3 +1,4 @@
+import { memo } from 'react';
 import { useOrder } from '../hooks/useOrder';
 import Pip from './Pip';
 import mcdonaldsData from '../data/mcdonalds.json';
@@ -29,7 +30,7 @@ const restaurants = [
   paneraData, arbysData, jackintheboxData, whataburgerData,
 ];
 
-function RestaurantIcon({ restaurant }) {
+const RestaurantIcon = memo(function RestaurantIcon({ restaurant }) {
   const renderSVG = (id) => {
     const svgProps = {
       width: 52,
@@ -248,7 +249,7 @@ function RestaurantIcon({ restaurant }) {
       {renderSVG(restaurant.id)}
     </div>
   );
-}
+});
 
 export default function RestaurantSelect() {
   const { state, dispatch } = useOrder();

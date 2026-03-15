@@ -1,4 +1,4 @@
-import { createContext, useContext, useEffect, useState } from 'react';
+import { createContext, useContext, useEffect, useMemo, useCallback, useState } from 'react';
 import { supabase } from '../lib/supabase';
 
 const AuthContext = createContext(null);
@@ -55,13 +55,13 @@ export function AuthProvider({ children }) {
     }
   };
 
-  const login = async (email, password) => {
+  const login = useCallback(async (email, password) => {
     const { data, error } = await supabase.auth.signInWithPassword({ email, password });
     if (error) throw error;
     return data;
-  };
+  }, []);
 
-  const signup = async (email, password, invitationCode) => {
+  const signup = useCallback(async (email, password, invitationCode) => {
     // 1. Verify invitation code
     const { data: invitation, error: invError } = await supabase
       .from('invitation_codes')
@@ -89,25 +89,29 @@ export function AuthProvider({ children }) {
       .eq('id', invitation.id);
 
     return data;
-  };
+  }, []);
 
-  const logout = async () => {
+  const logout = useCallback(async () => {
     await supabase.auth.signOut();
     setUser(null);
     setProfile(null);
-  };
+  }, []);
 
-  const resetPassword = async (email) => {
+  const resetPassword = useCallback(async (email) => {
     const { error } = await supabase.auth.resetPasswordForEmail(email, {
       redirectTo: `${window.location.origin}`,
     });
     if (error) throw error;
-  };
+  }, []);
 
   const isAdmin = profile?.role === 'admin';
 
+  const value = useMemo(() => ({
+    user, profile, loading, isAdmin, login, signup, logout, resetPassword,
+  }), [user, profile, loading, isAdmin, login, signup, logout, resetPassword]);
+
   return (
-    <AuthContext.Provider value={{ user, profile, loading, isAdmin, login, signup, logout, resetPassword }}>
+    <AuthContext.Provider value={value}>
       {children}
     </AuthContext.Provider>
   );
