@@ -12,7 +12,7 @@ function GaugeRing({ value, target, label, unit, color }) {
 
   return (
     <div style={{ textAlign: 'center' }}>
-      <svg viewBox="0 0 120 120" width="110" height="110">
+      <svg viewBox="0 0 120 120" style={{ width: '100%', maxWidth: 110, height: 'auto' }}>
         <circle cx="60" cy="60" r="48" stroke="#E8E0D0" strokeWidth="10" fill="none" />
         <circle cx="60" cy="60" r="48" stroke={color} strokeWidth="10" fill="none"
           strokeLinecap="round" strokeDasharray={circumference} strokeDashoffset={offset}
@@ -42,7 +42,7 @@ export default function OrderReview() {
 
   return (
     <div className="fade-in" style={{ minHeight: '100svh', background: '#f4f1eb', padding: '20px 16px 40px' }}>
-      <div style={{ maxWidth: 380, margin: '0 auto' }}>
+      <div style={{ maxWidth: 420, margin: '0 auto', width: '100%' }}>
         {/* Pip reaction */}
         <div style={{ textAlign: 'center', marginBottom: 8 }}>
           <Pip mood={mood} size={100} />
@@ -54,10 +54,16 @@ export default function OrderReview() {
         {/* Report Card Gauges */}
         <div className="game-card" style={{ marginBottom: 14 }}>
           <div className="heading" style={{ fontSize: 14, textAlign: 'center', marginBottom: 12 }}>Report Card</div>
-          <div style={{ display: 'flex', justifyContent: 'center', gap: 8 }}>
-            <GaugeRing value={totals.sodium} target={perMealNa} label="Sodium" unit="mg" color="#e94560" />
-            <GaugeRing value={totals.calories} target={Math.round(calorieTarget / 3)} label="Calories" unit="" color="#e9a345" />
-            <GaugeRing value={totals.satFat} target={Math.round(satFatTarget / 3)} label="Sat Fat" unit="g" color="#B088E8" />
+          <div style={{ display: 'flex', justifyContent: 'center', gap: 4, flexWrap: 'wrap' }}>
+            <div style={{ flex: '1 1 80px', maxWidth: 120 }}>
+              <GaugeRing value={totals.sodium} target={perMealNa} label="Sodium" unit="mg" color="#e94560" />
+            </div>
+            <div style={{ flex: '1 1 80px', maxWidth: 120 }}>
+              <GaugeRing value={totals.calories} target={Math.round(calorieTarget / 3)} label="Calories" unit="" color="#e9a345" />
+            </div>
+            <div style={{ flex: '1 1 80px', maxWidth: 120 }}>
+              <GaugeRing value={totals.satFat} target={Math.round(satFatTarget / 3)} label="Sat Fat" unit="g" color="#B088E8" />
+            </div>
           </div>
         </div>
 

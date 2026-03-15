@@ -255,7 +255,7 @@ export default function RestaurantSelect() {
 
   return (
     <div className="fade-in" style={{ minHeight: '100svh', display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '20px 16px 40px', background: '#f4f1eb' }}>
-      <div style={{ width: '100%', maxWidth: 420 }}>
+      <div style={{ width: '100%', maxWidth: 460 }}>
         {/* Back button */}
         <button
           onClick={() => dispatch({ type: 'GO_TO_SCREEN', payload: 'start' })}
@@ -286,8 +286,8 @@ export default function RestaurantSelect() {
         {/* Restaurant grid — 2 columns of squares */}
         <div style={{
           display: 'grid',
-          gridTemplateColumns: '1fr 1fr',
-          gap: 10,
+          gridTemplateColumns: 'repeat(2, 1fr)',
+          gap: 8,
         }}>
           {restaurants.map((r) => (
             <button

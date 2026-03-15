@@ -35,7 +35,7 @@ export default function SignupScreen({ onNavigate }) {
         alignItems: 'center', justifyContent: 'center', padding: '24px 20px',
         background: 'linear-gradient(180deg, #87CEEB 0%, #B0E0E6 30%, #98D8A0 75%, #7BC47F 100%)',
       }}>
-        <div style={{ width: '100%', maxWidth: 320, textAlign: 'center' }}>
+        <div style={{ width: '100%', maxWidth: 380, textAlign: 'center' }}>
           <Pip mood="thrilled" size={100} />
           <h2 className="heading" style={{ fontSize: 22, color: '#2d5a4a', margin: '16px 0 8px' }}>
             Check your email!
@@ -58,7 +58,7 @@ export default function SignupScreen({ onNavigate }) {
       padding: '24px 20px 60px',
       background: 'linear-gradient(180deg, #87CEEB 0%, #B0E0E6 30%, #98D8A0 75%, #7BC47F 100%)',
     }}>
-      <div style={{ width: '100%', maxWidth: 320 }}>
+      <div style={{ width: '100%', maxWidth: 380 }}>
         <div style={{ textAlign: 'center', marginBottom: 16 }}>
           <Pip mood="happy" size={70} />
         </div>
@@ -95,7 +95,7 @@ export default function SignupScreen({ onNavigate }) {
               placeholder="you@example.com"
               style={{
                 width: '100%', padding: '10px 12px', border: '2px solid #D4C5A0', borderRadius: 10,
-                fontFamily: 'Nunito, sans-serif', fontSize: 14, boxSizing: 'border-box',
+                fontFamily: 'Nunito, sans-serif', fontSize: 16, boxSizing: 'border-box',
                 outline: 'none', background: '#FFFDF7',
               }}
             />
@@ -110,7 +110,7 @@ export default function SignupScreen({ onNavigate }) {
               placeholder="At least 6 characters"
               style={{
                 width: '100%', padding: '10px 12px', border: '2px solid #D4C5A0', borderRadius: 10,
-                fontFamily: 'Nunito, sans-serif', fontSize: 14, boxSizing: 'border-box',
+                fontFamily: 'Nunito, sans-serif', fontSize: 16, boxSizing: 'border-box',
                 outline: 'none', background: '#FFFDF7',
               }}
             />

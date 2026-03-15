@@ -46,8 +46,8 @@ function ConfettiBurst() {
 
   return (
     <div style={{
-      position: 'fixed', top: 0, left: '50%', transform: 'translateX(-50%)',
-      width: 400, height: '100vh', pointerEvents: 'none', zIndex: 50, overflow: 'hidden',
+      position: 'fixed', top: 0, left: 0, right: 0,
+      width: '100%', height: '100vh', pointerEvents: 'none', zIndex: 50, overflow: 'hidden',
     }}>
       {pieces.map(p => (
         <div key={p.id} style={{
@@ -206,7 +206,7 @@ export default function OrderFinalized() {
     }}>
       {showConfetti && <ConfettiBurst />}
 
-      <div style={{ width: '100%', maxWidth: 360, textAlign: 'center', marginTop: 20 }}>
+      <div style={{ width: '100%', maxWidth: 420, textAlign: 'center', marginTop: 20 }}>
         {/* Reward badge */}
         <div style={{ marginBottom: 12 }}>
           {badgeComponent}

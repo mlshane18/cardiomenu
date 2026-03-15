@@ -55,13 +55,13 @@ export default function StartScreen() {
         Your Heart-Healthy Food Adventure
       </div>
 
-      <div style={{ margin: '16px 0 0', width: '100%', maxWidth: 300 }}>
+      <div style={{ margin: '16px 0 0', width: '100%', maxWidth: 340 }}>
         <div className="bubble happy" style={{ textAlign: 'center', fontSize: 13 }}>
           <strong style={{ color: '#2d8a74' }}>Hi, I'm Pip!</strong> Ready to explore some restaurants? I'll help you find meals your heart will love!
         </div>
       </div>
 
-      <div style={{ width: '100%', maxWidth: 300, marginTop: 24 }}>
+      <div style={{ width: '100%', maxWidth: 340, marginTop: 24 }}>
         {!showSettings ? (
           <>
             <button className="game-btn game-btn-green" style={{ marginBottom: 10 }} onClick={handleStart}>

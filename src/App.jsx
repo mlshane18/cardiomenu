@@ -83,7 +83,7 @@ export default function App() {
   return (
     <AuthProvider>
       <OrderProvider>
-        <div style={{ width: '100%', maxWidth: 448, minHeight: '100svh', margin: '0 auto' }}>
+        <div style={{ width: '100%', maxWidth: 480, minHeight: '100svh', margin: '0 auto', boxSizing: 'border-box' }}>
           <AppRoot />
         </div>
       </OrderProvider>
